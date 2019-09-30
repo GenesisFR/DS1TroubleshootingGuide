@@ -484,9 +484,7 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me 2 years to compile it). Just share the PasteBin link or redirect users to one of the threads below.
-
-If you want to leave comments and feedback:
+You're not allowed to put this document in raw form anywhere, out of respect (it took me 2 years to compile it). Just share the GitHub link or redirect users to one of the threads below:
 
 - https://steamcommunity.com/app/39190/discussions/0/1813170373233918779
 - https://www.reddit.com/r/DungeonSiege/comments/bbsz6g/comprehensive_document_about_ds1

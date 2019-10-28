@@ -441,8 +441,8 @@ Utraean Peninsula:
 - https://discord.gg/PPsdY3D (unofficial community Discord)
 - http://ds.gemsite.org/web/index.php/main
 - http://ds-old.gemsite.org
-- http://ds.heavengames.com/
-- http://ds2.bplaced.net/sysdat/ds1/ ("system_detail.gas" configurator)
+- http://ds.heavengames.com
+- http://ds2.bplaced.net/sysdat/ds1 ("system_detail.gas" configurator)
 - http://dungeonsiege.8m.net/train_univer.htm (modding documentation)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege (DS wiki)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna (LOA wiki)
@@ -451,9 +451,10 @@ Utraean Peninsula:
 - https://www.moddb.com/games/dungeon-siege (DS mods)
 - https://www.moddb.com/games/dungeon-siege-legend-of-aranna (LOA mods)
 - https://www.nexusmods.com/dungeonsiege1 (mods)
-- https://www.siegetheday.org/
+- https://www.siegetheday.org
+- https://sites.google.com/view/chickengeorgemods/modding (modding tools)
 - https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (Steam group)
-- https://www.zhixalom.com/lair/category/dungeon-siege-1/ (DS/LOA mods)
+- https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
 
 ===== Credits =====
 

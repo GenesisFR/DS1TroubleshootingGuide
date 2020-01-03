@@ -84,9 +84,11 @@ Note: this only applies to Windows 7 or later.
 
 == HD textures ==
 
-If you want to make your textures look a bit crisper and not washed out anymore, Eksevis ripped the ones from The Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine): https://www.nexusmods.com/dungeonsiege1/mods/36
+There are currently two HD textures packs available.
 
-Just place HD.dsres in your Resources folder.
+The first one (recommended) is a set of upscaled textures (based on the original) using ESRGAN by Antrad2020: https://www.nexusmods.com/dungeonsiege1/mods/44
+
+The second one is a set of textures from the Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine) ripped by Eksevis: https://www.mediafire.com/file/7awhevfmqochnpo/Dungeon_Siege+-+Legendary+textures.zip
 
 Note: it seems to work fine on all custom campaigns and doesn't bloat saves (only tested in The Lands of Hyperborea and the Ultima remakes).
 
@@ -356,7 +358,7 @@ TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Stea
 
 Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> to make DSMod find your game.
 
-After doing that, you will run into 2 scenarios depending on which reg patch you were using prior to installing the toolkit.
+After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
 Scenario 1: if you were using an old version of the reg patch (the EXE one), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 

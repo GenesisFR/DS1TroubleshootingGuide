@@ -311,6 +311,18 @@ Open "\<path-to-game\>\system_detail.gas" and everywhere you see 1024x768, add a
 }
 ```
 
+== Save failed ==
+
+When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
+
+- Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
+- You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
+- Run the game as admin.
+
+Note: it happens in a few other games too.
+
+Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
+
 == Sorry, this save game was not created by Legends of Aranna and cannot be loaded ==
 
 See the "Convert DS saves to LOA" section.

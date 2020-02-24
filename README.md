@@ -98,6 +98,17 @@ Open "\<path-to-game\>\system_detail.gas" and change the 10 occurrences of "shad
 
 Note: 512 and above can be VERY taxing in forests when using the "All complex" setting (in that case, switch to "Party complex"). Values higher than 1024 may prevent the game from loading.
 
+== Increase UI size ==
+
+If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
+
+1. Download the latest version of dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
+2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
+3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
+4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see the "Use custom resolutions" section).
+
+Note: disable third-party overlays (like MSI Afterburner) if your game crashes at launch or slows down when moving the mouse.
+
 == Install The Lands of Hyperborea on the Steam version ==
 
 I made a drag-and-drop archive so you won't have to worry about resources conflicting with each other: https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon+Siege+-+The+Lands+of+Hyperborea.zip
@@ -154,7 +165,7 @@ By default, the game can only be played in 640x480, 800x600 or 1024x768.
 
 However, with some tweaking, you can play it at any resolution. There are a few caveats though:
 
-- the UI doesn't scale up
+- the UI doesn't scale up (see the "Increase UI size" section for a workaround)
 - there are (supposedly) glitches in cutscenes
 - a warning message (that can safely be ignored) will appear when starting/loading a game (see the "Requested display mode is unsupported" section to remove it)
 
@@ -474,6 +485,7 @@ Utraean Peninsula:
 
 This document wouldn't have been possible without the following people:
 
+- Antrad2020 (https://antonior-software.blogspot.com)
 - Beatlebattle (https://steamcommunity.com/id/beatlebattle)
 - doa_92 (https://steamcommunity.com/id/doa_92)
 - Eksevis (https://steamcommunity.com/id/johnthebomber)

@@ -47,6 +47,8 @@ Hex-edit the game's executable: http://www.wsgf.org/dr/dungeon-siege
 
 == Convert DS saves to LOA ==
 
+After installing LOA, you won't be able to load your DS saved games. You need to add a flag in each saved game for LOA to recognize your DS saved game by performing both steps below:
+
 Decompile the save:
 
 1. Download and run Tank Viewer (https://www.fileplanet.com/archive/p-58065/Tank-Viewer).
@@ -63,6 +65,8 @@ Recompile the save:
 3. Click on Output, select "\<path-to-docs-LOA\>\Save" and give the file a name ending in ".dssave".
 4. Select "DS & LOA" under Format.
 5. Click on Create.
+
+You should now be able to load your save in LOA.
 
 Source: https://discordapp.com/channels/373223103985090581/400744824593973248/587998587112259584
 

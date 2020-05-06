@@ -214,9 +214,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game from the executable instead of Steam.
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see the "Run the game above 1080p" section.
-- Disable overlays (Steam, Discord, etc).
+- Disable overlays (Steam, GOG, Discord, etc).
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
+- Make sure your "My Documents" is on your C: drive.
 - Install DirectX 9.0c: https://www.microsoft.com/en-us/download/details.aspx?id=8109
 - Use dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
 
@@ -507,6 +508,7 @@ And the following resources:
 - https://pcgamingwiki.com/wiki/Dungeon_Siege
 - https://pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna
 - http://www.wsgf.org/dr/dungeon-siege
+- GOG forums
 - Steam Community forums/guides
 
 Thanks a lot for your help!

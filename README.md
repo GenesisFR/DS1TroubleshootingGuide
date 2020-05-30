@@ -496,7 +496,7 @@ This document wouldn't have been possible without the following people:
 - Eksevis (https://steamcommunity.com/id/johnthebomber)
 - Father Bronze
 - hackpredatorz (https://www.twitch.tv/hackpredatorz)
-- Killah (https://steamcommunity.com/profiles/76561198156984417)
+- Killah
 - Orix#9582 (Discord)
 - Player#7716 (Discord)
 - sadowson#5553 (Discord)

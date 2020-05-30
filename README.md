@@ -217,7 +217,8 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Disable overlays (Steam, GOG, Discord, etc).
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
-- Make sure the "My Documents" directory is on your C: drive.
+- Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780048558
+- Make sure the "My Documents" directory is on your C drive.
 - Install DirectX 9.0c: https://www.microsoft.com/en-us/download/details.aspx?id=8109
 - Use dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
 

@@ -175,18 +175,18 @@ However, with some tweaking, you can play it at any resolution. There are a few 
 
 You have 3 ways to make the game run at custom resolutions.
 
-- Method 1:
+Method 1:
 
 1. Access the field to add launch parameters to your DS/LOA shortcut or Steam Library (see https://appuals.com/steam-set-launch-options-and-full-list).
 2. Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). Make sure there is no space before/after the equal sign.
 
-- Method 2: 
+Method 2: 
 
 1. Open \<config-file\> (or \<config-file-LOA\> for LOA) with a text editor.
 2. Change the "width = xxxx" and "height = xxxx" to your desired resolution (where "xxxx" is your desired resolution).
 3. Save the file.
 
-- Method 3: 
+Method 3: 
 
 1. Follow the steps described in the "Requested display mode is unsupported" section.
 2. Run "\<path-to-game\>\DSVideoConfig.exe" and select your custom resolution.

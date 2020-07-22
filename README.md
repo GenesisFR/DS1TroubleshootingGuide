@@ -237,7 +237,8 @@ Source: https://www.facebook.com/photo.php?fbid=710028262735915
 If your game looks zoomed in, it's likely caused by your screen scaling settings.
 
 - Right-click "DungeonSiege.exe" then hit "Properties -\> Compatibility -\> Change high DPI settings -\> Override high DPI scaling behaviour -\> Application".
-- Alternatively, you can set the Windows display scaling setting back to 100%:
+
+Alternatively, you can set the Windows display scaling setting back to 100%:
 
 1. Right-click on your desktop.
 2. Select "Display settings".

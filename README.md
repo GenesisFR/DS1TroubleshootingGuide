@@ -239,7 +239,9 @@ Source: https://www.facebook.com/photo.php?fbid=710028262735915
 
 If your game looks zoomed in, it's likely caused by your screen scaling settings.
 
-- Right-click "DungeonSiege.exe" then hit "Properties -\> Compatibility -\> Change high DPI settings -\> Override high DPI scaling behaviour -\> Application".
+1. Right-click "DungeonSiege.exe" then hit "Properties".
+2. Go to "Compatibility -\> Change high DPI settings".
+3. Check "Override high DPI scaling behaviour" and make sure "Application" is selected in the drop-down menu.
 
 Alternatively, you can set the Windows display scaling setting back to 100%:
 
@@ -301,17 +303,21 @@ Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c6
 
 Run the game once then open \<config-file\> (or \<config-file-LOA\> for LOA) with a text editor. Make sure you have the following at the top:
 
-driver_description = \<gpu-model\> - Hardware
+```
+driver_description = <gpu-model> - Hardware
 width = 1024
 height = 768
 bpp = 32
 bltonly = true ; highly recommended
+```
 
 You can also add this too, if you want:
 
+```
 nointro = true ; skips the intro logo
 fullscreen = false ; makes the game windowed
 maxfps = 62 ; limits the framerate
+```
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see the "No GPU listed in DSVideoConfig" section).
 
@@ -381,7 +387,9 @@ Download the Reg patcher from Killah's fix (see above) and run it from \<path-to
 
 After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
-Scenario 1: if you were using an old version of the reg patch (the EXE one), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
+Scenario 1:
+
+If you were using an old version of the reg patch (the EXE one), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
 1. Make a backup of "DSMod.exe" (just in case).
 2. Run two instances of Resource Hacker as administrator.
@@ -392,7 +400,9 @@ Scenario 1: if you were using an old version of the reg patch (the EXE one), the
 7. Click on the green arrow (or F5) to compile the script.
 8. Click on the green floppy disk (or Ctrl + S) to save the file.
 
-Scenario 2: if you were using the new version of the reg patch (the BAT one), DSMod will ask for disc 1 of LOA. Download and mount the mini image from the "Make DSLOAMod work on the Steam version" section.
+Scenario 2:
+
+If you were using the new version of the reg patch (the BAT one), DSMod will ask for disc 1 of LOA. Download and mount the mini image from the "Make DSLOAMod work on the Steam version" section.
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
 

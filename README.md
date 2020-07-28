@@ -442,6 +442,10 @@ You can ignore the "xp_" warnings when starting the editor (they'll pop up if yo
 
 Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored.
 
+== Tank Creator doesn't work ==
+
+If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
+
 == View a protected tank ==
 
 1. Open Siege Editor.

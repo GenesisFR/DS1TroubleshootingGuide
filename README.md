@@ -111,7 +111,10 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
 4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see the "Use custom resolutions" section).
 
-Note: disable third-party overlays and frame limiters if your game crashes at launch or slows down when moving the mouse.
+You may encounter two issues when using dgVoodoo2:
+
+- if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
+- if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
 == Install The Lands of Hyperborea on the Steam version ==
 

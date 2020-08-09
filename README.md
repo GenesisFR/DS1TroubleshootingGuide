@@ -43,8 +43,9 @@
    * [1.4 Tank Creator doesn't work](#tank-creator-doesnt-work)
    * [1.5 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
-* [6.0 Credits](#credits)
-* [7.0 Disclaimer](#disclaimer)
+* [6.0 Links](#links)
+* [7.0 Credits](#credits)
+* [8.0 Disclaimer](#disclaimer)
 
 # Glossary
 

@@ -1,4 +1,52 @@
-# DS1TroubleshootingGuide
+# Dungeon Siege 1 Troubleshooting Guide
+
+## Table of Contents
+   
+* [1.0 Glossary](#glossary)
+* [2.0 Guides](#guides)
+   * [1.1 Add the game on GameRanger](#add_the_game_on_gameranger)
+   * [1.2 Capture the game with OBS](#_capture_the_game_with_obs)
+   * [1.3 Change the FOV](#change_the_fov)
+   * [1.4 Convert DS saves to LOA](#convert_ds_saves_to_loa)
+   * [1.5 Enable EAX](#enable_eax)
+   * [1.6 Enable LOA + Extras](#enable_loa_extras)
+   * [1.7 Enable MP](#enable_mp)
+   * [1.8 HD textures](#hd_textures)
+   * [1.9 Increase shadow resolution](#increase_shadow_resolution)
+   * [1.10 Increase UI size](#increase_ui_size)
+   * [1.11 Install The Lands of Hyperborea on the Steam version](#install_the_lands_of_hyperborea_on_the_steam_version)
+   * [1.12 Install the Ultima 5/6 remakes on the Steam version](#install_the_ultima_5_6_remakes_on_the_steam_version)
+   * [1.13 Play MP](#play_mp)
+   * [1.14 Play MP map in SP](#play_mp_map_in_sp)
+   * [1.15 Play Yesterhaven map in SP](#play_yesterhaven_map_in_sp)
+   * [1.16 Run the game above 1080p](#run_the_game_above_1080p)
+   * [1.17 Use custom resolutions](#use_custom_resolutions)
+* [3.0 Issues fixed](#issues_fixed)
+   * [1.1 Cannot find world:global:vosounds in gas tree](#cannot_find_world:global:vosounds_in_gas_tree)
+   * [1.2 Crash/exception](#crash_exception)
+   * [1.3 Fuel failed to write file prefs.gas](#fuel_failed_to_write_file_prefs.gas)
+   * [1.4 Game screen is offset](#game_screen_is_offset)
+   * [1.5 Incompatible version](#incompatible_version)
+   * [1.6 Mouse cursor is missing](#mouse_cursor_is_missing)
+   * [1.7 No GPU listed in DSVideoConfig](#no_gpu_listed_in_dsvideoconfig)
+   * [1.8 Poor performance](#poor_performance)
+   * [1.9 Requested display mode is unsupported](#requested_display_mode_is_unsupported)
+   * [1.10 Save failed](#save_failed)
+   * [1.11 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry_this_save_game_was_not_created_by_legends_of_aranna_and_cannot_be_loaded)
+   * [1.12 UI/cursor flickering](#ui_cursor_flickering)
+   * [1.13 Unable to enumerate any DirectDraw devices installed on this system](#unable_to_enumerate_any_directdraw_devices_installed_on_this_system)
+   * [1.14 You cannot run Dungeon Siege in a resolution higher than your desktop](#you_cannot_run_dungeon_siege_in_a_resolution_higher_than_your_desktop)
+* [4.0 Modding](#modding)
+   * [1.1 Cannot download GMAX when installing the toolkit](#cannot_download_gmax_when_installing_the_toolkit)
+   * [1.2 Make DSMod work on the Steam version](#make_dsmod_work_on_the_steam_version)
+   * [1.3 Make Siege Editor work on the Steam version](#make_siege_editor_work_on_the_steam_version)
+   * [1.4 Tank Creator doesn't work](#tank_creator_doesnt_work)
+   * [1.5 View a protected tank](#view_a_protected_tank)
+* [5.0 Walkthroughs](#walkthroughs)
+* [6.0 Credits](#credits)
+* [7.0 Disclaimer](#disclaimer)
+
+# Glossary
 
 Shortcuts used throughout this document:
 
@@ -16,9 +64,9 @@ SP = Singleplayer
 
 Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
-===== Guides =====
+# Guides
 
-== Add the game on GameRanger ==
+## Add the game on GameRanger
 
 1. Download and run https://amd989.github.io/Symlinker (it's just a front-end for the mklink command).
 2. In Symlinker, make a directory junction to your game directory in Program Files: https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png
@@ -26,7 +74,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 Note: for LOA, the executable must be named "DSLOA.exe".
 
-== Capture the game with OBS ==
+## Capture the game with OBS
 
 I discovered a special trick to capture the game's window while playing fullscreen (without using desktop capture).
 
@@ -41,11 +89,11 @@ If the game is not captured or listed in the drop-down menu at all, then I'd say
 
 Note: it also works with other games, as long as they're using DX9 (or older) or OpenGL.
 
-== Change the FOV ==
+## Change the FOV
 
 Hex-edit the game's executable: http://www.wsgf.org/dr/dungeon-siege
 
-== Convert DS saves to LOA ==
+## Convert DS saves to LOA
 
 After installing LOA, you won't be able to load your DS saved games. You need to add a flag in each saved game for LOA to recognize your DS saved game by performing both steps below:
 
@@ -70,23 +118,23 @@ You should now be able to load your save in LOA.
 
 Source: https://discordapp.com/channels/373223103985090581/400744824593973248/587998587112259584
 
-== Enable EAX ==
+## Enable EAX
 
 1. Download dsoal: https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2
 2. Extract dsound.dll and dsoal-aldrv.dll to \<path-to-game\>.
 3. Run the game and enable EAX in the options.
 
-== Enable LOA + Extras ==
+## Enable LOA + Extras
 
 Download Killah's fix and follow the installation instructions: https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213
 
-== Enable MP ==
+## Enable MP
 
 If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to Control Panel -\> Programs and Features -\> Turn Windows features on or off -\> Legacy Components -\> Enable DirectPlay.
 
 Note: this only applies to Windows 7 or later.
 
-== HD textures ==
+## HD textures
 
 There are currently two HD textures packs available.
 
@@ -96,13 +144,13 @@ The second one is a set of textures from the Legendary Mod (a DS2 mod that ports
 
 Note: it seems to work fine on all custom campaigns and doesn't bloat saves (only tested in The Lands of Hyperborea and the Ultima remakes).
 
-== Increase shadow resolution ==
+## Increase shadow resolution
 
 Open "\<path-to-game\>\system_detail.gas" and change the 10 occurrences of "shadow_tex_size	= 64" to 128/256/512/1024. You can do a search and replace on "= 64".
 
 Note: 512 and above can be VERY taxing in forests when using the "All complex" setting (in that case, switch to "Party complex"). Values higher than 1024 may prevent the game from loading.
 
-== Increase UI size ==
+## Increase UI size
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
@@ -116,13 +164,13 @@ You may encounter two issues when using dgVoodoo2:
 - if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
 - if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
-== Install The Lands of Hyperborea on the Steam version ==
+## Install The Lands of Hyperborea on the Steam version
 
 I made a drag-and-drop archive so you won't have to worry about resources conflicting with each other: https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon+Siege+-+The+Lands+of+Hyperborea.zip
 
 Just extract it to your DS folder and use the provided BAT file to run the mod.
 
-== Install the Ultima 5/6 remakes on the Steam version ==
+## Install the Ultima 5/6 remakes on the Steam version
 
 Normally, these mods are meant for the retail version, but some people made guides to make them work on the Steam version:
 
@@ -143,30 +191,30 @@ Please follow these steps for each mod to make sure everything is working proper
 
 Note: saved games will be located under the "User\Save" subfolder (to avoid overriding saves from the main game). 
 
-== Play MP ==
+## Play MP
 
 Run the game with the "zonematch=true" launch parameter to directly boot into the MP menu (not necessary if you're using the retail version or Killah's fix).
 
-== Play MP map in SP ==
+## Play MP map in SP
 
 Install one of these mods:
 
 - Legends of Utrae (recommended): https://www.siegetheday.org/?q=node/1317
 - Myros: https://www.fileplanet.com/87368/80000/fileinfo/Myros-Mod or https://www.dropbox.com/sh/utwgyv8ic6bpyd2/AADp6em9zEbh9Bo-gCfxSYy3a/myrosmap.zip
 
-== Play Yesterhaven map in SP ==
+## Play Yesterhaven map in SP
 
 I made a drag-and-drop archive from Father Bronze's Yesterhaven Single-Player Edition (http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other: https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip
 
 Just extract it to your DS folder and use the provided BAT file to run the mod.
 
-== Run the game above 1080p ==
+## Run the game above 1080p
 
 Check the "dgVoodoo for 1920x1080+ resolutions" section in Beatlebattle's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971
 
 You'll need dgVoodoo2 that you can get from here: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
 
-== Use custom resolutions ==
+## Use custom resolutions
 
 By default, the game can only be played in 640x480, 800x600 or 1024x768.
 
@@ -199,13 +247,13 @@ I found out it's better to specify the resolution in launch parameters (method 1
 
 Note: for resolutions higher than 1080p, check the "Run the game above 1080p" section.
 
-===== Issues fixed =====
+# Issues fixed
 
-== Cannot find world:global:vosounds in gas tree ==
+## Cannot find world:global:vosounds in gas tree
 
 Your game files are corrupted. Reinstall the game.
 
-== Crash/exception ==
+## Crash/exception
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
 
@@ -227,7 +275,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 
 Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to \<path-to-docs\> (or \<path-to-docs-LOA\> if you're using LOA).
 
-== Fuel failed to write file prefs.gas ==
+## Fuel failed to write file prefs.gas
 
 - Run "\<path-to-game\>\DSVideoConfig.exe" as administrator.
 - Make sure \<path-to-docs\> is not read-only.
@@ -235,7 +283,7 @@ Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intende
 
 Source: https://www.facebook.com/photo.php?fbid=710028262735915
 
-== Game screen is offset ==
+## Game screen is offset
 
 If your game looks zoomed in, it's likely caused by your screen scaling settings.
 
@@ -252,7 +300,7 @@ Alternatively, you can set the Windows display scaling setting back to 100%:
 
 Source: https://steamcommunity.com/app/39190/discussions/0/620696522225972749/#c1642038749323053918
 
-== Incompatible version ==
+## Incompatible version
 
 When playing MP, it's important that everyone uses EXACTLY the same files.
 
@@ -274,7 +322,7 @@ Here are the files that differ between languages:
 - Resources\Voices.dsres (retail only)
 - Language.dll
 
-== Mouse cursor is missing ==
+## Mouse cursor is missing
 
 Turn off supersampling in your GPU control panel.
 
@@ -294,12 +342,12 @@ For AMD users:
 
 Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c617328415054371674
 
-== No GPU listed in DSVideoConfig ==
+## No GPU listed in DSVideoConfig
 
 - Enable DirectDraw acceleration: https://superuser.com/a/504510
 - Follow doa_92's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=780048558
 
-== Poor performance ==
+## Poor performance
 
 Run the game once then open \<config-file\> (or \<config-file-LOA\> for LOA) with a text editor. Make sure you have the following at the top:
 
@@ -323,7 +371,7 @@ If the game still doesn't run well, you may want to run it on your other GPU (if
 
 Note: if the framerate is bad in windowed mode, applying the fixes from the "UI/cursor flickering" section may help.
 
-== Requested display mode is unsupported ==
+## Requested display mode is unsupported
 
 When running the game in resolutions other than the default ones, a warning message will be displayed every time you start/load a game from the main menu.
 
@@ -340,7 +388,7 @@ Open "\<path-to-game\>\system_detail.gas" and everywhere you see 1024x768, add a
 }
 ```
 
-== Save failed ==
+## Save failed
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
 
@@ -352,11 +400,11 @@ Note: it happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
-== Sorry, this save game was not created by Legends of Aranna and cannot be loaded ==
+## Sorry, this save game was not created by Legends of Aranna and cannot be loaded
 
 See the "Convert DS saves to LOA" section.
 
-== UI/cursor flickering ==
+## UI/cursor flickering
 
 - Right-click "DungeonSiege.exe" then hit "Properties -\> Compatibility -\> Reduced color mode -\> 16-bit (65536) color".
 - Make sure it says "bpp = 32" in \<config-file\> (or \<config-file-LOA\> for LOA).
@@ -365,21 +413,21 @@ See the "Convert DS saves to LOA" section.
 - Run the game on your other GPU (if you have one).
 - Run the game in fullscreen or windowed mode.
 
-== Unable to enumerate any DirectDraw devices installed on this system ==
+## Unable to enumerate any DirectDraw devices installed on this system
 
 Enable DirectDraw acceleration: https://superuser.com/a/504510
 
-== You cannot run Dungeon Siege in a resolution higher than your desktop ==
+## You cannot run Dungeon Siege in a resolution higher than your desktop
 
 Lower the game's height (see the "Use custom resolutions" section) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
-===== Modding =====
+# Modding
 
-== Cannot download GMAX when installing the toolkit ==
+## Cannot download GMAX when installing the toolkit
 
 You can get GMAX from there: https://www.turbosquid.com/gmax
 
-== Make DSMod work on the Steam version ==
+## Make DSMod work on the Steam version
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
@@ -406,7 +454,7 @@ If you were using the new version of the reg patch (the BAT one), DSMod will ask
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
 
-== Make DSLOAMod work on the Steam version ==
+## Make DSLOAMod work on the Steam version
 
 Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> to make DSLOAMod find your game.
 
@@ -422,7 +470,7 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
 
-== Make Siege Editor work on the Steam version ==
+## Make Siege Editor work on the Steam version
 
 Download and run the Reg patcher from Killah's fix (see above) from \<path-to-game\> to make the editor find your game.
 
@@ -452,11 +500,11 @@ You can ignore the "xp_" warnings when starting the editor (they'll pop up if yo
 
 Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored.
 
-== Tank Creator doesn't work ==
+## Tank Creator doesn't work
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
 
-== View a protected tank ==
+## View a protected tank
 
 1. Open Siege Editor.
 2. Hit "Siege Editor -\> File -\> Convert .dsmap to Files...".
@@ -465,7 +513,7 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
 5. Uncheck "Extract .lqd files" if you just want to view the extracted files.
 6. Click OK.
 
-===== Walkthroughs =====
+# Walkthroughs
 
 All-in-One:
 
@@ -485,7 +533,7 @@ Utraean Peninsula:
 
 - http://ds.gemsite.org/web/index.php/utraen-peninsula
 
-===== Links =====
+# Links
 
 - https://discord.gg/PPsdY3D (unofficial community Discord)
 - http://ds.gemsite.org/web/index.php/main
@@ -505,7 +553,7 @@ Utraean Peninsula:
 - https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (Steam group)
 - https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
 
-===== Credits =====
+# Credits
 
 This document wouldn't have been possible without the following people:
 
@@ -532,7 +580,7 @@ And the following resources:
 
 Thanks a lot for your help!
 
-===== Disclaimer =====
+# Disclaimer
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 

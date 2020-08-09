@@ -157,7 +157,7 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 1. Download the latest version of dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
 3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
-4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see the "Use custom resolutions" section).
+4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use custom resolutions](#use-custom-resolutions)).
 
 You may encounter two issues when using dgVoodoo2:
 
@@ -220,9 +220,9 @@ By default, the game can only be played in 640x480, 800x600 or 1024x768.
 
 However, with some tweaking, you can play it at any resolution. There are a few caveats though:
 
-- the UI doesn't scale up (see the "Increase UI size" section for a workaround)
+- the UI doesn't scale up (see [Increase UI size](#increase-ui-size) for a workaround)
 - there are (supposedly) glitches in cutscenes
-- a warning message (that can safely be ignored) will appear when starting/loading a game (see the "Requested display mode is unsupported" section to remove it)
+- a warning message (that can safely be ignored) will appear when starting/loading a game (see [Requested display mode is unsupported](#requested-display-mode-is-unsupported) to remove it)
 
 You have 3 ways to make the game run at custom resolutions.
 
@@ -239,13 +239,13 @@ Method 2:
 
 Method 3: 
 
-1. Follow the steps described in the "Requested display mode is unsupported" section.
+1. Follow the steps described in [Requested display mode is unsupported](#requested-display-mode-is-unsupported).
 2. Run "\<path-to-game\>\DSVideoConfig.exe" and select your custom resolution.
 3. Copy "\<path-to-game\>\DungeonSiege.ini" to \<path-to-docs\> (or \<path-to-docs-LOA\> for LOA).
 
 I found out it's better to specify the resolution in launch parameters (method 1) compared to the configuration file (method 2 and 3) because it will prevent the game from changing it back to the default resolutions while navigating the options menu.
 
-Note: for resolutions higher than 1080p, check the "Run the game above 1080p" section.
+Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
 # Issues fixed
 
@@ -264,7 +264,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
 - Run the game on your other GPU (if you have one).
-- If you're using a resolution higher than 1080p, see the "Run the game above 1080p" section.
+- If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
 - Disable overlays (Steam, GOG, Discord, etc).
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
@@ -367,9 +367,9 @@ fullscreen = false ; makes the game windowed
 maxfps = 62 ; limits the framerate
 ```
 
-If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see the "No GPU listed in DSVideoConfig" section).
+If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
-Note: if the framerate is bad in windowed mode, applying the fixes from the "UI/cursor flickering" section may help.
+Note: if the framerate is bad in windowed mode, applying the fixes from [UI/cursor flickering](#uicursor-flickering) may help.
 
 ## Requested display mode is unsupported
 
@@ -402,7 +402,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 ## Sorry, this save game was not created by Legends of Aranna and cannot be loaded
 
-See the "Convert DS saves to LOA" section.
+See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
 
 ## UI/cursor flickering
 
@@ -419,7 +419,7 @@ Enable DirectDraw acceleration: https://superuser.com/a/504510
 
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
-Lower the game's height (see the "Use custom resolutions" section) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
+Lower the game's height (see [Use custom resolutions](#use-custom-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
 # Modding
 
@@ -450,7 +450,7 @@ If you were using an old version of the reg patch (the EXE one), the "DSMod.exe"
 
 Scenario 2:
 
-If you were using the new version of the reg patch (the BAT one), DSMod will ask for disc 1 of LOA. Download and mount the mini image from the "Make DSLOAMod work on the Steam version" section.
+If you were using the new version of the reg patch (the BAT one), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
 

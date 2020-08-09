@@ -24,7 +24,7 @@
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
    * [1.2 Crash/exception](#crashexception)
-   * [1.3 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefs.gas)
+   * [1.3 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
    * [1.4 Game screen is offset](#game-screen-is-offset)
    * [1.5 Incompatible version](#incompatible-version)
    * [1.6 Mouse cursor is missing](#mouse-cursor-is-missing)

@@ -63,7 +63,7 @@ SP = Singleplayer
 \<path-to-docs-LOA\> = "%USERPROFILE%\Documents\Dungeon Siege LOA"  
 \<path-to-game\> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1")  
 
-Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa--extras)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
 # Guides
 
@@ -175,7 +175,7 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 Normally, these mods are meant for the retail version, but some people made guides to make them work on the Steam version:
 
-- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the reg patch from Killah's fix)
+- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the reg patch from [Killah's fix](#enable-loa--extras))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
 I made some drag-and-drop archives if you want to skip the installation guide above.
@@ -194,7 +194,7 @@ Note: saved games will be located under the "User\Save" subfolder (to avoid over
 
 ## Play MP
 
-Run the game with the "zonematch=true" launch parameter to directly boot into the MP menu (not necessary if you're using the retail version or Killah's fix).
+Run the game with the "zonematch=true" launch parameter to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
 
 ## Play MP map in SP
 
@@ -432,7 +432,7 @@ You can get GMAX from there: https://www.turbosquid.com/gmax
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
-Download the reg patch from Killah's fix (see [Enable LOA + Extras](#enable-loa--extras)) and run it from \<path-to-game\> to make DSMod find your game.
+Download the reg patch from [Killah's fix](#enable-loa--extras) and run it from \<path-to-game\> to make DSMod find your game.
 
 After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
@@ -457,7 +457,7 @@ Note: setting "shadow_tex_size" higher than 256 will prevent shadows from workin
 
 ## Make DSLOAMod work on the Steam version
 
-Download the reg patch from Killah's fix (see [Enable LOA + Extras](#enable-loa--extras)) and run it from \<path-to-game\> to make DSLOAMod find your game.
+Download the reg patch from [Killah's fix](#enable-loa--extras) and run it from \<path-to-game\> to make DSLOAMod find your game.
 
 DSLOAMod won't get installed unless LOA is installed. On top of that, it uses SmarteSecure DRM disc check so you'll need to have disc 1 of LOA in your disc drive or it'll refuse to run.
 
@@ -473,7 +473,7 @@ Note: setting "shadow_tex_size" higher than 256 will prevent shadows from workin
 
 ## Make Siege Editor work on the Steam version
 
-Download and run the reg patch from Killah's fix (see [Enable LOA + Extras](#enable-loa--extras)) from \<path-to-game\> to make the editor find your game.
+Download and run the reg patch from [Killah's fix](#enable-loa--extras) from \<path-to-game\> to make the editor find your game.
 
 To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in "\<path-to-game\>\system_detail.gas". The device name and both IDs are shown in the error message and must be prefixed with "0x".
 
@@ -494,7 +494,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting "shadow_render_target" to true seems to increase the framerate while using complex shadows (at least on my system). It can be used when not modding too!
 
-You can ignore the "xp_" warnings when starting the editor (they'll pop up if you installed Killah's fix). If you wish to get rid of them, you have to (re)move the "Return to Arhok" campaign. To do so, move/delete the following files:
+You can ignore the "xp_" warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you have to (re)move the "Return to Arhok" campaign. To do so, move/delete the following files:
 
 - "\<path-to-game\>\Maps\XPMap.dsmap"
 - "\<path-to-game\>\Resources\XPRes.dsres"

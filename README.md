@@ -175,7 +175,7 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 Normally, these mods are meant for the retail version, but some people made guides to make them work on the Steam version:
 
-- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the reg patch from [Killah's fix](#enable-loa--extras))
+- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
 I made some drag-and-drop archives if you want to skip the installation guide above.
@@ -432,13 +432,13 @@ You can get GMAX from there: https://www.turbosquid.com/gmax
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
-Download the reg patch from [Killah's fix](#enable-loa--extras) and run it from \<path-to-game\> to make DSMod find your game.
+Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> to make DSMod find your game.
 
 After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
 Scenario 1:
 
-If you were using an old version of the reg patch (the EXE one), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
+If you were using an old version of the reg patch (an executable), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
 1. Make a backup of "DSMod.exe" (just in case).
 2. Run two instances of Resource Hacker as administrator.
@@ -451,13 +451,13 @@ If you were using an old version of the reg patch (the EXE one), the "DSMod.exe"
 
 Scenario 2:
 
-If you were using the new version of the reg patch (the BAT one), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
+If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
 
 ## Make DSLOAMod work on the Steam version
 
-Download the reg patch from [Killah's fix](#enable-loa--extras) and run it from \<path-to-game\> to make DSLOAMod find your game.
+Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> to make DSLOAMod find your game.
 
 DSLOAMod won't get installed unless LOA is installed. On top of that, it uses SmarteSecure DRM disc check so you'll need to have disc 1 of LOA in your disc drive or it'll refuse to run.
 
@@ -473,7 +473,7 @@ Note: setting "shadow_tex_size" higher than 256 will prevent shadows from workin
 
 ## Make Siege Editor work on the Steam version
 
-Download and run the reg patch from [Killah's fix](#enable-loa--extras) from \<path-to-game\> to make the editor find your game.
+Download and run the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) from \<path-to-game\> to make the editor find your game.
 
 To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in "\<path-to-game\>\system_detail.gas". The device name and both IDs are shown in the error message and must be prefixed with "0x".
 

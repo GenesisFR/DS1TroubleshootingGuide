@@ -70,8 +70,13 @@ Please note that while this document is based on the Steam version (combined wit
 ## Add the game on GameRanger
 
 1. Download and run https://amd989.github.io/Symlinker (it's just a front-end for the mklink command).
-2. In Symlinker, make a directory junction to your game directory in Program Files: https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png
-3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" from Program Files: https://cdn.discordapp.com/attachments/354176540960882689/538081835608178700/unknown.png
+2. In Symlinker, make a directory junction to your game directory in Program Files:
+
+   ![](https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png)
+
+3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" from Program Files:
+
+   ![](https://cdn.discordapp.com/attachments/354176540960882689/538081835608178700/unknown.png)
 
 Note: for LOA, the executable must be named "DSLOA.exe".
 

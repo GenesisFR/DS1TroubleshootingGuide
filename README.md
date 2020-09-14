@@ -182,10 +182,10 @@ I made some drag-and-drop archives if you want to skip the installation guide ab
 - https://www.mediafire.com/file/ik093jdkkvle066/Ultima_V_-_Warriors_of_Destiny.zip
 - https://www.mediafire.com/file/4xvcewat7ctpjvd/Ultima_VI_-_The_False_Prophet.zip
 
-For the others, just ignore the above and download these archives:
+For the other mods, just ignore the above and download these archives:
 
 - https://www.mediafire.com/file/48lcyx22nqzbd5h/Dungeon_Siege_-_Mageworld.zip
-- https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon+Siege+-+The+Lands+of+Hyperborea.zip
+- https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon_Siege_-_The_Lands_of_Hyperborea.zip
 
 Please follow these steps for each mod to make sure everything is working properly:
 
@@ -563,18 +563,18 @@ Utraean Peninsula:
 
 This document wouldn't have been possible without the following people:
 
-- Antrad2020 (https://antonior-software.blogspot.com)
-- Beatlebattle (https://steamcommunity.com/id/beatlebattle)
-- doa_92 (https://steamcommunity.com/id/doa_92)
-- Eksevis (https://steamcommunity.com/id/johnthebomber)
+- [0xff](https://www.twitch.tv/0xff2)
+- [Antrad2020](https://antonior-software.blogspot.com)
+- [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
+- [doa_92](https://steamcommunity.com/id/doa_92)
+- Eksevis#8120 (Discord)
 - Father Bronze
-- hackpredatorz (https://www.twitch.tv/hackpredatorz)
 - Killah
 - Orix#9582 (Discord)
 - Player#7716 (Discord)
 - sadowson#5553 (Discord)
 - The Walkthrough King
-- Tiberius (https://steamcommunity.com/profiles/76561197978671411)
+- [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 
 And the following resources:
 
@@ -590,7 +590,7 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me 2 years to compile it). Just share the GitHub link or redirect users to one of the threads below:
+You're not allowed to put this document in raw form anywhere, out of respect (it took me 3 years to compile it). Just share the GitHub link or redirect users to one of the threads below:
 
 - https://steamcommunity.com/app/39190/discussions/0/1813170373233918779
 - https://www.reddit.com/r/DungeonSiege/comments/bbsz6g/comprehensive_document_about_ds1

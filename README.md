@@ -58,6 +58,7 @@ SP = Singleplayer
 \<config-file\> = "\<path-to-docs\>\DungeonSiege.ini"  
 \<config-file-LOA\> = "\<path-to-docs-LOA\>\DungeonSiege.ini"  
 \<gpu-model\> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")  
+\<mod-name\> = folder name of your mod (ex: u6p)  
 \<path-to-docs\> = "%USERPROFILE%\Documents\Dungeon Siege"  
 \<path-to-docs-LOA\> = "%USERPROFILE%\Documents\Dungeon Siege LOA"  
 \<path-to-game\> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1")  
@@ -190,10 +191,11 @@ Please follow these steps for each mod to make sure everything is working proper
 
 1. Extract the archive to your DS folder.
 2. Edit the provided BAT file with your desired resolution.
-3. Copy the content of \<path-to-docs\> to the "User\Save" subfolder prior to running the mod (to keep your key bindings and any modification you made to your config file).
-4. Run the mod with the BAT file.
+3. Copy the content of \<path-to-docs\> to the "\<path-to-game\>\\\<mod-name>\User\Save" subfolder prior to running the mod (if you'd like to keep your key bindings and game preferences).
+4. Run the mod with the BAT file (you can also replicate its arguments in a shortcut or Steam launch options).
+5. Saved games will be located under the "\<path-to-game\>\\\<mod-name>\User\Save" subfolder (to avoid overriding saves from the main game). 
 
-Note: saved games will be located under the "User\Save" subfolder (to avoid overriding saves from the main game). 
+Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
 
 ## Play MP
 

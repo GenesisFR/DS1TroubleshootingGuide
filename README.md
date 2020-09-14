@@ -14,13 +14,12 @@
    * [1.8 HD textures](#hd-textures)
    * [1.9 Increase shadow resolution](#increase-shadow-resolution)
    * [1.10 Increase UI size](#increase-ui-size)
-   * [1.11 Install The Lands of Hyperborea on the Steam version](#install-the-lands-of-hyperborea-on-the-steam-version)
-   * [1.12 Install the Ultima 5/6 remakes on the Steam version](#install-the-ultima-56-remakes-on-the-steam-version)
-   * [1.13 Play MP](#play-mp)
-   * [1.14 Play MP map in SP](#play-mp-map-in-sp)
-   * [1.15 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
-   * [1.16 Run the game above 1080p](#run-the-game-above-1080p)
-   * [1.17 Use custom resolutions](#use-custom-resolutions)
+   * [1.11 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
+   * [1.12 Play MP](#play-mp)
+   * [1.13 Play MP map in SP](#play-mp-map-in-sp)
+   * [1.14 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
+   * [1.15 Run the game above 1080p](#run-the-game-above-1080p)
+   * [1.16 Use custom resolutions](#use-custom-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
    * [1.2 Crash/exception](#crashexception)
@@ -170,23 +169,22 @@ You may encounter two issues when using dgVoodoo2:
 - if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
 - if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
-## Install The Lands of Hyperborea on the Steam version
+## Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version
 
-I made a drag-and-drop archive so you won't have to worry about resources conflicting with each other: https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon+Siege+-+The+Lands+of+Hyperborea.zip
-
-Just extract it to your DS folder and use the provided BAT file to run the mod.
-
-## Install the Ultima 5/6 remakes on the Steam version
-
-Normally, these mods are meant for the retail version, but some people made guides to make them work on the Steam version:
+Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version:
 
 - https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
-I made some drag-and-drop archives if you want to skip the installation guide above.
+I made some drag-and-drop archives if you want to skip the installation guide above:
 
 - https://www.mediafire.com/file/ik093jdkkvle066/Ultima_V_-_Warriors_of_Destiny.zip
 - https://www.mediafire.com/file/4xvcewat7ctpjvd/Ultima_VI_-_The_False_Prophet.zip
+
+For the others, just ignore the above and download these archives:
+
+- https://www.mediafire.com/file/48lcyx22nqzbd5h/Dungeon_Siege_-_Mageworld.zip
+- https://www.mediafire.com/file/qh4d2l5a46cd1g7/Dungeon+Siege+-+The+Lands+of+Hyperborea.zip
 
 Please follow these steps for each mod to make sure everything is working properly:
 

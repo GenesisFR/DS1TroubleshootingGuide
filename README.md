@@ -114,9 +114,9 @@ Decompile the save:
 
 Recompile the save:
 
-1. Download and run Tank Creator (https://www.fileplanet.com/archive/p-37215/Tank-Creator).
-2. Click on Source and select the folder where you extracted the files earlier.
-3. Click on Output, select "\<path-to-docs-LOA\>\Save" and give the file a name ending in ".dssave".
+1. Download and run Tank Creator (https://www.zhixalom.com/lair/2005/09/12/tank-creator-2-1).
+2. Click on Source and select the folder where you decompiled the files earlier.
+3. Click on Output, select "\<path-to-docs-LOA\>\Save" and make sure the file has a DSSAVE extension.
 4. Select "DS & LOA" under Format.
 5. Click on Create.
 
@@ -549,7 +549,7 @@ Utraean Peninsula:
 - http://dungeonsiege.8m.net/train_univer.htm (modding documentation)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege (DS wiki)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna (LOA wiki)
-- https://www.gamefront.com/games/dungeon-siege (mods)
+- https://www.gamefront.com/games/dungeon-siege (DS mods)
 - https://www.gamefront.com/games/dungeon-siege-legend-of-aranna (LOA mods)
 - https://www.moddb.com/games/dungeon-siege (DS mods)
 - https://www.moddb.com/games/dungeon-siege-legend-of-aranna (LOA mods)

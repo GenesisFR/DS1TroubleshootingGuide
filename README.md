@@ -69,7 +69,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 ## Add the game on GameRanger
 
-1. Download and run https://amd989.github.io/Symlinker (it's just a front-end for the mklink command).
+1. Download and run https://amd989.github.io/Symlinker (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
    ![](https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png)

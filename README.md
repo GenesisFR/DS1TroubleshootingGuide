@@ -558,6 +558,7 @@ Utraean Peninsula:
 - https://sites.google.com/view/chickengeorgemods/modding (modding tools)
 - https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (Steam group)
 - https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
+- http://www.trogworld.com/ds.htm
 
 # Credits
 

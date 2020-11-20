@@ -20,6 +20,7 @@
    * [1.14 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
    * [1.15 Run the game above 1080p](#run-the-game-above-1080p)
    * [1.16 Use custom resolutions](#use-custom-resolutions)
+   * [1.17 Run using wine](#run-using-wine)
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
    * [1.2 Crash/exception](#crashexception)
@@ -252,6 +253,34 @@ Method 3:
 I found out it's better to specify the resolution in launch parameters (method 1) compared to the configuration file (method 2 and 3) because it will prevent the game from changing it back to the default resolutions while navigating the options menu.
 
 Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
+
+## Run using wine
+
+PlayOnLinux (or PlayOnMac) is recommanded to ease the process. I'm using PlayOnLinux and therefore the WINEPREFIX is set to `~/.PlayOnLinux/wineprefix/ds` which may differ on your setup.
+
+### Requirements
+
+Install vulkan graphics on your computer using the [recommanded packages for your graphic card](https://wiki.archlinux.org/index.php/Vulkan). You should install every package for 32-bit applications. For Intel platforms: `vulkan-intel`, `lib32-vulkan-intel`, `vulkan-icd-loader`, `lib32-vulkan-icd-loader`, `vulkan-tools`. Once the command `vulkaninfo` doesn't report errors anymore you're good to go. 
+
+### Install DS/DSLOA
+
+With PlayOnLinux use the `Install a non-listed program` link or create a new virtual drive. Wine should be at least in version 5.21. You can use PlayOnLinux to install the following libraries:
+
+- `directplay` (for networking capabilities)
+- `mfc42` (Microsoft Foundation Classes)
+- `DXVK_172` (direct x for vulkan)
+
+If you want to use the command line, [install setup_dxvk](https://wiki.archlinux.org/index.php/Wine#DXVK) and use:
+
+```
+WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winetricks mfc42 directplay
+WINEPREFIX=~/.PlayOnLinux/wineprefix/ds setup_dxvk install
+```
+
+You can now install the game. I used the old CD version, just mount CD1, run the Setup.exe. Then when it asks for CD2, mount the CD2 at the exact same location and it should work. 
+
+To fix the main menu resolution issues you need to configure wine (use the PlayOnLinux button or run `WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winecfg`), in Graphics enable "Emulate a virtual desktop". 
+If you have weird glitches, switch to desktop and back to the game they should disappear.  
 
 # Issues fixed
 
@@ -574,6 +603,7 @@ This document wouldn't have been possible without the following people:
 - Player#7716 (Discord)
 - sadowson#5553 (Discord)
 - The Walkthrough King
+- [soyuka](https://github.com/soyuka)
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 
 And the following resources:

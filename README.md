@@ -272,6 +272,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
 - Disable overlays (Steam, GOG, Discord, etc).
+- One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780048558

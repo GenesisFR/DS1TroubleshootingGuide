@@ -69,7 +69,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 ## Add the game on GameRanger
 
-1. Download and run https://amd989.github.io/Symlinker (click on "Download Standalone Executable"). It's a front-end for the mklink command.
+1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
    ![](https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png)
@@ -97,7 +97,7 @@ Note: it also works with other games, as long as they're using DX9 (or older) or
 
 ## Change the FOV
 
-Hex-edit the game's executable: http://www.wsgf.org/dr/dungeon-siege
+Hex-edit the game's [executable](http://www.wsgf.org/dr/dungeon-siege).
 
 ## Convert DS saves to LOA
 
@@ -105,7 +105,7 @@ After installing LOA, you won't be able to load your DS saved games. You need to
 
 Decompile the save:
 
-1. Download and run Tank Viewer (https://www.fileplanet.com/archive/p-58065/Tank-Viewer).
+1. Download and run [Tank Viewer](https://www.fileplanet.com/archive/p-58065/Tank-Viewer).
 2. Click on Open, navigate to "\<path-to-docs\>\Save" and select your save.
 3. Click on Extract and select a folder (preferably empty) where to extract the files.
 4. Open the "info.gas" file with a text editor.
@@ -114,7 +114,7 @@ Decompile the save:
 
 Recompile the save:
 
-1. Download and run Tank Creator (https://www.zhixalom.com/lair/2005/09/12/tank-creator-2-1).
+1. Download and run [Tank Creator](https://www.zhixalom.com/lair/2005/09/12/tank-creator-2-1).
 2. Click on Source and select the folder where you decompiled the files earlier.
 3. Click on Output, select "\<path-to-docs-LOA\>\Save" and make sure the file has a DSSAVE extension.
 4. Select "DS & LOA" under Format.
@@ -126,13 +126,13 @@ Source: https://discordapp.com/channels/373223103985090581/400744824593973248/58
 
 ## Enable EAX
 
-1. Download dsoal: https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2
+1. Download [dsoal](https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2).
 2. Extract dsound.dll and dsoal-aldrv.dll to \<path-to-game\>.
 3. Run the game and enable EAX in the options.
 
 ## Enable LOA + Extras
 
-Download Killah's fix and follow the installation instructions: https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213
+Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213).
 
 ## Enable MP
 
@@ -144,9 +144,9 @@ Note: this only applies to Windows 7 or later.
 
 There are currently two HD textures packs available.
 
-The first one (recommended) is a set of upscaled textures (based on the original) using ESRGAN by Antrad2020: https://www.nexusmods.com/dungeonsiege1/mods/44
+The first one (recommended) is a set of [upscaled textures](https://www.nexusmods.com/dungeonsiege1/mods/44) (based on the original) using ESRGAN by Antrad2020.
 
-The second one is a set of textures from the Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine) ripped by Eksevis: https://www.mediafire.com/file/7awhevfmqochnpo/Dungeon_Siege+-+Legendary+textures.zip
+The second one is a set of [textures](https://www.mediafire.com/file/7awhevfmqochnpo/Dungeon_Siege+-+Legendary+textures.zip) from the Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine) ripped by Eksevis.
 
 Note: it seems to work fine on all custom campaigns and doesn't bloat saves (only tested in The Lands of Hyperborea and the Ultima remakes).
 
@@ -160,7 +160,7 @@ Note: 512 and above can be VERY taxing in forests when using the "All complex" s
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
-1. Download the latest version of dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2
+1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
 3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
 4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use custom resolutions](#use-custom-resolutions)).
@@ -205,20 +205,20 @@ Run the game with the "zonematch=true" launch parameter to directly boot into th
 
 Install one of these mods:
 
-- Legends of Utrae (recommended): https://www.siegetheday.org/?q=node/1317
-- Myros: https://www.fileplanet.com/87368/80000/fileinfo/Myros-Mod or https://www.dropbox.com/sh/utwgyv8ic6bpyd2/AADp6em9zEbh9Bo-gCfxSYy3a/myrosmap.zip
+- [Legends of Utrae](https://www.siegetheday.org/?q=node/1317) (recommended)
+- [Myros](https://www.fileplanet.com/87368/80000/fileinfo/Myros-Mod) (or use this [link](https://www.dropbox.com/sh/utwgyv8ic6bpyd2/AADp6em9zEbh9Bo-gCfxSYy3a/myrosmap.zip))
 
 ## Play Yesterhaven map in SP
 
-I made a drag-and-drop archive from Father Bronze's Yesterhaven Single-Player Edition (http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other: https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip
+I made a drag-and-drop [archive](https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip) from [Father Bronze's Yesterhaven Single-Player Edition](http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other.
 
 Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 ## Run the game above 1080p
 
-Check the "dgVoodoo for 1920x1080+ resolutions" section in Beatlebattle's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971
+Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
 
-You'll need dgVoodoo2 that you can get from here: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
+You'll need [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
 
 ## Use custom resolutions
 
@@ -234,7 +234,7 @@ You have 3 ways to make the game run at custom resolutions.
 
 Method 1:
 
-1. Access the field to add launch parameters to your DS/LOA shortcut or Steam Library (see https://appuals.com/steam-set-launch-options-and-full-list).
+1. Access the [field](https://appuals.com/steam-set-launch-options-and-full-list) to add launch parameters to your DS/LOA shortcut or Steam Library.
 2. Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). Make sure there is no space before/after the equal sign.
 
 Method 2: 
@@ -275,10 +275,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
-- Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780048558
+- Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure the "My Documents" directory is on your C drive.
-- Install DirectX 9.0c: https://www.microsoft.com/en-us/download/details.aspx?id=8109
-- Use dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
+- Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
+- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
 
 Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to \<path-to-docs\> (or \<path-to-docs-LOA\> if you're using LOA).
 
@@ -320,7 +320,7 @@ Here are the files that differ between the Steam and retail versions:
 - Resources\Objects.dsres
 - DungeonSiege.exe
 
-You can get the Steam version of these files here: https://www.mediafire.com/file/hxvnxxqlmmiheeh/Dungeon_Siege_Steam_resources.zip
+You can get the Steam version of these files [here](https://www.mediafire.com/file/hxvnxxqlmmiheeh/Dungeon_Siege_Steam_resources.zip).
 
 Here are the files that differ between languages:
 
@@ -351,8 +351,8 @@ Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c6
 
 ## No GPU listed in DSVideoConfig
 
-- Enable DirectDraw acceleration: https://superuser.com/a/504510
-- Follow doa_92's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=780048558
+- [Enable DirectDraw acceleration](https://superuser.com/a/504510).
+- Follow (doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 
 ## Poor performance
 
@@ -422,7 +422,7 @@ See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
 
 ## Unable to enumerate any DirectDraw devices installed on this system
 
-Enable DirectDraw acceleration: https://superuser.com/a/504510
+[Enable DirectDraw acceleration](https://superuser.com/a/504510).
 
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
@@ -432,7 +432,7 @@ Lower the game's height (see [Use custom resolutions](#use-custom-resolutions)) 
 
 ## Cannot download GMAX when installing the toolkit
 
-You can get GMAX from there: https://www.turbosquid.com/gmax
+You can get GMAX from [here](https://www.turbosquid.com/gmax).
 
 ## Make DSMod work on the Steam version
 
@@ -444,7 +444,7 @@ After doing that, you will run into two scenarios depending on which reg patch y
 
 Scenario 1:
 
-If you were using an old version of the reg patch (an executable), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like Resource Hacker (https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
+If you were using an old version of the reg patch (an executable), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
 1. Make a backup of "DSMod.exe" (just in case).
 2. Run two instances of Resource Hacker as administrator.
@@ -467,7 +467,7 @@ Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) an
 
 DSLOAMod won't get installed unless LOA is installed. On top of that, it uses SmarteSecure DRM disc check so you'll need to have disc 1 of LOA in your disc drive or it'll refuse to run.
 
-If you don't want to go this route, I created a mini image that will satisfy the disc check: https://www.mediafire.com/file/a7cxee61t49v17f/DSLOA1+mini+image.iso
+If you don't want to go this route, I created a [mini image](https://www.mediafire.com/file/a7cxee61t49v17f/DSLOA1+mini+image.iso) that will satisfy the disc check.
 
 Just mount the ISO with Windows 10 File Explorer or with a third party software (like WinCDEmu) before running DSLOAMod.
 
@@ -592,7 +592,4 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me 3 years to compile it). Just share the GitHub link or redirect users to one of the threads below:
-
-- https://steamcommunity.com/app/39190/discussions/0/1813170373233918779
-- https://www.reddit.com/r/DungeonSiege/comments/bbsz6g/comprehensive_document_about_ds1
+You're not allowed to put this document in raw form anywhere, out of respect (it took me 3 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).

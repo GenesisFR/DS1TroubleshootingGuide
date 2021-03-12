@@ -267,9 +267,9 @@ The only way to circumvent it is to import your party from your modded save to a
 2. Run DSLOAMod (see [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)).
 3. Ignore all the errors it may throw.
 4. Load the "endgame_save" saved game.
-5. Open the game console with ~ (or the key above TAB).
+5. Open the console with ~ (or the key above TAB).
 6. Place the mouse cursor on flat ground, between your characters.
-7. Type "party load <name-of-your-save>.dssave".
+7. Type "party load \<name-of-your-save\>.dssave".
 8. Check that all your characters are there.
 9. Proceed to beat Gom.
 

@@ -39,9 +39,10 @@
 * [4.0 Modding](#modding)
    * [1.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [1.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [1.3 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [1.4 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [1.5 View a protected tank](#view-a-protected-tank)
+   * [1.3 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
+   * [1.4 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [1.5 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [1.6 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
 * [7.0 Credits](#credits)
@@ -262,8 +263,8 @@ When going down the elevator before fighting Gom, the cutscene may break and pre
 
 The only way to circumvent it is to import your party from your modded save to another save that doesn't use the mod. For your convenience, you can find a saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
 
-1. Place the save you just downloaded into \<path-to-docs-LOA\Save\>.
-2. Run DSLOAMod (see [Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)).
+1. Place the save you just downloaded into \<path-to-docs-LOA\>\Save.
+2. Run DSLOAMod (see [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)).
 3. Ignore all the errors it may throw.
 4. Load the "endgame_save" saved game.
 5. Open the game console with ~ (or the key above TAB).

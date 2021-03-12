@@ -21,20 +21,21 @@
    * [1.15 Run the game above 1080p](#run-the-game-above-1080p)
    * [1.16 Use custom resolutions](#use-custom-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
-   * [1.1 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
-   * [1.2 Crash/exception](#crashexception)
-   * [1.3 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [1.4 Game screen is offset](#game-screen-is-offset)
-   * [1.5 Incompatible version](#incompatible-version)
-   * [1.6 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [1.7 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [1.8 Poor performance](#poor-performance)
-   * [1.9 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [1.10 Save failed](#save-failed)
-   * [1.11 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [1.12 UI/cursor flickering](#uicursor-flickering)
-   * [1.13 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [1.14 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [1.1 Black screen at Gom](#black-screen-at-gom)
+   * [1.2 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
+   * [1.3 Crash/exception](#crashexception)
+   * [1.4 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
+   * [1.5 Game screen is offset](#game-screen-is-offset)
+   * [1.6 Incompatible version](#incompatible-version)
+   * [1.7 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [1.8 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [1.9 Poor performance](#poor-performance)
+   * [1.10 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [1.11 Save failed](#save-failed)
+   * [1.12 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [1.13 UI/cursor flickering](#uicursor-flickering)
+   * [1.14 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [1.15 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
 * [4.0 Modding](#modding)
    * [1.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [1.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
@@ -254,6 +255,24 @@ I found out it's better to specify the resolution in launch parameters (method 1
 Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
 # Issues fixed
+
+## Black screen at Gom
+
+When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera mod that comes with SeeFar. It somehow breaks one of the camera triggers during that cutscene.
+
+The only way to circumvent it is to import your party from your modded save to another save that doesn't use the mod. For your convenience, you can find a saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
+
+1. Place the save you just downloaded into \<path-to-docs-LOA\Save\>.
+2. Run DSLOAMod (see [Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)).
+3. Ignore all the errors it may throw.
+4. Load the "endgame_save" saved game.
+5. Open the game console with ~ (or the key above TAB).
+6. Place the mouse cursor on flat ground, between your characters.
+7. Type "party load <name-of-your-save>.dssave".
+8. Check that all your characters are there.
+9. Proceed to beat Gom.
+
+Note: if you save again, your new saved game will only be accessible from DSLOAMod.
 
 ## Cannot find world:global:vosounds in gas tree
 
@@ -475,7 +494,7 @@ If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popu
 
 You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory or place DSLOAMod in \<path-to-game\> and run it from there.
 
-Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
+Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working and using the HD mod will make most of the world transparent.
 
 ## Make Siege Editor work on the Steam version
 
@@ -575,6 +594,7 @@ This document wouldn't have been possible without the following people:
 - Orix#9582 (Discord)
 - Player#7716 (Discord)
 - sadowson#5553 (Discord)
+- Starfall#6010 (Discord)
 - The Walkthrough King
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 

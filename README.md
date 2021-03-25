@@ -372,7 +372,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c6
 ## No GPU listed in DSVideoConfig
 
 - [Enable DirectDraw acceleration](https://superuser.com/a/504510).
-- Follow (doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
+- Follow [doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 
 ## Poor performance
 

@@ -15,11 +15,13 @@
    * [1.9 Increase shadow resolution](#increase-shadow-resolution)
    * [1.10 Increase UI size](#increase-ui-size)
    * [1.11 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
-   * [1.12 Play MP](#play-mp)
-   * [1.13 Play MP map in SP](#play-mp-map-in-sp)
-   * [1.14 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
-   * [1.15 Run the game above 1080p](#run-the-game-above-1080p)
-   * [1.16 Use custom resolutions](#use-custom-resolutions)
+   * [1.12 Play borderless fullscreen](#play-borderless-fullscreen)
+   * [1.13 Play MP](#play-mp)
+   * [1.14 Play MP map in SP](#play-mp-map-in-sp)
+   * [1.15 Play windowed](#play-windowed)
+   * [1.16 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
+   * [1.17 Run the game above 1080p](#run-the-game-above-1080p)
+   * [1.18 Use custom resolutions](#use-custom-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Black screen at Gom](#black-screen-at-gom)
    * [1.2 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
@@ -86,7 +88,7 @@ Note: for LOA, the executable must be named "DSLOA.exe".
 
 I discovered a special trick to capture the game's window while playing fullscreen (without using desktop capture).
 
-1. Run the game windowed with the launch parameter "fullscreen=false".
+1. Run the game [windowed](#play-windowed).
 2. Add a window capture in OBS and select DS (stretch it to fullscreen if you want).
 3. Close DS and remove the launch parameter so it runs fullscreen.
 4. Run the game again, OBS will still capture it.
@@ -199,6 +201,18 @@ Please follow these steps for each mod to make sure everything is working proper
 
 Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
 
+## Play borderless fullscreen
+
+There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
+
+1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/tag/v1.0) and run it.
+2. Run the game in [windowed](#play-windowed) mode.
+3. Switch back to Fullscreenizer.
+4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege" and click on "Add".
+5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game.
+
+Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
+
 ## Play MP
 
 Run the game with the "zonematch=true" launch parameter to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
@@ -209,6 +223,13 @@ Install one of these mods:
 
 - [Legends of Utrae](https://www.siegetheday.org/?q=node/1317) (recommended)
 - [Myros](https://www.fileplanet.com/87368/80000/fileinfo/Myros-Mod) (or use this [link](https://www.dropbox.com/sh/utwgyv8ic6bpyd2/AADp6em9zEbh9Bo-gCfxSYy3a/myrosmap.zip))
+
+## Play windowed
+
+Add the "fullscreen=false" launch parameter. See the following instructions for [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) and [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+
+For GameRanger, you have to add it to \<config-file\> (or \<config-file-LOA\> for LOA). See method 2 of [Use custom resolutions
+](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-custom-resolutions).
 
 ## Play Yesterhaven map in SP
 
@@ -438,7 +459,7 @@ See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
 - Disable any kind of antialiasing in your GPU driver settings.
 - Press the Windows key to minimize the game then maximize it.
 - Run the game on your other GPU (if you have one).
-- Run the game in fullscreen or windowed mode.
+- Run the game in fullscreen or [windowed](#play-windowed) mode.
 
 ## Unable to enumerate any DirectDraw devices installed on this system
 

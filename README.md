@@ -21,7 +21,7 @@
    * [1.15 Play windowed](#play-windowed)
    * [1.16 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
    * [1.17 Run the game above 1080p](#run-the-game-above-1080p)
-   * [1.18 Use custom resolutions](#use-custom-resolutions)
+   * [1.18 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Black screen at Gom](#black-screen-at-gom)
    * [1.2 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
@@ -78,11 +78,11 @@ Please note that while this document is based on the Steam version (combined wit
 
    ![](https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png)
 
-3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" from Program Files:
+3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" (the executable must be named "DSLOA.exe" for LOA) from Program Files:
 
    ![](https://cdn.discordapp.com/attachments/354176540960882689/538081835608178700/unknown.png)
 
-Note: for LOA, the executable must be named "DSLOA.exe".
+Note: to change the game resolution, see method 1 or 2 of [Use unsupported resolutions](#use-unsupported-resolutions).
 
 ## Capture the game with OBS
 
@@ -167,7 +167,7 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
 3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
-4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use custom resolutions](#use-custom-resolutions)).
+4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
 
 You may encounter two issues when using dgVoodoo2:
 
@@ -226,9 +226,7 @@ Install one of these mods:
 
 ## Play windowed
 
-Add the "fullscreen=false" launch parameter. See the following instructions for [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) and [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
-
-For GameRanger, you have to add it to \<config-file\> (or \<config-file-LOA\> for LOA). See method 2 of [Use custom resolutions](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-custom-resolutions).
+Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
@@ -254,26 +252,32 @@ However, with some tweaking, you can play it at any resolution. There are a few 
 - there are (supposedly) glitches in cutscenes
 - a warning message (that can safely be ignored) will appear when starting/loading a game (see [Requested display mode is unsupported](#requested-display-mode-is-unsupported) to remove it)
 
-You have 3 ways to make the game run at custom resolutions.
+You have 4 ways to make the game run at custom resolutions.
 
-Method 1:
+Method 1 (recommended):
 
-1. Access the [field](https://appuals.com/steam-set-launch-options-and-full-list) to add launch parameters to your DS/LOA shortcut or Steam Library.
-2. Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). Make sure there is no space before/after the equal sign.
+1. Download [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45).
+2. Locate "sf_ResolutionFix.dsres" and add it to "\<path-to-game\>\Resources".
+3. Run the game.
+4. Select your desired resolution from the options.
 
-Method 2: 
+Method 2:
+
+Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). Make sure there is no space before/after the equal sign. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+
+Method 3:
 
 1. Open \<config-file\> (or \<config-file-LOA\> for LOA) with a text editor.
 2. Change the "width = xxxx" and "height = xxxx" to your desired resolution (where "xxxx" is your desired resolution).
 3. Save the file.
 
-Method 3: 
+Method 4:
 
 1. Follow the steps described in [Requested display mode is unsupported](#requested-display-mode-is-unsupported).
 2. Run "\<path-to-game\>\DSVideoConfig.exe" and select your custom resolution.
 3. Copy "\<path-to-game\>\DungeonSiege.ini" to \<path-to-docs\> (or \<path-to-docs-LOA\> for LOA).
 
-I found out it's better to specify the resolution in launch parameters (method 1) compared to the configuration file (method 2 and 3) because it will prevent the game from changing it back to the default resolutions while navigating the options menu.
+It's better to specify the resolution in launch parameters (method 2) compared to the configuration file (method 3 and 4) because it will prevent the game from changing it back to the default resolutions while navigating the options menu.
 
 Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
@@ -468,7 +472,7 @@ See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
 
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
-Lower the game's height (see [Use custom resolutions](#use-custom-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
+Lower the game's height (see [Use unsupported resolutions](#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
 # Modding
 

@@ -242,7 +242,7 @@ Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide
 
 You'll need [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
 
-## Use custom resolutions
+## Use unsupported resolutions
 
 By default, the game can only be played in 640x480, 800x600 or 1024x768.
 

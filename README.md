@@ -228,8 +228,9 @@ Install one of these mods:
 
 Add the "fullscreen=false" launch parameter. See the following instructions for [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) and [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
-For GameRanger, you have to add it to \<config-file\> (or \<config-file-LOA\> for LOA). See method 2 of [Use custom resolutions
-](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-custom-resolutions).
+For GameRanger, you have to add it to \<config-file\> (or \<config-file-LOA\> for LOA). See method 2 of [Use custom resolutions](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-custom-resolutions).
+
+Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
 ## Play Yesterhaven map in SP
 

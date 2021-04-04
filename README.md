@@ -35,9 +35,10 @@
    * [1.10 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
    * [1.11 Save failed](#save-failed)
    * [1.12 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [1.13 UI/cursor flickering](#uicursor-flickering)
-   * [1.14 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [1.15 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [1.13 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [1.14 UI/cursor flickering](#uicursor-flickering)
+   * [1.15 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [1.16 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
 * [4.0 Modding](#modding)
    * [1.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [1.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
@@ -205,13 +206,13 @@ Note: all of these mods are NOT compatible with LOA. Please refer to their respe
 
 There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
 
-1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/tag/v1.0) and run it.
+1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases) and run it.
 2. Run the game in [windowed](#play-windowed) mode.
 3. Switch back to Fullscreenizer.
 4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege" and click on "Add".
-5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game.
+5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game (see note below).
 
-Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
+Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid it.
 
 ## Play MP
 
@@ -226,7 +227,7 @@ Install one of these mods:
 
 ## Play windowed
 
-Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add the "fullscreen=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)) or in the config file (see method 3 of [Use unsupported resolutions](#use-unsupported-resolutions)).
 
 Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
@@ -456,6 +457,14 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 ## Sorry, this save game was not created by Legends of Aranna and cannot be loaded
 
 See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
+
+## Steam detects the game as running after closing it
+
+This may happen after hosting/joining a multiplayer session.
+
+1. Open Task Manager.
+2. Go to the Details tab.
+3. Find dpnsvr.exe and terminate it.
 
 ## UI/cursor flickering
 

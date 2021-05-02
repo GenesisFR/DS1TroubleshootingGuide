@@ -36,9 +36,10 @@
    * [1.11 Save failed](#save-failed)
    * [1.12 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
    * [1.13 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [1.14 UI/cursor flickering](#uicursor-flickering)
-   * [1.15 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [1.16 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [1.14 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [1.15 UI/cursor flickering](#uicursor-flickering)
+   * [1.16 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [1.17 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
 * [4.0 Modding](#modding)
    * [1.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [1.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
@@ -465,6 +466,10 @@ This may happen after hosting/joining a multiplayer session.
 1. Open Task Manager.
 2. Go to the Details tab.
 3. Find dpnsvr.exe and terminate it.
+
+## Stutters when moving the mouse
+
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11. If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
 ## UI/cursor flickering
 

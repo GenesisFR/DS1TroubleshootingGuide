@@ -78,11 +78,11 @@ Please note that while this document is based on the Steam version (combined wit
 1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
-   ![](https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png)
+   ![Symlinker](https://user-images.githubusercontent.com/3614449/119590493-dae93400-bda2-11eb-80a0-2d268d178814.png)
 
 3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" (the executable must be named "DSLOA.exe" for LOA) from Program Files:
 
-   ![](https://cdn.discordapp.com/attachments/354176540960882689/538081835608178700/unknown.png)
+   ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
 Note: to change the game resolution, see method 1 or 2 of [Use unsupported resolutions](#use-unsupported-resolutions).
 

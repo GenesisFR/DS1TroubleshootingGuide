@@ -24,24 +24,25 @@
    * [2.18 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
-   * [3.2 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
-   * [3.3 Crash/exception](#crashexception)
-   * [3.4 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [3.5 Game screen is offset](#game-screen-is-offset)
-   * [3.6 Incompatible version](#incompatible-version)
-   * [3.7 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.8 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.9 Poor performance](#poor-performance)
-   * [3.10 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.11 Save failed](#save-failed)
-   * [3.12 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.13 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.14 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.15 UI/cursor flickering](#uicursor-flickering)
-   * [3.16 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.17 Window is offscreen](#window-is-offscreen)
-   * [3.18 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.19 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.2 Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game)
+   * [3.3 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
+   * [3.4 Crash/exception](#crashexception)
+   * [3.5 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
+   * [3.6 Game screen is offset](#game-screen-is-offset)
+   * [3.7 Incompatible version](#incompatible-version)
+   * [3.8 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.9 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.10 Poor performance](#poor-performance)
+   * [3.11 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.12 Save failed](#save-failed)
+   * [3.13 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.14 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.15 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.16 UI/cursor flickering](#uicursor-flickering)
+   * [3.17 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.18 Window is offscreen](#window-is-offscreen)
+   * [3.19 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.20 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
@@ -314,6 +315,10 @@ The only way to circumvent it is to import your party from your modded save to a
 9. Proceed to beat Gom.
 
 Note: if you save again, your new saved game will only be accessible from DSLOAMod.
+
+## Booted back to the MP menu when trying to host a game
+
+Enable DirectPlay (see [Enable MP](#enable-mp)).
 
 ## Cannot find world:global:vosounds in gas tree
 

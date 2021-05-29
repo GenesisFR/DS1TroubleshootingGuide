@@ -98,7 +98,7 @@ Method 2:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
-Note: to change the game resolution, see method 1 or 2 of [Use unsupported resolutions](#use-unsupported-resolutions).
+Note: to change the game resolution, see method 1 or 3 of [Use unsupported resolutions](#use-unsupported-resolutions).
 
 ## Capture the game with OBS
 

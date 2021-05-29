@@ -39,14 +39,17 @@
    * [3.14 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.15 UI/cursor flickering](#uicursor-flickering)
    * [3.16 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.17 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.17 Window is offscreen](#window-is-offscreen)
+   * [3.18 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.19 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
    * [4.3 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
    * [4.4 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.5 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [4.6 View a protected tank](#view-a-protected-tank)
+   * [4.5 Remove a tank protection](#remove-a-tank-protection)
+   * [4.6 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [4.7 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
 * [7.0 Credits](#credits)
@@ -493,9 +496,19 @@ This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fix
 
 [Enable DirectDraw acceleration](https://superuser.com/a/504510).
 
+## Window is offscreen
+
+Add "x=0 y=0" to your launch parameters. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+
+Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
+
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
 Lower the game's height (see [Use unsupported resolutions](#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
+
+## Your hardware configuration is below minimum specification
+
+Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 
 # Modding
 
@@ -575,6 +588,14 @@ You can ignore the "xp_" warnings when starting the editor (they'll pop up if yo
 - "\<path-to-game\>\Resources\XPRes.dsres"
 
 Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored.
+
+## Remove a tank protection
+
+1. Open your protected tank with an Hex Editor.
+2. Go to offset 38 and replace 04 by 00.
+3. Save the file.
+
+Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/814904645815105/?comment_id=814930495812520
 
 ## Tank Creator doesn't work
 

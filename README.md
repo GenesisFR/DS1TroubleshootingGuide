@@ -32,17 +32,18 @@
    * [3.7 Incompatible version](#incompatible-version)
    * [3.8 Mouse cursor is missing](#mouse-cursor-is-missing)
    * [3.9 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.10 Poor performance](#poor-performance)
-   * [3.11 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.12 Save failed](#save-failed)
-   * [3.13 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.14 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.15 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.16 UI/cursor flickering](#uicursor-flickering)
-   * [3.17 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.18 Window is offscreen](#window-is-offscreen)
-   * [3.19 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.20 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.10 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.11 Poor performance](#poor-performance)
+   * [3.12 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.13 Save failed](#save-failed)
+   * [3.14 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.15 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.16 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.17 UI/cursor flickering](#uicursor-flickering)
+   * [3.18 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.19 Window is offscreen](#window-is-offscreen)
+   * [3.20 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.21 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
@@ -139,7 +140,7 @@ Recompile the save:
 4. Select "DS & LOA" under Format.
 5. Click on Create.
 
-You should now be able to load your save in LOA.
+You should now be able to load your save in LOA. The inventory of your mules may become glitched though (see [Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)).
 
 Source: https://discordapp.com/channels/373223103985090581/400744824593973248/587998587112259584
 
@@ -418,6 +419,12 @@ Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c6
 
 - [Enable DirectDraw acceleration](https://superuser.com/a/504510).
 - Follow [doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
+
+## Packmule inventory is inaccessible
+
+After converting a DS save to LOA, packmules are being treated like traggs (8 * 13 cells) but the UI remains the one from the mule (12 * 13 cells). Therefore, you can't access the items located in the last 5 columns.
+
+You have to remove items from your mule's inventory and hit the "Auto-arrange inventory" button to be able to access them.
 
 ## Poor performance
 

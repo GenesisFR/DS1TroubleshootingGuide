@@ -273,9 +273,10 @@ You have 4 ways to make the game run at custom resolutions.
 Method 1 (recommended):
 
 1. Download [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45).
-2. Locate "sf_ResolutionFix.dsres" and add it to "\<path-to-game\>\Resources".
-3. Run the game.
-4. Select your desired resolution from the options.
+2. Open the downloaded archive and navigate to the "ResolutionFix" subfolder.
+3. Extract "system_detail.gas" to \<path-to-game\> (it does the same thing than [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and "sf_ResolutionFix.dsres" to "\<path-to-game\>\Resources".
+4. Run the game.
+5. Select your desired resolution from the options.
 
 Method 2:
 
@@ -668,6 +669,7 @@ Utraean Peninsula:
 This document wouldn't have been possible without the following people:
 
 - [0xff](https://www.twitch.tv/0xff2)
+- [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
 - [doa_92](https://steamcommunity.com/id/doa_92)

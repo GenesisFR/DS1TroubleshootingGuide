@@ -125,7 +125,7 @@ After installing LOA, you won't be able to load your DS saved games. You need to
 
 Decompile the save:
 
-1. Download and run [Tank Viewer](https://www.fileplanet.com/archive/p-58065/Tank-Viewer).
+1. Download and run [Tank Viewer](https://www.siegetheday.org/?q=node/3044).
 2. Click on Open, navigate to "\<path-to-docs\>\Save" and select your save.
 3. Click on Extract and select a folder (preferably empty) where to extract the files.
 4. Open the "info.gas" file with a text editor.

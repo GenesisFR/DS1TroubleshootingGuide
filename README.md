@@ -256,7 +256,7 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
 
-You'll need [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
+You'll need [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 
 ## Use unsupported resolutions
 
@@ -345,7 +345,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure the "My Documents" directory is on your C drive.
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
-- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
+- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 
 Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to \<path-to-docs\> (or \<path-to-docs-LOA\> if you're using LOA).
 

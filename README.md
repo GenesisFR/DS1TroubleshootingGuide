@@ -190,6 +190,8 @@ You may encounter two issues when using dgVoodoo2:
 - if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
 - if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
+Note: these instructions won't work while running the game in windowed mode.
+
 ## Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version
 
 Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version:
@@ -243,8 +245,6 @@ Install one of these mods:
 ## Play windowed
 
 Add the "fullscreen=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)) or in the config file (see method 3 of [Use unsupported resolutions](#use-unsupported-resolutions)).
-
-Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
 ## Play Yesterhaven map in SP
 

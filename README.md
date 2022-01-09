@@ -309,7 +309,7 @@ There are 2 ways to circumvent it.
 Method 1 (recommended):
 
 1. Download this [hotfix](https://www.mediafire.com/file/auqjxy62co40tjh/koe_camera_hotfix.dsres).
-2. Place it in "<path-to-game>\Resources".
+2. Place it in "\<path-to-game\>\Resources".
 3. Run the game.
 4. Load your saved game.
 5. Proceed to beat Gom.

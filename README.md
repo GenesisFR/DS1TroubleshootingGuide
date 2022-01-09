@@ -302,11 +302,24 @@ Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-t
 
 ## Black screen at Gom
 
-When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera mod that comes with SeeFar. It somehow breaks one of the camera triggers during that cutscene.
+When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera script that comes with LOA, which doesn't work properly when SeeFar is installed. It breaks one of the camera triggers during that cutscene, preventing it from completing.
 
-The only way to circumvent it is to import your party from your modded save to another save that doesn't use the mod. For your convenience, you can find a saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
+There are 2 ways to circumvent it.
 
-1. Place the save you just downloaded into \<path-to-docs-LOA\>\Save.
+Method 1 (recommended):
+
+1. Download this [hotfix](https://www.mediafire.com/file/auqjxy62co40tjh/koe_camera_hotfix.dsres).
+2. Place it in "<path-to-game>\Resources".
+3. Run the game.
+4. Load your saved game.
+5. Proceed to beat Gom.
+6. Remove the hotfix (otherwise the initial cutscene of the LOA campaign will break).
+
+Method 2:
+
+You have to import your party from your modded save to another save that doesn't use SeeFar. For your convenience, you can download an unmodded saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
+
+1. Place the unmodded save into \<path-to-docs-LOA\>\Save.
 2. Run DSLOAMod (see [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)).
 3. Ignore all the errors it may throw.
 4. Load the "endgame_save" saved game.

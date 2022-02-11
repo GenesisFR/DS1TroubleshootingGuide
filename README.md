@@ -82,7 +82,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 Method 1:
 
-1. Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 3).
+1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 3).
 3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" (the executable must be named "DSLOA.exe" for LOA) from Program Files:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
@@ -196,7 +196,7 @@ Note: these instructions won't work while running the game in windowed mode.
 
 Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version:
 
-- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches))
+- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/RegPatches))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
 I made some drag-and-drop archives if you want to skip the installation guide above:
@@ -546,7 +546,7 @@ You can get GMAX from [here](https://www.turbosquid.com/gmax).
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
-Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> to make DSMod find your game.
+Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> to make DSMod find your game.
 
 After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
@@ -571,7 +571,7 @@ Note: setting "shadow_tex_size" higher than 256 will prevent shadows from workin
 
 ## Make DSLOAMod work on the Steam version
 
-Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> to make DSLOAMod find your game.
+Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> to make DSLOAMod find your game.
 
 DSLOAMod won't get installed unless LOA is installed. On top of that, it uses SmarteSecure DRM disc check so you'll need to have disc 1 of LOA in your disc drive or it'll refuse to run.
 
@@ -587,7 +587,7 @@ Note: setting "shadow_tex_size" higher than 256 will prevent shadows from workin
 
 ## Make Siege Editor work on the Steam version
 
-Download and run the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) from \<path-to-game\> to make the editor find your game.
+Download and run the [reg patch](https://github.com/GenesisFR/RegPatches) from \<path-to-game\> to make the editor find your game.
 
 To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in "\<path-to-game\>\system_detail.gas". The device name and both IDs are shown in the error message and must be prefixed with "0x".
 

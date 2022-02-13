@@ -674,7 +674,7 @@ Utraean Peninsula:
 - https://www.nexusmods.com/dungeonsiege1 (mods)
 - https://www.siegetheday.org (unofficial community)
 - https://sites.google.com/view/chickengeorgemods/modding (modding tools)
-- https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (Steam group)
+- https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
 - http://www.trogworld.com/ds.htm (DS mods)
 - https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
 

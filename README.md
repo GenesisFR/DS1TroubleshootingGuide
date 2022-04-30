@@ -138,7 +138,7 @@ Recompile the save:
 2. Click on Source and select the folder where you decompiled the files earlier.
 3. Click on Output, select "\<path-to-docs-LOA\>\Save" and make sure the file has a DSSAVE extension.
 4. Select "DS & LOA" under Format.
-5. Click on Create.
+5. Click on Create (if nothing happens, see [Tank Creator doesn't work](#tank-creator-doesnt-work)).
 
 You should now be able to load your save in LOA. The inventory of your mules may become glitched though (see [Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)).
 
@@ -352,6 +352,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
 - Disable overlays (Steam, GOG, Discord, etc).
+- Right-click "DungeonSiege.exe" then hit "Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color".
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
@@ -507,7 +508,7 @@ This may happen after hosting/joining a multiplayer session.
 
 ## Stutters when moving the mouse
 
-This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11. If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
 ## UI/cursor flickering
 

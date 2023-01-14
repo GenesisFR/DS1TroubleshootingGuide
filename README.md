@@ -24,34 +24,37 @@
    * [2.18 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
-   * [3.2 Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game)
-   * [3.3 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
-   * [3.4 Crash/exception](#crashexception)
-   * [3.5 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [3.6 Game screen is offset](#game-screen-is-offset)
-   * [3.7 Incompatible version](#incompatible-version)
-   * [3.8 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.9 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.10 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
-   * [3.11 Poor performance](#poor-performance)
-   * [3.12 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.13 Save failed](#save-failed)
-   * [3.14 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.15 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.16 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.17 UI/cursor flickering](#uicursor-flickering)
-   * [3.18 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.19 Window is offscreen](#window-is-offscreen)
-   * [3.20 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.21 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
+   * [3.3 Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game)
+   * [3.4 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
+   * [3.5 Crash/exception](#crashexception)
+   * [3.6 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
+   * [3.7 Game screen is offset](#game-screen-is-offset)
+   * [3.8 Incompatible version](#incompatible-version)
+   * [3.9 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.10 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.11 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.12 Poor performance](#poor-performance)
+   * [3.13 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.14 Save failed](#save-failed)
+   * [3.15 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.16 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.17 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.18 UI/cursor flickering](#uicursor-flickering)
+   * [3.19 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.20 White textures when using dgVoodoo2](#white-textures-when-using-dgVoodoo2)
+   * [3.21 Window is offscreen](#window-is-offscreen)
+   * [3.22 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.23 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
-   * [4.2 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [4.3 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
-   * [4.4 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.5 Remove a tank protection](#remove-a-tank-protection)
-   * [4.6 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [4.7 View a protected tank](#view-a-protected-tank)
+   * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
+   * [4.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
+   * [4.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
+   * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [4.6 Remove a tank protection](#remove-a-tank-protection)
+   * [4.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [4.8 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
 * [7.0 Credits](#credits)
@@ -280,7 +283,7 @@ Method 1 (recommended):
 
 Method 2:
 
-Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). Make sure there is no space before/after the equal sign. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 Method 3:
 
@@ -331,9 +334,16 @@ You have to import your party from your modded save to another save that doesn't
 
 Note: if you save again, your new saved game will only be accessible from DSLOAMod.
 
+## Booted back to the main menu after beating Gom
+
+The multiplayer and anything related to it was disabled in the Steam version. Use [Killah's fix](#enable-mp).
+
+Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
+
 ## Booted back to the MP menu when trying to host a game
 
-Enable DirectPlay (see [Enable MP](#enable-mp)).
+Enable DirectPlay (see [Enable MP](#enable-mp)).  
+Add the "dpnsvr=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
 
 ## Cannot find world:global:vosounds in gas tree
 
@@ -523,9 +533,15 @@ This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fix
 
 [Enable DirectDraw acceleration](https://superuser.com/a/504510).
 
+## White textures when using dgVoodoo2
+
+1. Run dgVoodooCpl.exe, go to the General tab and select one of the Direct3D 12 entries from the Output API drop down list.
+2. Go to the DirectX tab, tick "Fast memory access" and hit OK.
+3. If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
+
 ## Window is offscreen
 
-Add "x=0 y=0" to your launch parameters. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add "x=0 y=0" to your launch parameters (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
 
@@ -542,6 +558,10 @@ Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://s
 ## Cannot download GMAX when installing the toolkit
 
 You can get GMAX from [here](https://www.turbosquid.com/gmax).
+
+## D3D Initialization Failure]
+
+Replace preferences.gas in "\<path-to-docs\>\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 
 ## Make DSMod work on the Steam version
 

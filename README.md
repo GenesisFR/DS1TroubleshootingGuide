@@ -559,7 +559,7 @@ Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://s
 
 You can get GMAX from [here](https://www.turbosquid.com/gmax).
 
-## D3D Initialization Failure]
+## D3D Initialization Failure
 
 Replace preferences.gas in "\<path-to-docs\>\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 

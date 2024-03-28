@@ -12,16 +12,17 @@
    * [2.6 Enable LOA + Extras](#enable-loa--extras)
    * [2.7 Enable MP](#enable-mp)
    * [2.8 HD textures](#hd-textures)
-   * [2.9 Increase shadow resolution](#increase-shadow-resolution)
-   * [2.10 Increase UI size](#increase-ui-size)
-   * [2.11 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
-   * [2.12 Play borderless fullscreen](#play-borderless-fullscreen)
-   * [2.13 Play MP](#play-mp)
-   * [2.14 Play MP map in SP](#play-mp-map-in-sp)
-   * [2.15 Play windowed](#play-windowed)
-   * [2.16 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
-   * [2.17 Run the game above 1080p](#run-the-game-above-1080p)
-   * [2.18 Use unsupported resolutions](#use-unsupported-resolutions)
+   * [2.9 Import a character]
+   * [2.10 Increase shadow resolution](#increase-shadow-resolution)
+   * [2.11 Increase UI size](#increase-ui-size)
+   * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
+   * [2.13 Play borderless fullscreen](#play-borderless-fullscreen)
+   * [2.14 Play MP](#play-mp)
+   * [2.15 Play MP map in SP](#play-mp-map-in-sp)
+   * [2.16 Play windowed](#play-windowed)
+   * [2.17 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
+   * [2.18 Run the game above 1080p](#run-the-game-above-1080p)
+   * [2.19 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
    * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
@@ -30,22 +31,29 @@
    * [3.5 Crash/exception](#crashexception)
    * [3.6 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
    * [3.7 Game screen is offset](#game-screen-is-offset)
-   * [3.8 Incompatible version](#incompatible-version)
-   * [3.9 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.10 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.11 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
-   * [3.12 Poor performance](#poor-performance)
-   * [3.13 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.14 Save failed](#save-failed)
-   * [3.15 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.16 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.17 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.18 UI/cursor flickering](#uicursor-flickering)
-   * [3.19 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.20 White textures when using dgVoodoo2](#white-textures-when-using-dgVoodoo2)
-   * [3.21 Window is offscreen](#window-is-offscreen)
-   * [3.22 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.23 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.8 Game freezes during cutscenes](#game-freezes-during-cutscenes)
+   * [3.9 Incompatible version](#incompatible-version)
+   * [3.10 Lag in MP](#lag-in-mp)
+   * [3.11 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.12 Mouse cursor is stuck](#mouse-cursor-is-stuck)
+   * [3.13 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.14 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.15 Poor performance](#poor-performance)
+   * [3.16 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.17 Save failed](#save-failed)
+   * [3.18 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.19 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.20 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.21 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.22 UI/cursor flickering](#uicursor-flickering)
+   * [3.23 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.24 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.25 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.26 White textures](#white-textures)
+   * [3.27 Window is offscreen](#window-is-offscreen)
+   * [3.28 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.29 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.30 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
@@ -173,6 +181,16 @@ The second one is a set of [textures](https://www.mediafire.com/file/7awhevfmqoc
 
 Note: it seems to work fine on all custom campaigns and doesn't bloat saves (only tested in The Lands of Hyperborea and the Ultima remakes).
 
+## Import a character
+
+If you want to import an existing character into a single player game, do the following.
+
+1. Download Siege Editor and install it.
+2. Load your latest save and save it again with a simple name (ex: "X").
+3. Run the game again through DSMod or DSLOAMod. They enable the in-game console.
+4. Start a brand-new single player game.
+5. Bring down the console (~), point the cursor at a wide-open patch of ground, and run this command: party load X.dssave
+
 ## Increase shadow resolution
 
 Open "\<path-to-game\>\system_detail.gas" and change the 10 occurrences of "shadow_tex_size	= 64" to 128/256/512/1024. You can do a search and replace on "= 64".
@@ -187,11 +205,6 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
 3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
 4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
-
-You may encounter two issues when using dgVoodoo2:
-
-- if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
-- if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
 Note: these instructions won't work while running the game in windowed mode.
 
@@ -342,8 +355,8 @@ Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
 ## Booted back to the MP menu when trying to host a game
 
-Enable DirectPlay (see [Enable MP](#enable-mp)).  
-Add the "dpnsvr=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
+- Enable DirectPlay (see [Enable MP](#enable-mp)).
+- Add the "dpnsvr=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
 
 ## Cannot find world:global:vosounds in gas tree
 
@@ -380,6 +393,10 @@ Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intende
 - Disable your anti-virus.
 
 Source: https://www.facebook.com/photo.php?fbid=710028262735915
+
+## Game freezes during cutscenes
+
+This may be caused by the game unable to teleport your other characters if they're in another region. Make sure all your characters are close to each other before triggering a cutscene.
 
 ## Game screen is offset
 
@@ -420,6 +437,14 @@ Here are the files that differ between languages:
 - Resources\Voices.dsres (retail only)
 - Language.dll
 
+## Lag in MP
+
+This can be caused by dgVoodoo2. Potential fixes include:
+
+- Running the game without it.
+- Running the game on LAN.
+- Running the game online through a VPN-like software (ex: Hamachi, ZeroTier).
+
 ## Mouse cursor is missing
 
 Turn off supersampling in your GPU control panel.
@@ -439,6 +464,12 @@ For AMD users:
 4. Set "Virtual Super Resolution" to "Off".
 
 Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c617328415054371674
+
+## Mouse cursor is stuck
+
+Disable DPI scaling. Follow the same instructions as the "[game screen is offset](#game-screen-is-offset)" section.
+
+Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 
 ## No GPU listed in DSVideoConfig
 
@@ -504,6 +535,10 @@ Note: it happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
+## Some resources haven't been copied to the hard disk
+
+You're missing some core files (most likely "\<path-to-game\>\Resources\logic.dsres". Reinstall the game.
+
 ## Sorry, this save game was not created by Legends of Aranna and cannot be loaded
 
 See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
@@ -518,7 +553,9 @@ This may happen after hosting/joining a multiplayer session.
 
 ## Stutters when moving the mouse
 
-This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
+- Disable any kind of frame limiter.
+- Disable any kind of vertical synchronization (including in dgVoodoo2) and FreeSync/G-Sync.
+- This was also caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older or newer drivers. You may find them using this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) or this [one](https://www.nvidia.in/drivers/beta).
 
 ## UI/cursor flickering
 
@@ -529,21 +566,38 @@ This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fix
 - Run the game on your other GPU (if you have one).
 - Run the game in fullscreen or [windowed](#play-windowed) mode.
 
+## Unable to create a new character
+
+If you're experiencing missing animations or freezes in the character creator, this may be caused by third party softwares such as XFire or Raptr. You should disable them or uninstall them as they've been discontinued a long time ago.
+
 ## Unable to enumerate any DirectDraw devices installed on this system
 
 [Enable DirectDraw acceleration](https://superuser.com/a/504510).
 
-## White textures when using dgVoodoo2
+## Virtual alloc failed with error
+
+The game is running out of memory. It's usually due to running memory intensive mods such as the HD textures mod.
+
+Make the game's executable large-address aware using the [LAA enabler](https://www.pcgamingwiki.com/wiki/Windows#Set_older_32-bit_games_to_use_4_GB_RAM_instead_of_2) so it can use more RAM.
+
+## White textures
+
+This usually happens when using dgVoodoo2.
 
 1. Run dgVoodooCpl.exe, go to the General tab and select one of the Direct3D 12 entries from the Output API drop down list.
 2. Go to the DirectX tab, tick "Fast memory access" and hit OK.
-3. If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
+3. Decrease [shadow resolution](#increase-shadow-resolution) to 512 or lower.
+4. If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
 
 ## Window is offscreen
 
 Add "x=0 y=0" to your launch parameters (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
+
+## Windows cursor flickers at the center of the screen
+
+It's likely caused by using dgVoodoo2, just tab out of the game and tab back in.
 
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
@@ -603,6 +657,8 @@ Just mount the ISO with Windows 10 File Explorer or with a third party software 
 If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DSLOAMod as admin or move it elsewhere.
 
 You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory or place DSLOAMod in \<path-to-game\> and run it from there.
+
+Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
 Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working and using the HD mod will make most of the world transparent.
 
@@ -703,20 +759,27 @@ Utraean Peninsula:
 
 This document wouldn't have been possible without the following people:
 
+- .orix (Discord) - lots of fixes
 - [0xff](https://www.twitch.tv/0xff2)
 - [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
+https://steamcommunity.com/id/
+- [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
 - [Antrad2020](https://antonior-software.blogspot.com)
+- Azlaroc - 100$ donation
+- bawnerbaw (Discord) - save convertion guide
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
+- coop13 (Discord) - white texture fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
-- Eksevis#8120 (Discord)
-- Father Bronze
-- Killah
-- Orix#9582 (Discord)
-- Player#7716 (Discord)
-- sadowson#5553 (Discord)
-- Starfall#6010 (Discord)
+- eksevis (Discord)
+- Father Bronze - SP version of Yesterhaven
+- [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
+- Killah - LOA guide and DS community
+- sadowson (Discord) - lots of fixes
+- starfalll (Discord) - lots of fixes
 - The Walkthrough King
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
+- tristanzz (Discord) - import character guide
+- [Tyler799](https://github.com/Tyler799) - format used for this guide
 
 And the following resources:
 
@@ -732,4 +795,4 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me 3 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).
+You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).

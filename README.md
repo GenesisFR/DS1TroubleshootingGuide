@@ -12,7 +12,7 @@
    * [2.6 Enable LOA + Extras](#enable-loa--extras)
    * [2.7 Enable MP](#enable-mp)
    * [2.8 HD textures](#hd-textures)
-   * [2.9 Import a character]
+   * [2.9 Import a character](#import-a-character)
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
    * [2.11 Increase UI size](#increase-ui-size)
    * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
@@ -30,8 +30,8 @@
    * [3.4 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
    * [3.5 Crash/exception](#crashexception)
    * [3.6 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [3.7 Game screen is offset](#game-screen-is-offset)
-   * [3.8 Game freezes during cutscenes](#game-freezes-during-cutscenes)
+   * [3.7 Game freezes during cutscenes](#game-freezes-during-cutscenes)
+   * [3.8 Game screen is offset](#game-screen-is-offset)
    * [3.9 Incompatible version](#incompatible-version)
    * [3.10 Lag in MP](#lag-in-mp)
    * [3.11 Mouse cursor is missing](#mouse-cursor-is-missing)
@@ -443,7 +443,7 @@ This can be caused by dgVoodoo2. Potential fixes include:
 
 - Running the game without it.
 - Running the game on LAN.
-- Running the game online through a VPN-like software (ex: Hamachi, ZeroTier).
+- Running the game on LAN through a VPN-like software (ex: Hamachi, ZeroTier).
 
 ## Mouse cursor is missing
 
@@ -467,7 +467,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c6
 
 ## Mouse cursor is stuck
 
-Disable DPI scaling. Follow the same instructions as the "[game screen is offset](#game-screen-is-offset)" section.
+Disable DPI scaling. Follow the same instructions as in the "[game screen is offset](#game-screen-is-offset)" section.
 
 Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 
@@ -537,7 +537,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 ## Some resources haven't been copied to the hard disk
 
-You're missing some core files (most likely "\<path-to-game\>\Resources\logic.dsres". Reinstall the game.
+You're missing some core files (most likely "\<path-to-game\>\Resources\logic.dsres"). Reinstall the game.
 
 ## Sorry, this save game was not created by Legends of Aranna and cannot be loaded
 
@@ -576,7 +576,7 @@ If you're experiencing missing animations or freezes in the character creator, t
 
 ## Virtual alloc failed with error
 
-The game is running out of memory. It's usually due to running memory intensive mods such as the HD textures mod.
+The game is running out of memory. It's usually due to using memory intensive mods such as the HD textures.
 
 Make the game's executable large-address aware using the [LAA enabler](https://www.pcgamingwiki.com/wiki/Windows#Set_older_32-bit_games_to_use_4_GB_RAM_instead_of_2) so it can use more RAM.
 
@@ -762,7 +762,6 @@ This document wouldn't have been possible without the following people:
 - .orix (Discord) - lots of fixes
 - [0xff](https://www.twitch.tv/0xff2)
 - [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
-https://steamcommunity.com/id/
 - [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
 - [Antrad2020](https://antonior-software.blogspot.com)
 - Azlaroc - 100$ donation

@@ -378,7 +378,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Right-click "DungeonSiege.exe" then hit "Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color".
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
-- Some mods don't work on LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
+- Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure the "My Documents" directory is on your C drive.
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).

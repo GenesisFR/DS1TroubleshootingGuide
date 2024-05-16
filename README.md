@@ -702,7 +702,7 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 
 ## Tank Creator doesn't work
 
-If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
+If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your TEMP directory to the exclusion list as that's where RPC (the underlying program to Tank Creator) is executed from.
 
 ## View a protected tank
 

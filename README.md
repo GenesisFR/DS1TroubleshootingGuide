@@ -611,7 +611,7 @@ Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://s
 
 ## Cannot download GMAX when installing the toolkit
 
-You can get GMAX from [here](https://www.turbosquid.com/gmax).
+You can get GMAX from [here](https://archive.org/details/gmax-1.2-with-registration-key).
 
 ## D3D Initialization Failure
 

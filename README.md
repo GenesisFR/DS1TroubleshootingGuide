@@ -155,6 +155,8 @@ Recompile the save:
 
 You should now be able to load your save in LOA. The inventory of your mules may become glitched though (see [Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)).
 
+If you prefer a visual guide, see [this](https://steamcommunity.com/sharedfiles/filedetails/?id=2218528449).
+
 Source: https://discordapp.com/channels/373223103985090581/400744824593973248/587998587112259584
 
 ## Enable EAX
@@ -651,7 +653,7 @@ Scenario 2:
 
 If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
 
-Note: see [shadows are missing](#shadows-are-missing) and [textures are not loading](#textures-are-not-loading) for potential issues.
+Note: see [Shadows are missing](#shadows-are-missing) and [Textures are not loading](#textures-are-not-loading) for potential issues.
 
 ## Make DSLOAMod work on the Steam version
 
@@ -669,7 +671,7 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
-Note: see [shadows are missing](#shadows-are-missing) and [textures are not loading](#textures-are-not-loading) for potential issues.
+Note: see [Shadows are missing](#shadows-are-missing) and [Textures are not loading](#textures-are-not-loading) for potential issues.
 
 ## Make Siege Editor work on the Steam version
 
@@ -774,7 +776,7 @@ This document wouldn't have been possible without the following people:
 - [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
 - [Antrad2020](https://antonior-software.blogspot.com)
 - Azlaroc - 100$ donation
-- bawnerbaw (Discord) - save convertion guide
+- bawnerbaw (Discord) - save conversion guide
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
 - coop13 (Discord) - white texture fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
@@ -783,6 +785,7 @@ This document wouldn't have been possible without the following people:
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community
 - sadowson (Discord) - lots of fixes
+- [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)

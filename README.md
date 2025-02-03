@@ -41,19 +41,21 @@
    * [3.15 Poor performance](#poor-performance)
    * [3.16 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
    * [3.17 Save failed](#save-failed)
-   * [3.18 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
-   * [3.19 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.20 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.21 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.22 UI/cursor flickering](#uicursor-flickering)
-   * [3.23 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.24 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.25 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.26 White textures](#white-textures)
-   * [3.27 Window is offscreen](#window-is-offscreen)
-   * [3.28 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.29 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.30 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.18 Shadows are missing](#shadows-are-missing)
+   * [3.19 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.20 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.21 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.22 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.23 Textures are not loading](#textures-are-not-loading)
+   * [3.24 UI/cursor flickering](#uicursor-flickering)
+   * [3.25 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.26 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.27 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.28 White textures](#white-textures)
+   * [3.29 Window is offscreen](#window-is-offscreen)
+   * [3.30 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.31 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.32 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
@@ -534,6 +536,10 @@ Note: it happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
+## Shadows are missing
+
+This is caused by setting "shadow_tex_size" too high for DSMod/DSLOAMod, thus preventing them from working. DSMod/DSLOAMod don't support anything above a resolution of 256, therefore set "shadow_tex_size" to 256 or less.
+
 ## Some resources haven't been copied to the hard disk
 
 You're missing some core files (most likely "\<path-to-game\>\Resources\logic.dsres"). Reinstall the game.
@@ -555,6 +561,10 @@ This may happen after hosting/joining a multiplayer session.
 - Disable any kind of frame limiter.
 - Disable any kind of vertical synchronization (including in dgVoodoo2) and FreeSync/G-Sync.
 - This was also caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older or newer drivers. You may find them using this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) or this [one](https://www.nvidia.in/drivers/beta).
+
+## Textures are not loading
+
+This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore making most of the world transparent. DSMod/DSLOAMod don't support anything above a resolution of 256 so you have remove the mod.
 
 ## UI/cursor flickering
 
@@ -641,7 +651,7 @@ Scenario 2:
 
 If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
 
-Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working.
+Note: see [shadows are missing](#shadows-are-missing) and [textures are not loading](#textures-are-not-loading) for potential issues.
 
 ## Make DSLOAMod work on the Steam version
 
@@ -659,7 +669,7 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
-Note: setting "shadow_tex_size" higher than 256 will prevent shadows from working and using the HD mod will make most of the world transparent.
+Note: see [shadows are missing](#shadows-are-missing) and [textures are not loading](#textures-are-not-loading) for potential issues.
 
 ## Make Siege Editor work on the Steam version
 

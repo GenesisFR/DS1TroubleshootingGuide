@@ -201,10 +201,9 @@ Note: 512 and above can be VERY taxing in forests when using the "All complex" s
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
-1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
-2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and all files from the "MS\x86" subfolder (except D3D9.dll) to \<path-to-game\>.
-3. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
-4. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
+1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
+2. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
+3. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
 
 Note: these instructions won't work while running the game in windowed mode.
 
@@ -272,7 +271,7 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
 
-You'll need [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
+You'll need [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 
 ## Use unsupported resolutions
 
@@ -382,7 +381,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure the "My Documents" directory is on your C drive.
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
-- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 
 Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to \<path-to-docs\> (or \<path-to-docs-LOA\> if you're using LOA).
 

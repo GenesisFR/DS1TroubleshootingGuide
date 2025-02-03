@@ -199,7 +199,7 @@ If you want to import an existing character into a single player game, do the fo
 
 Open "\<path-to-game\>\system_detail.gas" and change the 10 occurrences of "shadow_tex_size	= 64" to 128/256/512/1024. You can do a search and replace on "= 64".
 
-Note: 512 and above can be VERY taxing in forests when using the "All complex" setting (in that case, switch to "Party complex"). Values higher than 1024 may prevent the game from loading.
+Note: 512 and above can be VERY taxing when using the "All complex" setting, especially in forests (in that case, switch to "Party complex"). Values higher than 1024 (or 256 for DSLOAMod) may prevent the game from loading.
 
 ## Increase UI size
 
@@ -369,9 +369,9 @@ Your game files are corrupted. Reinstall the game.
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
 
-- Run "\<path-to-game\>\DSVideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
 - Use simple shadows (Options -\> Shadows -\> Simple) or disable them.
 - Lower object quality (Options -\> Object Detail).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
@@ -384,8 +384,9 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure the "My Documents" directory is on your C drive.
+- Run "\<path-to-game\>\DSVideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
+- Lower your shadow resolution to 256, see [Increase shadow resolution](#increase-shadow-resolution).
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
-- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 
 Note: DSVideoConfig only edits "\<path-to-game\>\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to \<path-to-docs\> (or \<path-to-docs-LOA\> if you're using LOA).
 
@@ -540,7 +541,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 ## Shadows are missing
 
-This is caused by setting "shadow_tex_size" too high for DSMod/DSLOAMod, thus preventing them from working. DSMod/DSLOAMod don't support anything above a resolution of 256, therefore set "shadow_tex_size" to 256 or less.
+This is caused by setting "shadow_tex_size" too high for DSMod/DSLOAMod, thus preventing them from working. DSMod/DSLOAMod don't support anything above a resolution of 256, therefore set "shadow_tex_size" to 256 or less. Besides, DSLOAMod crashes with shadow resolution set above 256.
 
 ## Some resources haven't been copied to the hard disk
 
@@ -663,11 +664,11 @@ DSLOAMod won't get installed unless LOA is installed. On top of that, it uses Sm
 
 If you don't want to go this route, I created a [mini image](https://www.mediafire.com/file/a7cxee61t49v17f/DSLOA1+mini+image.iso) that will satisfy the disc check.
 
-Just mount the ISO with Windows 10 File Explorer or with a third party software (like WinCDEmu) before running DSLOAMod.
+Just mount the ISO with Windows File Explorer or with a third party software (like WinCDEmu) before running DSLOAMod.
 
 If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DSLOAMod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory or place DSLOAMod in \<path-to-game\> and run it from there.
+You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory, place DSLOAMod in \<path-to-game\> and run it from there, or open Task Manager and end the task for "Protection Stub (32-bit)".
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
@@ -701,7 +702,7 @@ You can ignore the "xp_" warnings when starting the editor (they'll pop up if yo
 - "\<path-to-game\>\Maps\XPMap.dsmap"
 - "\<path-to-game\>\Resources\XPRes.dsres"
 
-Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored.
+Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored and using the HD textures mod will make them white.
 
 ## Remove a tank protection
 

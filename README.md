@@ -352,7 +352,7 @@ Note: if you save again, your new saved game will only be accessible from DSLOAM
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the Steam version. Use [Killah's fix](#enable-mp).
+The multiplayer and anything related to it was disabled in the Steam version. Use [Killah's fix](#enable-loa--extras).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 

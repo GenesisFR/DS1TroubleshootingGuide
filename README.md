@@ -423,7 +423,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/620696522225972749/#c
 
 When playing MP, it's important that everyone uses EXACTLY the same files.
 
-The game performs a CRC check on all files. If check values between clients don't match, the game won't let you join someone else's game. It's often caused by different executables, resources and game language. Even an additional resource (typically a mod) will cause it.
+The game performs a CRC check on all files. If files between clients don't match, the game won't let you join someone else's game. It's often caused by different executables, resources and languages (when mixing different writing systems like Latin and Cyrillic for instance). Even an additional resource (typically a mod), as insignificant as it may be, can cause a mismatch.
 
 Here are the files that differ between the Steam and retail versions:
 
@@ -782,6 +782,7 @@ This document wouldn't have been possible without the following people:
 - coop13 (Discord) - white texture fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - eksevis (Discord)
+- Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community

@@ -22,7 +22,8 @@
    * [2.16 Play windowed](#play-windowed)
    * [2.17 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
    * [2.18 Run the game above 1080p](#run-the-game-above-1080p)
-   * [2.19 Use unsupported resolutions](#use-unsupported-resolutions)
+   * [2.19 Run the game on Linux](#run-the-game-on-linux)
+   * [2.20 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
    * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
@@ -278,6 +279,35 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
 
 You'll need [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
+
+## Run the game on Linux
+
+PlayOnLinux (or PlayOnMac) is recommended to ease the process. I'm using PlayOnLinux and therefore the WINEPREFIX is set to `~/.PlayOnLinux/wineprefix/ds` which may differ on your setup.
+
+### Requirements
+
+Install Vulkan on your computer using the [recommended packages for your graphic card](https://wiki.archlinux.org/index.php/Vulkan). You should install every package for 32-bit applications. For Intel platforms: `vulkan-intel`, `lib32-vulkan-intel`, `vulkan-icd-loader`, `lib32-vulkan-icd-loader`, `vulkan-tools`. Once the command `vulkaninfo` doesn't report errors anymore, you're good to go.
+
+### Install DS/DSLOA
+
+In PlayOnLinux, use the `Install a non-listed program` link or create a new virtual drive. Wine should be at least version 5.21. You can use PlayOnLinux to install the following libraries:
+
+- `directplay` (for networking capabilities)
+- `mfc42` (Microsoft Foundation Class library)
+- `DXVK_172` (DirectX for Vulkan)
+
+If you want to use the command-line, [install setup_dxvk](https://wiki.archlinux.org/index.php/Wine#DXVK) and use:
+
+```
+WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winetricks mfc42 directplay
+WINEPREFIX=~/.PlayOnLinux/wineprefix/ds setup_dxvk install
+```
+
+You can now install the game. I used the old CD version, just mount CD1, run the Setup.exe. Then when it asks for CD2, mount the CD2 at the exact same location and it should work. 
+
+To fix the main menu resolution issues you need to configure Wine (use the PlayOnLinux button or run `WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winecfg`), in Graphics enable "Emulate a virtual desktop".
+
+Note: if you have weird glitches, switch to desktop and back to the game, they should disappear.
 
 ## Use unsupported resolutions
 
@@ -803,6 +833,7 @@ This document wouldn't have been possible without the following people:
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
+- [soyuka](https://github.com/soyuka)
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 - tristanzz (Discord) - import character guide
 - [Tyler799](https://github.com/Tyler799) - format used for this guide

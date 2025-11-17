@@ -62,7 +62,7 @@
    * [4.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
    * [4.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
    * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.6 Remove a tank protection](#remove-a-tank-protection)
+   * [4.6 Remove a tank's protection](#remove-a-tanks-protection)
    * [4.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
    * [4.8 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
@@ -704,10 +704,10 @@ You can ignore the "xp_" warnings when starting the editor (they'll pop up if yo
 
 Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored and using the HD textures mod will make them white.
 
-## Remove a tank protection
+## Remove a tank's protection
 
 1. Open your protected tank with an Hex Editor.
-2. Go to offset 38 and replace 04 by 00.
+2. Go to offset 38 and replace its value (it can be 04, 05, 06 or 07) by 00.
 3. Save the file.
 
 Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/814904645815105/?comment_id=814930495812520

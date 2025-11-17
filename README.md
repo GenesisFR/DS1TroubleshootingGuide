@@ -48,7 +48,7 @@
    * [3.22 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.23 Textures are not loading](#textures-are-not-loading)
    * [3.24 UI/cursor flickering](#uicursor-flickering)
-   * [3.25 Unable to access or create a critical path that is required to operate](#unable-to-create-a-critical-path-that-is-required-to-operate)
+   * [3.25 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
    * [3.26 Unable to create a new character](#unable-to-create-a-new-character)
    * [3.27 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
    * [3.28 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
@@ -579,13 +579,13 @@ This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore makin
 - Run the game on your other GPU (if you have one).
 - Run the game in fullscreen or [windowed](#play-windowed) mode.
 
+## Unable to access or create a critical path that is required to operate
+
+This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>). Add the corresponding executable to the exclusion list.
+
 ## Unable to create a new character
 
 If you're experiencing missing animations or freezes in the character creator, this may be caused by third party softwares such as XFire or Raptr. You should disable them or uninstall them as they've been discontinued a long time ago.
-
-## Unable to access or create a critical path that is required to operate
-
-This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>). Add the game to the exclusion list.
 
 ## Unable to enumerate any DirectDraw devices installed on this system
 

@@ -769,6 +769,8 @@ Utraean Peninsula:
 - https://www.siegetheday.org (unofficial community)
 - https://sites.google.com/view/chickengeorgemods/modding (modding tools)
 - https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
+- https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468 (cheat codes)
+- https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468/#c2275953283817676368 (launch parameters)
 - http://www.trogworld.com/ds.htm (DS mods)
 - https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
 
@@ -798,6 +800,7 @@ This document wouldn't have been possible without the following people:
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 - tristanzz (Discord) - import character guide
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
+- [youare29](https://steamcommunity.com/id/youare29) - launch parameters
 
 And the following resources:
 

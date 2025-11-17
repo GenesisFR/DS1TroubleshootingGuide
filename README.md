@@ -48,14 +48,15 @@
    * [3.22 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.23 Textures are not loading](#textures-are-not-loading)
    * [3.24 UI/cursor flickering](#uicursor-flickering)
-   * [3.25 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.26 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.27 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.28 White textures](#white-textures)
-   * [3.29 Window is offscreen](#window-is-offscreen)
-   * [3.30 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.31 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.32 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.25 Unable to access or create a critical path that is required to operate](#unable-to-create-a-critical-path-that-is-required-to-operate)
+   * [3.26 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.27 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.28 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.29 White textures](#white-textures)
+   * [3.30 Window is offscreen](#window-is-offscreen)
+   * [3.31 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.32 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.33 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
@@ -383,7 +384,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
-- Make sure the "My Documents" directory is on your C drive.
+- Make sure <path-to-docs> is on your C drive.
 - Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
 - Lower your shadow resolution to 256, see [Increase shadow resolution](#increase-shadow-resolution).
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
@@ -581,6 +582,10 @@ This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore makin
 ## Unable to create a new character
 
 If you're experiencing missing animations or freezes in the character creator, this may be caused by third party softwares such as XFire or Raptr. You should disable them or uninstall them as they've been discontinued a long time ago.
+
+## Unable to access or create a critical path that is required to operate
+
+This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>). Add the game to the exclusion list.
 
 ## Unable to enumerate any DirectDraw devices installed on this system
 

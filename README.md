@@ -773,6 +773,7 @@ Utraean Peninsula:
 - https://www.nexusmods.com/dungeonsiege1 (mods)
 - https://www.siegetheday.org (unofficial community)
 - https://sites.google.com/view/chickengeorgemods/modding (modding tools)
+- https://steamcommunity.com/app/39190/discussions/0/1813170373233918779 (Steam thread for this guide)
 - https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
 - https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468 (cheat codes)
 - https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468/#c2275953283817676368 (launch parameters)

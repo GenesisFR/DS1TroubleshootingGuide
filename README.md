@@ -616,7 +616,17 @@ This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore makin
 
 ## Unable to access or create a critical path that is required to operate
 
-This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>). Add the corresponding executable to the exclusion list.
+This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>).
+
+Add the game to the allowed apps list:
+
+1. Open Windows Security.
+2. Navigate to Virus & Threat Protection.
+3. Click on Manage Settings.
+4. Scroll down to Controlled Folder Access.
+5. Click on Manage Controlled Folder Access.
+6. Click on Allow an app through Controlled Folder Access.
+7. Click on Add an allowed app then Browse all apps and select "<path-to-game>\DungeonSiege.exe" (or "<path-to-game>\DSLOA.exe" for LOA).
 
 ## Unable to create a new character
 
@@ -831,9 +841,9 @@ This document wouldn't have been possible without the following people:
 - Killah - LOA guide and DS community
 - sadowson (Discord) - lots of fixes
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
+- [soyuka](https://github.com/soyuka) - Linux guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
-- [soyuka](https://github.com/soyuka)
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 - tristanzz (Discord) - import character guide
 - [Tyler799](https://github.com/Tyler799) - format used for this guide

@@ -48,18 +48,19 @@
    * [3.21 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
    * [3.22 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
    * [3.23 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.24 Textures are not loading](#textures-are-not-loading)
-   * [3.25 Translations partially working](#translations-partially-working)
-   * [3.26 UI/cursor flickering](#uicursor-flickering)
-   * [3.27 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
-   * [3.28 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.29 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.30 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.31 White textures](#white-textures)
-   * [3.32 Window is offscreen](#window-is-offscreen)
-   * [3.33 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.34 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.35 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.24 Text has artefacts](#text-has-artefacts)
+   * [3.25 Textures are not loading](#textures-are-not-loading)
+   * [3.26 Translations partially working](#translations-partially-working)
+   * [3.27 UI/cursor flickering](#uicursor-flickering)
+   * [3.28 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.29 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.30 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.31 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.32 White textures](#white-textures)
+   * [3.33 Window is offscreen](#window-is-offscreen)
+   * [3.34 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.35 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.36 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
@@ -616,6 +617,10 @@ This may happen after hosting/joining a multiplayer session.
 - Disable any kind of frame limiter.
 - Disable any kind of vertical synchronization (including in dgVoodoo2) and FreeSync/G-Sync.
 - This was also caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older or newer drivers. You may find them using this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) or this [one](https://www.nvidia.in/drivers/beta).
+
+## Text has artefacts
+
+If you notice some vertical lines between characters, run dgVoodooCpl.exe, go to the DirectX tab and select "App driven" next to Filtering.
 
 ## Textures are not loading
 

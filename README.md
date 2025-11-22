@@ -207,13 +207,21 @@ Note: 512 and above can be VERY taxing when using the "All complex" setting, esp
 
 ## Increase UI size
 
-If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
+If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny.
+
+There are 2 methods to make it scale. The first one involves rendering the game at your native resolution and the UI at a lower resolution (effectively making it bigger) while the second one involves using a (cheap) commercial software.
+
+Method 1:
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 2. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
 3. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
 
-Note: these instructions won't work while running the game in windowed mode.
+Note: it won't work while in windowed mode.
+
+Method 2:
+
+Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=3474753395).
 
 ## Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version
 
@@ -846,6 +854,7 @@ This document wouldn't have been possible without the following people:
 - Azlaroc - 100$ donation
 - bawnerbaw (Discord) - save conversion guide
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
+- [Casual Sun](https://steamcommunity.com/profiles/76561198102676021) - Lossless Scaling guide
 - coop13 (Discord) - white texture fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - eksevis (Discord)

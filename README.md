@@ -410,7 +410,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
 - Disable overlays (Steam, GOG, Discord, etc).
-- Right-click "DungeonSiege.exe" then hit "Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color".
+- Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color".
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
@@ -430,7 +430,8 @@ You're running the game in a resolution not supported by your graphics card or a
 
 - Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" as administrator.
 - Make sure [\<path-to-docs\>](#glossary) is not read-only.
-- Disable your anti-virus.
+- Add the game as an exception in your anti-virus settings.
+- Allow the game through [Controlled Folder Access](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate).
 
 Source: https://www.facebook.com/photo.php?fbid=710028262735915
 
@@ -442,7 +443,7 @@ This may be caused by the game unable to teleport your other characters if they'
 
 If your game looks zoomed in, it's likely caused by your screen scaling settings.
 
-1. Right-click "DungeonSiege.exe" then hit "Properties".
+1. Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties".
 2. Go to "Compatibility -\> Change high DPI settings".
 3. Check "Override high DPI scaling behaviour" and make sure "Application" is selected in the drop-down menu.
 
@@ -613,7 +614,7 @@ This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore makin
 
 ## UI/cursor flickering
 
-- Right-click "DungeonSiege.exe" then hit "Properties -\> Compatibility -\> Reduced color mode -\> 16-bit (65536) color".
+- Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties -\> Compatibility -\> Reduced color mode -\> 16-bit (65536) color".
 - Make sure it says "bpp = 32" in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 - Disable any kind of antialiasing in your GPU driver settings.
 - Press the Windows key to minimize the game then maximize it.
@@ -622,7 +623,7 @@ This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore makin
 
 ## Unable to access or create a critical path that is required to operate
 
-This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing \<path-to-docs\> (or \<path-to-docs-LOA\>).
+This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
 Add the game to the allowed apps list:
 
@@ -632,7 +633,7 @@ Add the game to the allowed apps list:
 4. Scroll down to Controlled Folder Access.
 5. Click on Manage Controlled Folder Access.
 6. Click on Allow an app through Controlled Folder Access.
-7. Click on Add an allowed app then Browse all apps and select "<path-to-game>\DungeonSiege.exe" (or "<path-to-game>\DSLOA.exe" for LOA).
+7. Click on Add an allowed app then Browse all apps and select "[\<path-to-game\>](#glossary)\DungeonSiege.exe" (or "[\<path-to-game\>](#glossary)\DSLOA.exe" for LOA).
 
 ## Unable to create a new character
 

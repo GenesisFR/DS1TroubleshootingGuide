@@ -49,16 +49,17 @@
    * [3.22 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
    * [3.23 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.24 Textures are not loading](#textures-are-not-loading)
-   * [3.25 UI/cursor flickering](#uicursor-flickering)
-   * [3.26 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
-   * [3.27 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.28 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.29 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.30 White textures](#white-textures)
-   * [3.31 Window is offscreen](#window-is-offscreen)
-   * [3.32 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.33 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.34 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.25 Translations partially working](#translations-partially-working)
+   * [3.26 UI/cursor flickering](#uicursor-flickering)
+   * [3.27 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.28 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.29 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.30 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.31 White textures](#white-textures)
+   * [3.32 Window is offscreen](#window-is-offscreen)
+   * [3.33 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.34 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.35 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
@@ -611,6 +612,12 @@ This may happen after hosting/joining a multiplayer session.
 ## Textures are not loading
 
 This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore making most of the world transparent. DSMod/DSLOAMod don't support anything above a resolution of 256 so you have remove the mod.
+
+## Translations partially working
+
+If after adding a language pack, you notice that some things are translated but others aren't, first make sure you're using the LOA version of the language pack if you're playing LOA.
+
+If there still seems to be missing translations, it's because anything that already exists in-game (ex: actor names, item names and descriptions) will have its data loaded from the save file, not the resource file. Anything newly loaded (ex: new item drops) should load data from the resource file.
 
 ## UI/cursor flickering
 

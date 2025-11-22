@@ -415,7 +415,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
-- Make sure <path-to-docs> is on your C drive.
+- Make sure [\<path-to-docs\>](#glossary) is on your C drive.
 - Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
 - Lower your shadow resolution to 256, see [Increase shadow resolution](#increase-shadow-resolution).
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
@@ -515,6 +515,12 @@ Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 
 - [Enable DirectDraw acceleration](https://superuser.com/a/504510).
 - Follow [doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
+- If it still doesn't show up, follow these steps:
+
+1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7) (keep the default settings).
+2. Add DSVideoConfig and DungeonSiege.exe in Windows settings > System > Display > Graphics (set both to High Performance).
+3. Choose your dedicated GPU in DSVideoConfig (don't select dgVoodoo DirectX Wrapper).
+4. Copy "[\<path-to-game\>](#glossary)\DungeonSiege.ini" to [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
 ## Packmule inventory is inaccessible
 

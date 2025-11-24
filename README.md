@@ -49,7 +49,7 @@
    * [3.22 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
    * [3.23 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.24 Text has artefacts](#text-has-artefacts)
-   * [3.25 Textures are not loading](#textures-are-not-loading)
+   * [3.25 Textures not loading](#textures-not-loading)
    * [3.26 Translations partially working](#translations-partially-working)
    * [3.27 UI/cursor flickering](#uicursor-flickering)
    * [3.28 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
@@ -620,9 +620,11 @@ This may happen after hosting/joining a multiplayer session.
 
 ## Text has artefacts
 
-If you notice some vertical lines between characters, run dgVoodooCpl.exe, go to the DirectX tab and select "App driven" next to Filtering.
+This is caused by dgVoodoo2 making vertical lines appear between characters.
 
-## Textures are not loading
+Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven" and Antialiasing (MSAA) to "Off".
+
+## Textures not loading
 
 This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore making most of the world transparent. DSMod/DSLOAMod don't support anything above a resolution of 256 so you have remove the mod.
 

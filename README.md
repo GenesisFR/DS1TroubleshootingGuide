@@ -70,7 +70,8 @@
    * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
    * [4.6 Remove a tank's protection](#remove-a-tanks-protection)
    * [4.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [4.8 View a protected tank](#view-a-protected-tank)
+   * [4.8 Tank Viewer 2 doesn't work](#tank-viewer-2-doesnt-work)
+   * [4.9 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
 * [7.0 Credits](#credits)
@@ -641,7 +642,7 @@ This may happen after hosting/joining a multiplayer session.
 
 This is caused by dgVoodoo2 not scaling the game correctly, making vertical lines appear between some characters, causing some of them to be offset vertically and even featuring some kind of blur around the cursor. Basically, the higher you go above 1080p, the more visual artefacts you'll start to notice as DS was never designed to go above 1080p.
 
-Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven", Antialiasing (MSAA) to "Off" and set "Resolution" to one of the ISF resolutions.
+Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven", Antialiasing (MSAA) to "Off" and Resolution to one of the ISF resolutions.
 
 ## Textures not loading
 
@@ -813,6 +814,10 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 ## Tank Creator doesn't work
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your TEMP directory to the exclusion list as that's where RPC (the underlying program to Tank Creator) is executed from.
+
+## Tank Viewer 2 doesn't work
+
+If, for some reason, Tank Viewer 2 doesn't work for you, you can try this [unofficial](https://www.siegetheday.org/?q=node/2951) version or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
 
 ## View a protected tank
 

@@ -639,9 +639,9 @@ This may happen after hosting/joining a multiplayer session.
 
 ## Text has artefacts
 
-This is caused by dgVoodoo2 making vertical lines appear between characters.
+This is caused by dgVoodoo2 not scaling the game correctly, making vertical lines appear between some characters, causing some of them to be offset vertically and even featuring some kind of blur around the cursor. Basically, the higher you go above 1080p, the more visual artefacts you'll start to notice as DS was never designed to go above 1080p.
 
-Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven" and Antialiasing (MSAA) to "Off".
+Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven", Antialiasing (MSAA) to "Off" and set "Resolution" to one of the ISF resolutions.
 
 ## Textures not loading
 

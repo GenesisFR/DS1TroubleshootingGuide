@@ -121,7 +121,17 @@ Note: to change the game resolution, see method 1 or 3 of [Use unsupported resol
 
 ## Capture the game with OBS
 
-I discovered a special trick to capture the game's window while playing fullscreen (without using desktop capture).
+By default, the game can't be captured using game capture in OBS, there are 2 ways to work around it:
+
+Method 1:
+
+1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
+2. Add a game capture in OBS and leave it on "Capture any fullscreen application".
+3. Run the game. As long as dgVoodoo is working, OBS will automatically capture it.
+
+Note: the game will crash when loading games and going back to the main menu if it's still being captured (you can set a hotkey in OBS to toggle the visibility of the game capture so it stops capturing the game).
+
+Method 2:
 
 1. Run the game [windowed](#play-windowed).
 2. Add a window capture in OBS and select DS (stretch it to fullscreen if you want).

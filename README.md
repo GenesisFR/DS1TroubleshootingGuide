@@ -17,13 +17,14 @@
    * [2.11 Increase UI size](#increase-ui-size)
    * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
    * [2.13 Play borderless fullscreen](#play-borderless-fullscreen)
-   * [2.14 Play MP](#play-mp)
-   * [2.15 Play MP map in SP](#play-mp-map-in-sp)
-   * [2.16 Play windowed](#play-windowed)
-   * [2.17 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
-   * [2.18 Run the game above 1080p](#run-the-game-above-1080p)
-   * [2.19 Run the game on Linux](#run-the-game-on-linux)
-   * [2.20 Use unsupported resolutions](#use-unsupported-resolutions)
+   * [2.14 Play in other languages](#play-in-other-languages)
+   * [2.15 Play MP](#play-mp)
+   * [2.16 Play MP map in SP](#play-mp-map-in-sp)
+   * [2.17 Play windowed](#play-windowed)
+   * [2.18 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
+   * [2.19 Run the game above 1080p](#run-the-game-above-1080p)
+   * [2.20 Run the game on Linux](#run-the-game-on-linux)
+   * [2.21 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
    * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
@@ -262,6 +263,14 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game (see note below).
 
 Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid it.
+
+## Play in other languages
+
+The game on Steam is available in various languages, however these do not cover cutscenes, voices or LOA. Besides, the retail version featured all of that however language packs are hard to find and some fan translations have been done over time.
+
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on [Killah's pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
+
+Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
 ## Play MP
 
@@ -861,22 +870,29 @@ This document wouldn't have been possible without the following people:
 - Azlaroc - 100$ donation
 - bawnerbaw (Discord) - save conversion guide
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
+- [cagatay](https://steamcommunity.com/id/CagatayBaysal) - Turkish translation for LOA
 - [Casual Sun](https://steamcommunity.com/profiles/76561198102676021) - Lossless Scaling guide
 - coop13 (Discord) - white texture fix
-- [doa_92](https://steamcommunity.com/id/doa_92)
+- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for LOA
 - eksevis (Discord)
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
+- [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community
+- [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
+- Richard M - French translation for LOA
 - sadowson (Discord) - lots of fixes
+- [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
 - [soyuka](https://github.com/soyuka) - Linux guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
+- [TraductionJeux](https://traductionjeux.com) - French translation for DS
 - tristanzz (Discord) - import character guide
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
+- [WolfBelmi88](https://steamcommunity.com/sharedfiles/filedetails/?id=2053509500) - Spanish translation for LOA
 - [youare29](https://steamcommunity.com/id/youare29) - launch parameters
 
 And the following resources:

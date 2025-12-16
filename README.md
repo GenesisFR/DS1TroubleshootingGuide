@@ -65,12 +65,12 @@
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
-   * [4.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [4.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
-   * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.6 Remove a tank's protection](#remove-a-tanks-protection)
-   * [4.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [4.8 Tank Viewer 2 doesn't work](#tank-viewer-2-doesnt-work)
+   * [4.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [4.4 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
+   * [4.5 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
+   * [4.6 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [4.7 Remove a tank's protection](#remove-a-tanks-protection)
+   * [4.8 Tank Creator doesn't work](#tank-creator-doesnt-work)
    * [4.9 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
@@ -728,6 +728,10 @@ You can get GMAX from [here](https://archive.org/details/gmax-1.2-with-registrat
 
 Replace preferences.gas in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 
+## DS2TankViewer doesn't work
+
+If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
+
 ## Make DSMod work on the Steam version
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
@@ -814,10 +818,6 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 ## Tank Creator doesn't work
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your TEMP directory to the exclusion list as that's where RPC (the underlying program to Tank Creator) is executed from.
-
-## Tank Viewer 2 doesn't work
-
-If, for some reason, Tank Viewer 2 doesn't work for you, you can try this [unofficial](https://www.siegetheday.org/?q=node/2951) version or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
 
 ## View a protected tank
 

@@ -64,12 +64,12 @@
    * [3.36 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
-   * [4.2 D3D Initialization Failure](#d3d-initialization-failure)
-   * [4.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [4.4 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [4.5 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
-   * [4.6 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.7 Remove a tank's protection](#remove-a-tanks-protection)
+   * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [4.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
+   * [4.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
+   * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [4.6 Remove a tank's protection](#remove-a-tanks-protection)
+   * [4.7 Siege Editor doesn't work](#siege-editor-doesnt-work)
    * [4.8 Tank Creator doesn't work](#tank-creator-doesnt-work)
    * [4.9 View a protected tank](#view-a-protected-tank)
 * [5.0 Walkthroughs](#walkthroughs)
@@ -698,7 +698,8 @@ This usually happens when using dgVoodoo2.
 1. Run dgVoodooCpl.exe, go to the General tab and select one of the Direct3D 12 entries from the Output API drop down list.
 2. Go to the DirectX tab, tick "Fast memory access" and hit OK.
 3. Decrease [shadow resolution](#increase-shadow-resolution) to 512 or lower.
-4. If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
+
+Note: if you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
 
 ## Window is offscreen
 
@@ -723,10 +724,6 @@ Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [gui
 ## Cannot download GMAX when installing the toolkit
 
 You can get GMAX from [here](https://archive.org/details/gmax-1.2-with-registration-key).
-
-## D3D Initialization Failure
-
-Replace preferences.gas in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 
 ## DS2TankViewer doesn't work
 
@@ -814,6 +811,13 @@ Note: setting "shadow_tex_size" higher than 256 will yield another warning that 
 3. Save the file.
 
 Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/814904645815105/?comment_id=814930495812520
+
+## Siege Editor doesn't work
+
+If you get "D3D Initialization Failure" when running Siege Editor it's probably because your desktop resolution is above 1080p.
+
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7) and place it in the folder where you installed Siege Editor.
+- Replace preferences.gas in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 
 ## Tank Creator doesn't work
 

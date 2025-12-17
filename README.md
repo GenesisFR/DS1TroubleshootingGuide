@@ -386,11 +386,15 @@ Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-t
 
 ## Black screen at Gom
 
-When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera script that comes with LOA, which doesn't work properly when SeeFar is installed. It breaks one of the camera triggers during that cutscene, preventing it from completing.
+When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera script that comes with LOA, which doesn't work properly when SeeFar 2004/2020 is installed. It breaks one of the camera triggers during that cutscene, preventing it from completing.
 
-There are 2 ways to circumvent it.
+There are 3 ways to circumvent it.
 
 Method 1 (recommended):
+
+Use [Firstie's SeeFar](https://www.nexusmods.com/dungeonsiege1/mods/249).
+
+Method 2:
 
 1. Download this [hotfix](https://www.mediafire.com/file/auqjxy62co40tjh/koe_camera_hotfix.dsres).
 2. Place it in "[\<path-to-game\>](#glossary)\Resources".
@@ -805,7 +809,7 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 
 ## Siege Editor doesn't work
 
-If you get "D3D Initialization Failure" when running Siege Editor it's probably because your desktop resolution is above 1080p.
+If you get "D3D Initialization Failure" when running Siege Editor, it's probably because your desktop resolution is above 1080p.
 
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7) and place it in the folder where you installed Siege Editor.
 - Replace preferences.gas in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).

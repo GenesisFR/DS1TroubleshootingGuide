@@ -32,36 +32,37 @@
    * [3.4 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
    * [3.5 Crash/exception](#crashexception)
    * [3.6 D3D Initialization Failure](#d3d-initialization-failure)
-   * [3.7 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [3.8 Game freezes during cutscenes](#game-freezes-during-cutscenes)
-   * [3.9 Game screen is offset](#game-screen-is-offset)
-   * [3.10 Incompatible version](#incompatible-version)
-   * [3.11 Lag in MP](#lag-in-mp)
-   * [3.12 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.13 Mouse cursor is stuck](#mouse-cursor-is-stuck)
-   * [3.14 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.15 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
-   * [3.16 Poor performance](#poor-performance)
-   * [3.17 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.18 Save failed](#save-failed)
-   * [3.19 Shadows are missing](#shadows-are-missing)
-   * [3.20 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
-   * [3.21 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.22 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.23 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.24 Text has artefacts](#text-has-artefacts)
-   * [3.25 Textures not loading](#textures-not-loading)
-   * [3.26 Translations partially working](#translations-partially-working)
-   * [3.27 UI/cursor flickering](#uicursor-flickering)
-   * [3.28 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
-   * [3.29 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.30 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.31 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.32 White textures](#white-textures)
-   * [3.33 Window is offscreen](#window-is-offscreen)
-   * [3.34 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.35 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.36 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.7 Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode)
+   * [3.8 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
+   * [3.9 Game freezes during cutscenes](#game-freezes-during-cutscenes)
+   * [3.10 Game screen is offset](#game-screen-is-offset)
+   * [3.11 Incompatible version](#incompatible-version)
+   * [3.12 Lag in MP](#lag-in-mp)
+   * [3.13 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.14 Mouse cursor is stuck](#mouse-cursor-is-stuck)
+   * [3.15 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.16 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.17 Poor performance](#poor-performance)
+   * [3.18 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.19 Save failed](#save-failed)
+   * [3.20 Shadows are missing](#shadows-are-missing)
+   * [3.21 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.22 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.23 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.24 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.25 Text has artefacts](#text-has-artefacts)
+   * [3.26 Textures not loading](#textures-not-loading)
+   * [3.27 Translations partially working](#translations-partially-working)
+   * [3.28 UI/cursor flickering](#uicursor-flickering)
+   * [3.29 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.30 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.31 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.32 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.33 White textures](#white-textures)
+   * [3.34 Window is offscreen](#window-is-offscreen)
+   * [3.35 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.36 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.37 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
@@ -298,6 +299,8 @@ Install one of these mods:
 
 Add the "fullscreen=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)) or in the config file (see method 3 of [Use unsupported resolutions](#use-unsupported-resolutions)).
 
+Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
+
 ## Play Yesterhaven map in SP
 
 I made a drag-and-drop [archive](https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip) from [Father Bronze's Yesterhaven Single-Player Edition](http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other.
@@ -456,6 +459,10 @@ Note: DSVideoConfig only edits "[\<path-to-game\>](#glossary)\DungeonSiege.ini" 
 
 You're running the game in a resolution not supported by your graphics card or above 1080p. Use another resolution or see [Run the game above 1080p](#run-the-game-above-1080p).
 
+## Frame rate locked to 75 fps in windowed mode
+
+Add "maxfps = 0" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+
 ## Fuel failed to write file prefs.gas
 
 - Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" as administrator.
@@ -561,27 +568,11 @@ You have to remove items from your mule's inventory and hit the "Auto-arrange in
 
 ## Poor performance
 
-Run the game once then open [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) with a text editor. Make sure you have the following at the top:
-
-```
-driver_description = <gpu-model> - Hardware
-width = 1024
-height = 768
-bpp = 32
-bltonly = true ; highly recommended
-```
-
-You can also add this too, if you want:
-
-```
-nointro = true ; skips the intro logo
-fullscreen = false ; makes the game windowed
-maxfps = 62 ; limits the framerate
-```
+Add "bltonly = true" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
-Note: if the framerate is bad in windowed mode, applying the fixes from [UI/cursor flickering](#uicursor-flickering) may help.
+Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [UI/cursor flickering](#uicursor-flickering) may help.
 
 ## Requested display mode is unsupported
 

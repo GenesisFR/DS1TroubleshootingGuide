@@ -229,7 +229,7 @@ Method 1:
 
 Note: it won't work while in windowed mode.
 
-Method 2 :
+Method 2:
 
 Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=3474753395).
 

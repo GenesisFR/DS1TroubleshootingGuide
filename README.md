@@ -16,7 +16,7 @@
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
    * [2.11 Increase UI size](#increase-ui-size)
    * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
-   * [2.13 Play borderless fullscreen](#play-borderless-fullscreen)
+   * [2.13 Play in borderless fullscreen](#play-in-borderless-fullscreen)
    * [2.14 Play in other languages](#play-in-other-languages)
    * [2.15 Play MP](#play-mp)
    * [2.16 Play MP map in SP](#play-mp-map-in-sp)
@@ -137,14 +137,10 @@ Method 2:
 
 1. Run the game [windowed](#play-windowed).
 2. Add a window capture in OBS and select DS (stretch it to fullscreen if you want).
-3. Close DS and remove the launch parameter so it runs fullscreen.
+3. Close DS and undo what you did in step 1 so it runs fullscreen.
 4. Run the game again, OBS will still capture it.
 
-If you're not playing at your native resolution, just make sure you don't alt-tab otherwise it'll fit only part of the screen! If you have to alt-tab, you can either go back to the main menu and load your saved game, or add a Crop/Pad filter (relative) on your window capture to remove the black borders.
-
-If the game is not captured or listed in the drop-down menu at all, then I'd say you're either running the game in compatibility mode or as admin (OBS can't see processes with compatibility modes and won't list admin processes unless it's also run as admin). If it's not the case, then you're on a system with an integrated GPU and a dedicated GPU (like a laptop) and you may have to run the game on the same GPU that OBS is using.
-
-Note: it also works with other games, as long as they're using DX9 (or older) or OpenGL.
+Note: if you're not playing at your native resolution, just make sure you don't alt-tab otherwise it'll fit only part of the screen! If you have to alt-tab, you can either go back to the main menu and load your saved game, or add a Crop/Pad filter (relative) on your window capture to remove the black borders. If the game is not captured or listed in the drop-down menu at all, then you're either running the game in compatibility mode or as admin (OBS can't see processes with compatibility modes and won't list admin processes unless it's also run as admin). If it's not the case, then you're on a system with an integrated GPU and a dedicated GPU (like a laptop) and you may have to run the game on the same GPU that OBS is using. This method also works with other games, as long as they're using DX9 (or older) or OpenGL.
 
 ## Change the FOV
 
@@ -233,7 +229,7 @@ Method 1:
 
 Note: it won't work while in windowed mode.
 
-Method 2:
+Method 2 :
 
 Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=3474753395).
 
@@ -264,7 +260,7 @@ Please follow these steps for each mod to make sure everything is working proper
 
 Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
 
-## Play borderless fullscreen
+## Play in borderless fullscreen
 
 There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
 
@@ -286,7 +282,7 @@ Installing them is a simple as drag-and-dropping their content to [\<path-to-gam
 
 ## Play MP
 
-Run the game with the "zonematch=true" launch parameter to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
+Add "zonematch = true" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
 
 ## Play MP map in SP
 
@@ -297,7 +293,7 @@ Install one of these mods:
 
 ## Play windowed
 
-Add the "fullscreen=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)) or in the config file (see method 3 of [Use unsupported resolutions](#use-unsupported-resolutions)).
+Add "fullscreen = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
 
@@ -378,7 +374,7 @@ Method 4:
 2. Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" and select your custom resolution.
 3. Copy "[\<path-to-game\>](#glossary)\DungeonSiege.ini" to [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
-It's better to specify the resolution in launch parameters (method 2) compared to the configuration file (method 3 and 4) because it will prevent the game from changing it back to the default resolutions while navigating the options menu.
+When setting the resolution through launch parameters (method 2), it will prevent the game from changing it while navigating the options menu.
 
 Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
@@ -428,7 +424,7 @@ Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 ## Booted back to the MP menu when trying to host a game
 
 - Enable DirectPlay (see [Enable MP](#enable-mp)).
-- Add the "dpnsvr=false" launch parameter (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
+- Add "dpnsvr = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 ## Cannot find world:global:vosounds in gas tree
 
@@ -698,7 +694,7 @@ Note: if you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com
 
 ## Window is offscreen
 
-Add "x=0 y=0" to your launch parameters (see the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0)).
+Add "x=0" and "y=0" (each on a separate line) to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
 

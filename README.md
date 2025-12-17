@@ -884,6 +884,7 @@ This document wouldn't have been possible without the following people:
 - [Casual Sun](https://steamcommunity.com/profiles/76561198102676021) - Lossless Scaling guide
 - coop13 (Discord) - white texture fix
 - [doa_92](https://steamcommunity.com/id/doa_92) - German translation for LOA
+- [duyc37](https://archive.org/details/@duyc37) - Korean translation for DS
 - eksevis (Discord)
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
@@ -891,6 +892,7 @@ This document wouldn't have been possible without the following people:
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
+- [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
 - Richard M - French translation for LOA
 - sadowson (Discord) - lots of fixes
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS

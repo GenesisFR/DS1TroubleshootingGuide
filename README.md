@@ -82,9 +82,9 @@
 
 Shortcuts used throughout this document:
 
-DS = Dungeon Siege  
+DS = Dungeon Siege (base game)  
 GPU = Graphics Processing Unit (graphics card)  
-LOA = Legends of Aranna  
+LOA = Legends of Aranna (expansion)  
 MP = Multiplayer  
 SP = Singleplayer  
 \<config-file\> = "%USERPROFILE%\Documents\Dungeon Siege\DungeonSiege.ini"  
@@ -264,7 +264,7 @@ Note: all of these mods are NOT compatible with LOA. Please refer to their respe
 
 There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
 
-1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases) and run it.
+1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/latest) and run it.
 2. Run the game in [windowed](#play-windowed) mode.
 3. Switch back to Fullscreenizer.
 4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege" and click on "Add".
@@ -274,11 +274,13 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 ## Play in other languages
 
-The game on Steam is available in various languages, however these do not cover cutscenes, voices or LOA. Besides, the retail version featured all of that however language packs are hard to find and some fan translations have been done over time.
+The game on Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game released.
 
-Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on [Killah's pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
+
+Please note that the DS1 packs do not cover LOA so if you're playing LOA, pick the corresponding LOA pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
 
 ## Play MP
 

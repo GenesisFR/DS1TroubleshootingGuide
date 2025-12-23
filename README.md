@@ -649,6 +649,7 @@ If there still seems to be missing translations, it's because anything that alre
 
 ## UI/cursor flickering
 
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 - Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties -\> Compatibility -\> Reduced color mode -\> 16-bit (65536) color".
 - Make sure it says "bpp = 32" in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 - Disable any kind of antialiasing in your GPU driver settings.

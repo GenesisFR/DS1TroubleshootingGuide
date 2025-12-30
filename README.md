@@ -877,6 +877,7 @@ This document wouldn't have been possible without the following people:
 - [0xff](https://www.twitch.tv/0xff2)
 - [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
 - [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
+- ALI123 - Chinese translation for DS
 - [Antrad2020](https://antonior-software.blogspot.com)
 - Azlaroc - 100$ donation
 - bawnerbaw (Discord) - save conversion guide
@@ -894,6 +895,7 @@ This document wouldn't have been possible without the following people:
 - Killah - LOA guide and DS community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
+- Novy Disk - Russian translation for DS and LOA
 - Richard M. - French translation for LOA
 - sadowson (Discord) - lots of fixes
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS

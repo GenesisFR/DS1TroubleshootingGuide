@@ -848,28 +848,26 @@ Utraean Peninsula:
 
 # Links
 
-- https://discord.gg/PPsdY3D (unofficial community Discord)
-- http://ds.gemsite.org/web/index.php/main
-- http://ds-old.gemsite.org
-- http://ds.heavengames.com
-- http://ds2.bplaced.net/sysdat/ds1 ("system_detail.gas" configurator)
-- http://dungeonsiege.8m.net/train_univer.htm (modding documentation)
-- https://dungeonsiege.fandom.com/wiki/Dungeon_Siege (DS wiki)
-- https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna (LOA wiki)
-- https://www.facebook.com/groups/DungeonSiegeForever (unofficial Facebook page)
-- https://www.gamefront.com/games/dungeon-siege (DS mods)
-- https://www.gamefront.com/games/dungeon-siege-legend-of-aranna (LOA mods)
-- https://www.moddb.com/games/dungeon-siege (DS mods)
-- https://www.moddb.com/games/dungeon-siege-legend-of-aranna (LOA mods)
-- https://www.nexusmods.com/dungeonsiege1 (mods)
-- https://www.siegetheday.org (unofficial community)
-- https://sites.google.com/view/chickengeorgemods/modding (modding tools)
-- https://steamcommunity.com/app/39190/discussions/0/1813170373233918779 (Steam thread for this guide)
-- https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
-- https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468 (cheat codes)
-- https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468/#c2275953283817676368 (launch parameters)
-- http://www.trogworld.com/ds.htm (DS mods)
-- https://www.zhixalom.com/lair/category/dungeon-siege-1 (DS/LOA mods)
+- [Chicken George's Mods](https://sites.google.com/view/chickengeorgemods/modding) (modding tools)
+- [DS cheat codes](https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468)
+- [DS Heaven](http://ds.heavengames.com) (unofficial community)
+- [DS launch parameters](https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468/#c2275953283817676368)
+- [DS wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege)
+- [DS LOA wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
+- [Game Front DS](https://www.gamefront.com/games/dungeon-siege) (DS mods)
+- [Game Front LOA](https://www.gamefront.com/games/dungeon-siege-legend-of-aranna) (LOA mods)
+- [Gemsite](http://ds.gemsite.org/web/index.php/main) (unofficial community)
+- [KillerGremal's system_detail.gas configurator](http://ds2.bplaced.net/sysdat/ds1)
+- [Mod DB DS](https://www.moddb.com/games/dungeon-siege) (DS mods)
+- [Mod DB LOA](https://www.moddb.com/games/dungeon-siege-legend-of-aranna) (LOA mods)
+- [Nexus Mods](https://www.nexusmods.com/dungeonsiege1) (DS1/LOA mods)
+- [SiegeTheDay](https://www.siegetheday.org) (unofficial community)
+- [Steam thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779)
+- [Trog World](http://www.trogworld.com/ds.htm) (DS mods)
+- [Unofficial Discord](https://discord.gg/PPsdY3D)
+- [Unofficial Facebook page](https://www.facebook.com/groups/DungeonSiegeForever)
+- [Unofficial Steam group](https://steamcommunity.com/groups/TheKingdomOfEhb)
+- [Zhixalom's Lair](https://www.zhixalom.com/lair/category/dungeon-siege-1) (DS/LOA mods)
 
 # Credits
 
@@ -896,11 +894,11 @@ This document wouldn't have been possible without the following people:
 - Killah - LOA guide and DS community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
-- Richard M - French translation for LOA
+- Richard M. - French translation for LOA
 - sadowson (Discord) - lots of fixes
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
-- [soyuka](https://github.com/soyuka) - Linux guide
+- [soyuka](https://github.com/soyuka) - Linux installation guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
@@ -912,9 +910,9 @@ This document wouldn't have been possible without the following people:
 
 And the following resources:
 
-- https://pcgamingwiki.com/wiki/Dungeon_Siege
-- https://pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna
-- http://www.wsgf.org/dr/dungeon-siege
+- [PCGamingWiki DS](https://pcgamingwiki.com/wiki/Dungeon_Siege)
+- [PCGamingWiki LOA](https://pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
+- [WSGF](http://www.wsgf.org/dr/dungeon-siege)
 - GOG forums
 - Steam Community forums/guides
 

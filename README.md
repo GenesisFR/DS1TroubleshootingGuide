@@ -895,7 +895,7 @@ This document wouldn't have been possible without the following people:
 - Killah - LOA guide and DS community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
-- Novy Disk - Russian translation for DS and LOA
+- Novy Disk - Russian translation for LOA
 - Richard M. - French translation for LOA
 - sadowson (Discord) - lots of fixes
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS
@@ -909,6 +909,7 @@ This document wouldn't have been possible without the following people:
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
 - [WolfBelmi88](https://steamcommunity.com/sharedfiles/filedetails/?id=2053509500) - Spanish translation for LOA
 - [youare29](https://steamcommunity.com/id/youare29) - launch parameters
+- Youxia/Bahamut localization teams - Chinese translation for LOA
 
 And the following resources:
 

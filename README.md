@@ -401,7 +401,7 @@ Method 2:
 5. Proceed to beat Gom.
 6. Remove the hotfix (otherwise the initial cutscene of the LOA campaign will break).
 
-Method 2:
+Method 3:
 
 You have to import your party from your modded save to another save that doesn't use SeeFar. For your convenience, you can download an unmodded saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
 
@@ -891,6 +891,7 @@ This document wouldn't have been possible without the following people:
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
 - [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
+- Guilherme Tutilo - Brazilian Portuguese translation for LOA
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA

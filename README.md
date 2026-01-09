@@ -800,7 +800,7 @@ Note: setting "shadow_tex_size" higher than 256 will yield another warning that 
 
 ## Remove a tank's protection
 
-1. Open your protected tank with an Hex Editor.
+1. Open your protected tank with an [hex editor](https://hexed.it).
 2. Go to offset 38 and replace its value (it can be 04, 05, 06 or 07) by 00.
 3. Save the file.
 
@@ -904,6 +904,7 @@ This document wouldn't have been possible without the following people:
 - [soyuka](https://github.com/soyuka) - Linux installation guide
 - starfalll (Discord) - lots of fixes
 - The Walkthrough King
+- [Thrillvilled](https://github.com/RLR64) - online hex editor
 - [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 - [TraductionJeux](https://traductionjeux.com) - French translation for DS
 - tristanzz (Discord) - import character guide

@@ -791,10 +791,10 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting "shadow_render_target" to true seems to increase the framerate while using complex shadows (at least on my system). It can be used when not modding too!
 
-You can ignore the "xp_" warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you have to (re)move the "Return to Arhok" campaign. To do so, move/delete the following files:
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to move the "Return to Arhok" and "Yesterhaven" campaigns. To do so, move the following files out of your Resources folder:
 
-- "[\<path-to-game\>](#glossary)\Maps\XPMap.dsmap"
 - "[\<path-to-game\>](#glossary)\Resources\XPRes.dsres"
+- "[\<path-to-game\>](#glossary)\Resources\Yesterhaven.dsres"
 
 Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored and using the HD textures mod will make them white.
 

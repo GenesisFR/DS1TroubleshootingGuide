@@ -499,7 +499,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/620696522225972749/#c
 
 When playing MP, it's important that everyone uses EXACTLY the same files.
 
-The game performs a CRC check on all files. If files between clients don't match, the game won't let you join someone else's game. It's often caused by different executables, resources and languages (when mixing different writing systems like Latin and Cyrillic for instance). Even an additional resource (typically a mod), as insignificant as it may be, can cause a mismatch.
+The game performs a CRC check on all files. If files between clients don't match, the game won't let you join someone else's game. It's often caused by different executables, resources, languages (when mixing different writing systems like Latin and Cyrillic for instance) and DSDLLs. Even an additional resource (typically a mod), as insignificant as it may be, can cause a mismatch.
 
 Here are the files that differ between the Steam and retail versions:
 

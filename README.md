@@ -759,7 +759,7 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 
 1. Set your resolution to `1024x768` or lower from the main menu.
 2. Start a new game or load your saved game.
-3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix from [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45)).
+3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix, see method 1 of [Use unsupported resolutions](#use-unsupported-resolutions)).
 
 # Modding
 

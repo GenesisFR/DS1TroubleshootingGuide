@@ -63,20 +63,22 @@
    * [3.35 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
    * [3.36 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
    * [3.37 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
-* [4.0 Modding](#modding)
-   * [4.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
-   * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [4.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [4.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
-   * [4.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
-   * [4.6 Remove a tank's protection](#remove-a-tanks-protection)
-   * [4.7 Siege Editor doesn't work](#siege-editor-doesnt-work)
-   * [4.8 Tank Creator doesn't work](#tank-creator-doesnt-work)
-   * [4.9 View a protected tank](#view-a-protected-tank)
-* [5.0 Walkthroughs](#walkthroughs)
-* [6.0 Links](#links)
-* [7.0 Credits](#credits)
-* [8.0 Disclaimer](#disclaimer)
+* [4.0 Issues unresolved](#issues-unresolved)
+   * [4.1 Black portraits](#black-portraits)
+* [5.0 Modding](#modding)
+   * [5.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
+   * [5.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [5.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
+   * [5.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
+   * [5.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [5.6 Remove a tank's protection](#remove-a-tanks-protection)
+   * [5.7 Siege Editor doesn't work](#siege-editor-doesnt-work)
+   * [5.8 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [5.9 View a protected tank](#view-a-protected-tank)
+* [6.0 Walkthroughs](#walkthroughs)
+* [7.0 Links](#links)
+* [8.0 Credits](#credits)
+* [9.0 Disclaimer](#disclaimer)
 
 # Glossary
 
@@ -714,6 +716,40 @@ Lower the game's height (see [Use unsupported resolutions](#use-unsupported-reso
 ## Your hardware configuration is below minimum specification
 
 Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
+
+# Issues unresolved
+
+## Black portraits
+
+When using resolutions above 1024x768, you may encounter an issue where some character portraits will become black. It seems like the higher the width, the more aggravating the problem becomes. It starts happening above 1024x768, so any resolution like these are fine:
+
+- 640x480
+- 800x600
+- 1024x768
+
+While these are not fine:
+
+- 1152x864
+- 1280x720
+- 1280x768
+- 1280x800
+- 1280x960
+- 1280x1024
+- 1360x768
+- 1366x768
+- 1440x900
+- 1440x1080
+- 1600x900
+- 1600x1024
+- 1680x1050
+- 1920x1080
+- 2560x1440
+
+I found a workaround that avoids the problem, but you'll have to do it every time you start the game or go back to the main menu.
+
+1. Set your resolution to 1024x768 or lower from the main menu.
+2. Start a new game or load your saved game.
+3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix from [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45)).
 
 # Modding
 

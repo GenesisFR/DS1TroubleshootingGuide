@@ -274,13 +274,15 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 ## Play in other languages
 
-The game on Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game released.
+The game on Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game's release.
 
 Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
 Please note that the DS1 packs do not cover LOA so if you're playing LOA, pick the corresponding LOA pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
+
+For Return to Arhok and Yesterhaven, Firstie's revisited versions have been translated to other languages. You can find them [here](https://www.nexusmods.com/dungeonsiege1/mods/219) and [here](https://www.nexusmods.com/dungeonsiege1/mods/217).
 
 ## Play MP
 

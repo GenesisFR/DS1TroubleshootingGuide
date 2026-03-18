@@ -89,13 +89,13 @@ GPU = Graphics Processing Unit (graphics card)
 LOA = Legends of Aranna (expansion)  
 MP = Multiplayer  
 SP = Singleplayer  
-\<config-file\> = "%USERPROFILE%\Documents\Dungeon Siege\DungeonSiege.ini"  
-\<config-file-LOA\> = "%USERPROFILE%\Documents\Dungeon Siege LOA\DungeonSiege.ini"  
-\<gpu-model\> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")  
-\<mod-name\> = folder name of your mod (ex: u6p)  
-\<path-to-docs\> = "%USERPROFILE%\Documents\Dungeon Siege"  
-\<path-to-docs-LOA\> = "%USERPROFILE%\Documents\Dungeon Siege LOA"  
-\<path-to-game\> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1")  
+\<config-file\> = `%USERPROFILE%\Documents\Dungeon Siege\DungeonSiege.ini`  
+\<config-file-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA\DungeonSiege.ini`  
+\<gpu-model\> = actual name of your GPU (ex: `NVIDIA GeForce GTX 1070`)  
+\<mod-name\> = folder name of your mod (ex: `u6p`)  
+\<path-to-docs\> = `%USERPROFILE%\Documents\Dungeon Siege`  
+\<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
+\<path-to-game\> = your installation directory (ex: `%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
 Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa--extras)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
@@ -106,18 +106,18 @@ Please note that while this document is based on the Steam version (combined wit
 Method 1:
 
 1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 4).
-3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" (the executable must be named "DSLOA.exe" for LOA) from Program Files:
+3. In GameRanger, hit `Edit -> Options -> Games -> Dungeon Siege -> Browse` then select `DungeonSiege.exe` (the executable must be named `DSLOA.exe` for LOA) from Program Files:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
 Method 2:
 
-1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
+1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on `Download Standalone Executable`). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
    ![Symlinker](https://user-images.githubusercontent.com/3614449/119590493-dae93400-bda2-11eb-80a0-2d268d178814.png)
 
-3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege -\> Browse" then select "DungeonSiege.exe" (the executable must be named "DSLOA.exe" for LOA) from Program Files:
+3. In GameRanger, hit `Edit -> Options -> Games -> Dungeon Siege -> Browse` then select `DungeonSiege.exe` (the executable must be named `DSLOA.exe` for LOA) from Program Files:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
@@ -130,8 +130,8 @@ By default, the game can't be captured using game capture in OBS, there are 2 wa
 Method 1:
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
-2. Add a game capture in OBS and leave it on "Capture any fullscreen application".
-3. Run the game. As long as dgVoodoo is working, OBS will automatically capture it.
+2. Add a game capture in OBS and leave it on `Capture any fullscreen application`.
+3. Run the game and OBS will capture it if dgVoodoo was set up correctly.
 
 Note: the game will crash when loading games and going back to the main menu if it's still being captured (you can set a hotkey in OBS to toggle the visibility of the game capture so it stops capturing the game).
 
@@ -155,18 +155,18 @@ After installing LOA, you won't be able to load your DS saved games. You need to
 Decompile the save:
 
 1. Download and run [Tank Viewer](https://www.siegetheday.org/?q=node/3044).
-2. Click on Open, navigate to "[\<path-to-docs\>](#glossary)\Save" and select your save.
-3. Click on Extract and select a folder (preferably empty) where to extract the files.
-4. Open the "info.gas" file with a text editor.
-5. Right below the line starting with "is_auto_save", add another line "is_dsx = true;".
+2. Click on `Open`, navigate to "[\<path-to-docs\>](#glossary)\Save" and select your save.
+3. Click on `Extract` and select a folder (preferably empty) where to extract the files.
+4. Open the `info.gas` file with a text editor.
+5. Right below the line starting with `is_auto_save`, add another line `is_dsx = true;`.
 6. Save the file.
 
 Recompile the save:
 
 1. Download and run [Tank Creator](https://www.zhixalom.com/lair/2005/09/12/tank-creator-2-1).
-2. Click on Source and select the folder where you decompiled the files earlier.
-3. Click on Output, select "[\<path-to-docs-LOA\>](#glossary)\Save" and make sure the file has a DSSAVE extension.
-4. Select "DS & LOA" under Format.
+2. Click on `Source` and select the folder where you decompiled the files earlier.
+3. Click on `Output`, select "[\<path-to-docs-LOA\>](#glossary)\Save" and make sure the file has a `DSSAVE` extension.
+4. Select `DS & LOA` under `Format`.
 5. Click on Create (if nothing happens, see [Tank Creator doesn't work](#tank-creator-doesnt-work)).
 
 You should now be able to load your save in LOA. The inventory of your mules may become glitched though (see [Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)).
@@ -178,7 +178,7 @@ Source: https://discordapp.com/channels/373223103985090581/400744824593973248/58
 ## Enable EAX
 
 1. Download [dsoal](https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2).
-2. Extract dsound.dll and dsoal-aldrv.dll to [\<path-to-game\>](#glossary).
+2. Extract `dsound.dll` and `dsoal-aldrv.dll` to [\<path-to-game\>](#glossary).
 3. Run the game and enable EAX in the options.
 
 ## Enable LOA + Extras
@@ -187,7 +187,7 @@ Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedf
 
 ## Enable MP
 
-If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to Control Panel -\> Programs and Features -\> Turn Windows features on or off -\> Legacy Components -\> Enable DirectPlay.
+If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
 
 Note: this only applies to Windows 7 or later.
 
@@ -207,15 +207,15 @@ If you want to import an existing character into a single player game, do the fo
 
 1. Download Siege Editor and install it.
 2. Load your latest save and save it again with a simple name (ex: "X").
-3. Run the game again through DSMod or DSLOAMod. They enable the in-game console.
+3. Run the game again through DSMod or DSLOAMod (they enable the in-game console).
 4. Start a brand-new single player game.
-5. Bring down the console (~), point the cursor at a wide-open patch of ground, and run this command: party load X.dssave
+5. Bring down the console (~), point the cursor at a wide-open patch of ground, and run this command: `party load X.dssave`
 
 ## Increase shadow resolution
 
-Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change the 10 occurrences of "shadow_tex_size	= 64" to 128/256/512/1024. You can do a search and replace on "= 64".
+Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change the 10 occurrences of `shadow_tex_size	= 64` to `128`, `256`, `512` or `1024`. You can do a search and replace on `= 64`.
 
-Note: 512 and above can be VERY taxing when using the "All complex" setting, especially in forests (in that case, switch to "Party complex"). Values higher than 1024 (or 256 for DSLOAMod) may prevent the game from loading.
+Note: `512` and above can be VERY taxing when using the `All complex` setting, especially in forests (in that case, switch to `Party complex`). Values higher than `1024` (or `256` for DSLOAMod) may prevent the game from loading.
 
 ## Increase UI size
 
@@ -226,7 +226,7 @@ There are 2 methods to make it scale. The first one involves rendering the game 
 Method 1:
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
-2. Run dgVoodooCpl.exe, go to the DirectX tab, select your native resolution from the Resolution drop down list and hit OK.
+2. Run `dgVoodooCpl.exe`, go to the `DirectX` tab, select your native resolution from the `Resolution` drop-down list and hit OK.
 3. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
 
 Note: it won't work while in windowed mode.
@@ -269,10 +269,10 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/latest) and run it.
 2. Run the game in [windowed](#play-windowed) mode.
 3. Switch back to Fullscreenizer.
-4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege" and click on "Add".
-5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game (see note below).
+4. If the game doesn't appear in the list, click on `Show All` select `Dungeon Siege` and click on `Add`.
+5. Select the game in the list and press the `Fullscreenize` button (or use your hotkey combination), preferably after loading a game (see note below).
 
-Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid it.
+Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid doing it.
 
 ## Play in other languages
 
@@ -284,11 +284,11 @@ Installing them is a simple as drag-and-dropping their content to [\<path-to-gam
 
 Please note that the DS1 packs do not cover LOA so if you're playing LOA, pick the corresponding LOA pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
 
-For Return to Arhok and Yesterhaven, Firstie's revisited versions have been translated to other languages. You can find them [here](https://www.nexusmods.com/dungeonsiege1/mods/219) and [here](https://www.nexusmods.com/dungeonsiege1/mods/217).
+For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been translated to other languages. You can find them [here](https://www.nexusmods.com/dungeonsiege1/mods/219) and [here](https://www.nexusmods.com/dungeonsiege1/mods/217).
 
 ## Play MP
 
-Add "zonematch = true" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
 
 ## Play MP map in SP
 
@@ -299,7 +299,7 @@ Install one of these mods:
 
 ## Play windowed
 
-Add "fullscreen = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `fullscreen = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
 
@@ -311,13 +311,13 @@ Just extract it to your DS folder and use the provided BAT file to run the mod.
 
 ## Run the game above 1080p
 
-Check the "dgVoodoo for 1920x1080+ resolutions" section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
+Check the `dgVoodoo for 1920x1080+ resolutions` section in [Beatlebattle's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1642475147#2897971).
 
 You'll need [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 
 ## Run the game on Linux
 
-PlayOnLinux (or PlayOnMac) is recommended to ease the process. I'm using PlayOnLinux and therefore the WINEPREFIX is set to `~/.PlayOnLinux/wineprefix/ds` which may differ on your setup.
+PlayOnLinux (or PlayOnMac) is recommended to ease the process. For the sake of this guide, we'll use PlayOnLinux so the WINEPREFIX is set to `~/.PlayOnLinux/wineprefix/ds`. It may differ on your setup.
 
 ### Requirements
 
@@ -338,15 +338,15 @@ WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winetricks mfc42 directplay
 WINEPREFIX=~/.PlayOnLinux/wineprefix/ds setup_dxvk install
 ```
 
-You can now install the game. I used the old CD version, just mount CD1, run the Setup.exe. Then when it asks for CD2, mount the CD2 at the exact same location and it should work. 
+You can now install the game. For the old CD version, just mount CD1 and run `Setup.exe`. When it asks for CD2, mount CD2 at the exact same location and it should work. 
 
-To fix the main menu resolution issues you need to configure Wine (use the PlayOnLinux button or run `WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winecfg`), in Graphics enable "Emulate a virtual desktop".
+To fix the main menu resolution issues, you need to configure Wine (use the PlayOnLinux button or run `WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winecfg`). Under the `Graphics` tab, enable `Emulate a virtual desktop`.
 
 Note: if you have weird glitches, switch to desktop and back to the game, they should disappear.
 
 ## Use unsupported resolutions
 
-By default, the game can only be played in 640x480, 800x600 or 1024x768.
+By default, the game can only be played in `640x480`, `800x600` or `1024x768`.
 
 However, with some tweaking, you can play it at any resolution. There are a few caveats though:
 
@@ -359,19 +359,21 @@ You have 4 ways to make the game run at custom resolutions.
 Method 1 (recommended):
 
 1. Download [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45).
-2. Open the downloaded archive and navigate to the "ResolutionFix" subfolder.
-3. Extract "system_detail.gas" to [\<path-to-game\>](#glossary) (it does the same thing than [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and "sf_ResolutionFix.dsres" to "[\<path-to-game\>](#glossary)\Resources".
+2. Open the downloaded archive and navigate to the `ResolutionFix` subfolder.
+3. Extract `system_detail.gas` to [\<path-to-game\>](#glossary) (it does the same thing than [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to "[\<path-to-game\>](#glossary)\Resources".
 4. Run the game.
 5. Select your desired resolution from the options.
 
 Method 2:
 
-Add the "width=xxxx" and "height=xxxx" launch parameters (where "xxxx" is your desired resolution, for instance "width=1920 height=1080"). See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add the `width=xxxx` and `height=xxxx` launch parameters (where `xxxx` is your desired resolution, for instance `width=1920 height=1080`). See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+
+When setting the resolution through this method, it will prevent the game from changing it while navigating the options menu.
 
 Method 3:
 
 1. Open [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) with a text editor.
-2. Change the "width = xxxx" and "height = xxxx" to your desired resolution (where "xxxx" is your desired resolution).
+2. Change the `width = xxxx` and `height = xxxx` to your desired resolution (where `xxxx` is your desired resolution).
 3. Save the file.
 
 Method 4:
@@ -380,15 +382,13 @@ Method 4:
 2. Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" and select your custom resolution.
 3. Copy "[\<path-to-game\>](#glossary)\DungeonSiege.ini" to [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
-When setting the resolution through launch parameters (method 2), it will prevent the game from changing it while navigating the options menu.
-
 Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
 # Issues fixed
 
 ## Black screen at Gom
 
-When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera script that comes with LOA, which doesn't work properly when SeeFar 2004/2020 is installed. It breaks one of the camera triggers during that cutscene, preventing it from completing.
+When going down the elevator before fighting Gom, the cutscene may break and pressing Escape will trigger a black screen. This bug is caused by the camera script that comes with LOA, which doesn't work properly when `SeeFar 2004` or `SeeFar 2020` is installed. It breaks one of the camera triggers during that cutscene, preventing it from completing.
 
 There are 3 ways to circumvent it.
 
@@ -412,10 +412,10 @@ You have to import your party from your modded save to another save that doesn't
 1. Place the unmodded save into [\<path-to-docs-LOA\>](#glossary)\Save.
 2. Run DSLOAMod (see [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)).
 3. Ignore all the errors it may throw.
-4. Load the "endgame_save" saved game.
+4. Load the `endgame_save` saved game.
 5. Open the console with ~ (or the key above TAB).
 6. Place the mouse cursor on flat ground, between your characters.
-7. Type "party load \<name-of-your-save\>.dssave".
+7. Type `party load <name-of-your-save>.dssave`.
 8. Check that all your characters are there.
 9. Proceed to beat Gom.
 
@@ -430,7 +430,7 @@ Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 ## Booted back to the MP menu when trying to host a game
 
 - Enable DirectPlay (see [Enable MP](#enable-mp)).
-- Add "dpnsvr = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+- Add `dpnsvr = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 ## Cannot find world:global:vosounds in gas tree
 
@@ -440,8 +440,8 @@ Your game files are corrupted. Reinstall the game.
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
 
-- Use simple shadows (Options -\> Shadows -\> Simple) or disable them.
-- Lower object quality (Options -\> Object Detail).
+- Use simple shadows (`Options -> Shadows -> Simple`) or disable them.
+- Lower object quality (`Options -> Object Detail`).
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
@@ -449,14 +449,14 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
 - Disable overlays (Steam, GOG, Discord, etc).
-- Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color".
+- Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work with LOA. Find and remove incompatible mods, then look for similar mods compatible with LOA.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - Make sure [\<path-to-docs\>](#glossary) is on your C drive.
 - Run "[\<path-to-game\>](#glossary)\DSVideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
-- Lower your shadow resolution to 256, see [Increase shadow resolution](#increase-shadow-resolution).
+- Lower your shadow resolution to `256`, see [Increase shadow resolution](#increase-shadow-resolution).
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
 
 Note: DSVideoConfig only edits "[\<path-to-game\>](#glossary)\DungeonSiege.ini" (it's intended to be run before playing the game the first time) so make sure to copy it to [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) if you're using LOA).
@@ -467,7 +467,7 @@ You're running the game in a resolution not supported by your graphics card or a
 
 ## Frame rate locked to 75 fps in windowed mode
 
-Add "maxfps = 0" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `maxfps = 0` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 ## Fuel failed to write file prefs.gas
 
@@ -486,16 +486,16 @@ This may be caused by the game unable to teleport your other characters if they'
 
 If your game looks zoomed in, it's likely caused by your screen scaling settings.
 
-1. Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties".
-2. Go to "Compatibility -\> Change high DPI settings".
-3. Check "Override high DPI scaling behaviour" and make sure "Application" is selected in the drop-down menu.
+1. Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties`.
+2. Go to `Compatibility -> Change high DPI settings`.
+3. Check `Override high DPI scaling behaviour` and make sure `Application` is selected in the drop-down menu.
 
 Alternatively, you can set the Windows display scaling setting back to 100%:
 
 1. Right-click on your desktop.
-2. Select "Display settings".
-3. Go to "Scale and layout".
-4. Select "100% (Recommended)".
+2. Select `Display settings`.
+3. Go to `Scale and layout`.
+4. Select `100% (Recommended)`.
 
 Source: https://steamcommunity.com/app/39190/discussions/0/620696522225972749/#c1642038749323053918
 
@@ -536,16 +536,16 @@ Turn off supersampling in your GPU control panel.
 For NVIDIA users:
 
 1. Right-click on your desktop.
-2. Select "NVIDIA Control Panel".
-3. Click on "Manage 3D settings".
-4. Set "DSR - Factors" to "Off".
+2. Select `NVIDIA Control Panel`.
+3. Click on `Manage 3D settings`.
+4. Set `DSR - Factors` to `Off`.
 
 For AMD users:
 
 1. Right-click on your desktop.
-2. Select "AMD Radeon Settings".
-3. Click on the "Display" tab.
-4. Set "Virtual Super Resolution" to "Off".
+2. Select `AMD Radeon Settings`.
+3. Click on the `Display` tab.
+4. Set `Virtual Super Resolution` to `Off`.
 
 Source: https://steamcommunity.com/app/39190/discussions/0/612823460274990833#c617328415054371674
 
@@ -562,19 +562,19 @@ Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 - If it still doesn't show up, follow these steps:
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7) (keep the default settings).
-2. Add DSVideoConfig and DungeonSiege.exe in Windows settings > System > Display > Graphics (set both to High Performance).
-3. Choose your dedicated GPU in DSVideoConfig (don't select dgVoodoo DirectX Wrapper).
+2. Add `DSVideoConfig.exe` and `DungeonSiege.exe` in `Windows settings > System > Display > Graphics` (set both to `High Performance`).
+3. Choose your dedicated GPU in DSVideoConfig (don't select `dgVoodoo DirectX Wrapper`).
 4. Copy "[\<path-to-game\>](#glossary)\DungeonSiege.ini" to [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
 ## Packmule inventory is inaccessible
 
 After converting a DS save to LOA, packmules are being treated like traggs (8 * 13 cells) but the UI remains the one from the mule (12 * 13 cells). Therefore, you can't access the items located in the last 5 columns.
 
-You have to remove items from your mule's inventory and hit the "Auto-arrange inventory" button to be able to access them.
+You have to remove items from your mule's inventory and hit the `Auto-arrange inventory` button to be able to access them.
 
 ## Poor performance
 
-Add "bltonly = true" to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `bltonly = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
@@ -584,7 +584,7 @@ Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps
 
 When running the game in resolutions other than the default ones, a warning message will be displayed every time you start/load a game from the main menu.
 
-Open "[\<path-to-game\>](#glossary)\system_detail.gas" and everywhere you see 1024x768, add a duplicate of that line but change it with your resolution, like in the example below:
+Open "[\<path-to-game\>](#glossary)\system_detail.gas" and everywhere you see `1024x768`, add a duplicate of that line but change it with your resolution, like in the example below:
 
 ```
 [resolutions]
@@ -611,7 +611,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 ## Shadows are missing
 
-This is caused by setting "shadow_tex_size" too high for DSMod/DSLOAMod, thus preventing them from working. DSMod/DSLOAMod don't support anything above a resolution of 256, therefore set "shadow_tex_size" to 256 or less. Besides, DSLOAMod crashes with shadow resolution set above 256.
+This is caused by setting `shadow_tex_size` too high for DSMod/DSLOAMod, thus preventing them from working. DSMod/DSLOAMod don't support anything above a resolution of `256`, therefore set `shadow_tex_size` to `256` or less. Besides, DSLOAMod crashes with shadow resolution set above `256`.
 
 ## Some resources haven't been copied to the hard disk
 
@@ -625,9 +625,9 @@ See [Convert DS saves to LOA](#convert-ds-saves-to-loa).
 
 This may happen after hosting/joining a multiplayer session.
 
-1. Open Task Manager.
-2. Go to the Details tab.
-3. Find dpnsvr.exe and terminate it.
+1. Open `Task Manager`.
+2. Go to the `Details` tab.
+3. Find `dpnsvr.exe` and terminate it.
 
 ## Stutters when moving the mouse
 
@@ -639,41 +639,41 @@ This may happen after hosting/joining a multiplayer session.
 
 This is caused by dgVoodoo2 not scaling the game correctly, making vertical lines appear between some characters, causing some of them to be offset vertically and even featuring some kind of blur around the cursor. Basically, the higher you go above 1080p, the more visual artefacts you'll start to notice as DS was never designed to go above 1080p.
 
-Run dgVoodooCpl.exe, go to the DirectX tab, set Filtering to "App driven", Antialiasing (MSAA) to "Off" and Resolution to one of the ISF resolutions.
+Run `dgVoodooCpl.exe`, go to the `DirectX` tab, set `Filtering` to `App driven`, `Antialiasing (MSAA)` to `Off` and `Resolution` to one of the `ISF` resolutions.
 
 ## Textures not loading
 
-This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore making most of the world transparent. DSMod/DSLOAMod don't support anything above a resolution of 256 so you have remove the mod.
+This is caused by using the HD textures mod with DSMod/DSLOAMod, therefore making most of the world transparent. DSMod/DSLOAMod don't support anything above a resolution of `256` so you have remove the mod.
 
 ## Translations partially working
 
-If after adding a language pack, you notice that some things are translated but others aren't, first make sure you're using the LOA version of the language pack if you're playing LOA.
+If, after adding a language pack, you notice that some things are translated but others aren't, first make sure you're using the LOA version of the language pack if you're playing LOA.
 
 If there still seems to be missing translations, it's because anything that already exists in-game (ex: actor names, item names and descriptions) will have its data loaded from the save file, not the resource file. Anything newly loaded (ex: new item drops) should load data from the resource file.
 
 ## UI/cursor flickering
 
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
-- Right-click "DungeonSiege.exe" (or "DSLOA.exe" for LOA) then hit "Properties -\> Compatibility -\> Reduced color mode -\> 16-bit (65536) color".
-- Make sure it says "bpp = 32" in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+- Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
+- Make sure it says `bpp = 32` in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 - Disable any kind of antialiasing in your GPU driver settings.
-- Press the Windows key to minimize the game then maximize it.
+- Press the `Windows` key to minimize the game then maximize it.
 - Run the game on your other GPU (if you have one).
 - Run the game in fullscreen or [windowed](#play-windowed) mode.
 
 ## Unable to access or create a critical path that is required to operate
 
-This is caused by Controlled Folder Access on Windows 10/11 preventing the game from accessing [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
+This is caused by `Controlled Folder Access` on Windows 10/11 preventing the game from accessing [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
 
 Add the game to the allowed apps list:
 
-1. Open Windows Security.
-2. Navigate to Virus & Threat Protection.
-3. Click on Manage Settings.
-4. Scroll down to Controlled Folder Access.
-5. Click on Manage Controlled Folder Access.
-6. Click on Allow an app through Controlled Folder Access.
-7. Click on Add an allowed app then Browse all apps and select "[\<path-to-game\>](#glossary)\DungeonSiege.exe" (or "[\<path-to-game\>](#glossary)\DSLOA.exe" for LOA).
+1. Open `Windows Security`.
+2. Navigate to `Virus & Threat Protection`.
+3. Click on `Manage Settings`.
+4. Scroll down to `Controlled Folder Access`.
+5. Click on `Manage Controlled Folder Access`.
+6. Click on `Allow an app through Controlled Folder Access`.
+7. Click on `Add an allowed app` then `Browse all apps` and select "[\<path-to-game\>](#glossary)\DungeonSiege.exe" (or "[\<path-to-game\>](#glossary)\DSLOA.exe" for LOA).
 
 ## Unable to create a new character
 
@@ -693,15 +693,15 @@ Make the game's executable large-address aware using the [LAA enabler](https://w
 
 This usually happens when using dgVoodoo2.
 
-1. Run dgVoodooCpl.exe, go to the General tab and select one of the Direct3D 12 entries from the Output API drop down list.
-2. Go to the DirectX tab, tick "Fast memory access" and hit OK.
+1. Run `dgVoodooCpl.exe`, go to the `General` tab and select one of the Direct3D 12 entries from the `Output API` drop-down list.
+2. Go to the `DirectX` tab, tick `Fast memory access` and hit OK.
 3. Decrease [shadow resolution](#increase-shadow-resolution) to 512 or lower.
 
 Note: if you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
 
 ## Window is offscreen
 
-Add "x=0" and "y=0" (each on a separate line) to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `x=0` and `y=0` (each on a separate line) to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
 
@@ -711,7 +711,7 @@ It's likely caused by using dgVoodoo2, just tab out of the game and tab back in.
 
 ## You cannot run Dungeon Siege in a resolution higher than your desktop
 
-Lower the game's height (see [Use unsupported resolutions](#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
+Lower the game's height (see [Use unsupported resolutions](#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: `1920x1080 -> 1920x1040`).
 
 ## Your hardware configuration is below minimum specification
 
@@ -721,33 +721,37 @@ Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [gui
 
 ## Black portraits
 
-When using resolutions above 1024x768, you may encounter an issue where some character portraits will become black. It seems like the higher the width, the more aggravating the problem becomes. It starts happening above 1024x768, so any resolution like these are fine:
+When using resolutions above `1024x768`, you may encounter an issue where some character portraits will become black. It seems like the higher the width, the more aggravating the problem becomes. It starts happening above `1024x768`, so any resolution like these are fine:
 
-- 640x480
-- 800x600
-- 1024x768
+```
+640x480
+800x600
+1024x768
+```
 
 While these are not fine:
 
-- 1152x864
-- 1280x720
-- 1280x768
-- 1280x800
-- 1280x960
-- 1280x1024
-- 1360x768
-- 1366x768
-- 1440x900
-- 1440x1080
-- 1600x900
-- 1600x1024
-- 1680x1050
-- 1920x1080
-- 2560x1440
+```
+1152x864
+1280x720
+1280x768
+1280x800
+1280x960
+1280x1024
+1360x768
+1366x768
+1440x900
+1440x1080
+1600x900
+1600x1024
+1680x1050
+1920x1080
+2560x1440
+```
 
 I found a workaround that avoids the problem, but you'll have to do it every time you start the game or go back to the main menu.
 
-1. Set your resolution to 1024x768 or lower from the main menu.
+1. Set your resolution to `1024x768` or lower from the main menu.
 2. Start a new game or load your saved game.
 3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix from [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45)).
 
@@ -771,14 +775,14 @@ After doing that, you will run into two scenarios depending on which reg patch y
 
 Scenario 1:
 
-If you were using an old version of the reg patch (an executable), the "DSMod.exe" QA version (02.12.1603) won't match Steam's "DungeonSiege.exe" QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
+If you were using an old version of the reg patch (an executable), the `DSMod.exe` QA version (02.12.1603) won't match Steam's `DungeonSiege.exe` QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
-1. Make a backup of "DSMod.exe" (just in case).
+1. Make a backup of `DSMod.exe` (just in case).
 2. Run two instances of Resource Hacker as administrator.
-3. In the first instance, hit "File -\> Open -\> DSMod.exe".
-4. In the second instance, hit "File -\> Open -\> DungeonSiege.exe".
-5. In both instances, hit "Version Info -\> 1 : 1033".
-6. Locate the line "MSQAVersion" and replace its value in "DSMod.exe" by the value from "DungeonSiege.exe".
+3. In the first instance, hit `File -> Open -> DSMod.exe`.
+4. In the second instance, hit `File -> Open -> DungeonSiege.exe`.
+5. In both instances, hit `Version Info -> 1 : 1033`.
+6. Locate the line `MSQAVersion` and replace its value in `DSMod.exe` by the value from `DungeonSiege.exe`.
 7. Click on the green arrow (or F5) to compile the script.
 8. Click on the green floppy disk (or Ctrl + S) to save the file.
 
@@ -800,7 +804,7 @@ Just mount the ISO with Windows File Explorer or with a third party software (li
 
 If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DSLOAMod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory, place DSLOAMod in [\<path-to-game\>](#glossary) and run it from there, or open Task Manager and end the task for "Protection Stub (32-bit)".
+You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DSLOAMod will run. To get rid of them, either use the DSLOAMod shortcut in the toolkit installation directory, place DSLOAMod in [\<path-to-game\>](#glossary) and run it from there, or open `Task Manager` and end the task for `Protection Stub (32-bit)`.
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
@@ -810,9 +814,9 @@ Note: see [Shadows are missing](#shadows-are-missing) and [Textures are not load
 
 Download and run the [reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) to make the editor find your game.
 
-To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in "[\<path-to-game\>](#glossary)\system_detail.gas". The device name and both IDs are shown in the error message and must be prefixed with "0x".
+To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in "[\<path-to-game\>](#glossary)\system_detail.gas". The device name and both IDs are shown in the error message and must be prefixed with `0x`.
 
-Where you add it is important, otherwise it may disable some effects (like complex shadows). Look up the section corresponding to the vendor of your graphics card (nVidia, ATI or Intel). In my case, I added this entry at the beginning of the "nVidia" vendor section (before the other "[device*]" entries):
+Where you add it is important, otherwise it may disable some effects (like complex shadows). Look up the section corresponding to the vendor of your graphics card (nVidia, ATI or Intel). In my case, I added this entry to the beginning of the `nVidia` vendor section (before the other `[device*]` entries):
 
 ```
 [device*]
@@ -827,19 +831,19 @@ Where you add it is important, otherwise it may disable some effects (like compl
 }
 ```
 
-As a bonus, setting "shadow_render_target" to true seems to increase the framerate while using complex shadows (at least on my system). It can be used when not modding too!
+As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to move the "Return to Arhok" and "Yesterhaven" campaigns. To do so, move the following files out of your Resources folder:
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to move the `Return to Arhok` and `Yesterhaven` campaigns. To do so, move the following files out of your Resources folder:
 
 - "[\<path-to-game\>](#glossary)\Resources\XPRes.dsres"
 - "[\<path-to-game\>](#glossary)\Resources\Yesterhaven.dsres"
 
-Note: setting "shadow_tex_size" higher than 256 will yield another warning that can safely be ignored and using the HD textures mod will make them white.
+Note: setting `shadow_tex_size` higher than `256` will yield another warning that can safely be ignored and using the HD textures mod will make them white.
 
 ## Remove a tank's protection
 
 1. Open your protected tank with an [hex editor](https://hexed.it).
-2. Go to offset 38 and replace its value (it can be 04, 05, 06 or 07) by 00.
+2. Go to offset `38` and replace its value (it can be `04`, `05`, `06` or `07`) by `00`.
 3. Save the file.
 
 Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/814904645815105/?comment_id=814930495812520
@@ -849,19 +853,19 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 If you get "D3D Initialization Failure" when running Siege Editor, it's probably because your desktop resolution is above 1080p.
 
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7) and place it in the folder where you installed Siege Editor.
-- Replace preferences.gas in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
+- Replace `preferences.gas` in "[\<path-to-docs\>](#glossary)\Editor" with this [one](https://www.mediafire.com/file/pj3bzqg42pqvdti/preferences.gas).
 
 ## Tank Creator doesn't work
 
-If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your TEMP directory to the exclusion list as that's where RPC (the underlying program to Tank Creator) is executed from.
+If nothing happens when clicking on the `Create` button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your `TEMP` directory to the exclusion list as that's where `RPC` (the underlying program to Tank Creator) is executed from.
 
 ## View a protected tank
 
-1. Open Siege Editor.
-2. Hit "Siege Editor -\> File -\> Convert .dsmap to Files...".
-3. Select your DSRES/DSMAP from the "Source File" button.
-4. Uncheck "Use default destination folder" and select the folder where you want to extract it (if it's checked, the default destination folder is "[\<path-to-docs\>](#glossary)\Bits").
-5. Uncheck "Extract .lqd files" if you just want to view the extracted files.
+1. Open `Siege Editor`.
+2. Hit `Siege Editor -> File -> Convert .dsmap to Files...`.
+3. Select your DSRES/DSMAP from the `Source File` button.
+4. Uncheck `Use default destination folder` and select the folder where you want to extract it (if it's checked, the default destination folder is "[\<path-to-docs\>](#glossary)\Bits").
+5. Uncheck `Extract .lqd files` if you just want to view the extracted files.
 6. Click OK.
 
 # Walkthroughs
@@ -965,4 +969,4 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).
+You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to the [Steam thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).

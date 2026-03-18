@@ -294,7 +294,8 @@ Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-
 
 Install one of these mods:
 
-- [Legends of Utrae](https://www.siegetheday.org/?q=node/1317) (recommended)
+- [Utraean Peninsula revisited](https://www.nexusmods.com/dungeonsiege1/mods/113) (recommended)
+- [Legends of Utrae](https://www.siegetheday.org/?q=node/1317)
 - [Myros](https://www.fileplanet.com/87368/80000/fileinfo/Myros-Mod) (or use this [link](https://www.dropbox.com/sh/utwgyv8ic6bpyd2/AADp6em9zEbh9Bo-gCfxSYy3a/myrosmap.zip))
 
 ## Play windowed
@@ -304,6 +305,12 @@ Add `fullscreen = false` to the top of [\<config-file\>](#glossary) (or [\<confi
 Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
 
 ## Play Yesterhaven map in SP
+
+Method 1 (recommended)
+
+Use Firstie's [Yesterhaven revisited](https://www.nexusmods.com/dungeonsiege1/mods/217).
+
+Method 2:
 
 I made a drag-and-drop [archive](https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip) from [Father Bronze's Yesterhaven Single-Player Edition](http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other.
 
@@ -938,6 +945,7 @@ This document wouldn't have been possible without the following people:
 - eksevis (Discord)
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
+- [Firstie](https://www.nexusmods.com/profile/foerstj) - new SeeFar build and revisited maps
 - [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
 - Guilherme Tutilo - Brazilian Portuguese translation for LOA
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix

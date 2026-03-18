@@ -775,6 +775,10 @@ After doing that, you will run into two scenarios depending on which reg patch y
 
 Scenario 1:
 
+If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
+
+Scenario 2:
+
 If you were using an old version of the reg patch (an executable), the `DSMod.exe` QA version (02.12.1603) won't match Steam's `DungeonSiege.exe` QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
 1. Make a backup of `DSMod.exe` (just in case).
@@ -786,11 +790,7 @@ If you were using an old version of the reg patch (an executable), the `DSMod.ex
 7. Click on the green arrow (or F5) to compile the script.
 8. Click on the green floppy disk (or Ctrl + S) to save the file.
 
-Scenario 2:
-
-If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
-
-Note: see [Shadows are missing](#shadows-are-missing) and [Textures are not loading](#textures-are-not-loading) for potential issues.
+Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
 ## Make DSLOAMod work on the Steam version
 
@@ -808,7 +808,7 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
-Note: see [Shadows are missing](#shadows-are-missing) and [Textures are not loading](#textures-are-not-loading) for potential issues.
+Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
 ## Make Siege Editor work on the Steam version
 

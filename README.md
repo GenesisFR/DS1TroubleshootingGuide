@@ -426,8 +426,6 @@ You have to import your party from your modded save to another save that doesn't
 8. Check that all your characters are there.
 9. Proceed to beat Gom.
 
-Note: if you save again, your new saved game will only be accessible from DSLOAMod.
-
 ## Booted back to the main menu after beating Gom
 
 The multiplayer and anything related to it was disabled in the Steam version. Use [Killah's fix](#enable-loa--extras).

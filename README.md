@@ -360,7 +360,7 @@ Method 1 (recommended):
 
 1. Download [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45).
 2. Open the downloaded archive and navigate to the `ResolutionFix` subfolder.
-3. Extract `system_detail.gas` to [\<path-to-game\>](#glossary) (it does the same thing than [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to "[\<path-to-game\>](#glossary)\Resources".
+3. Extract `system_detail.gas` to [\<path-to-game\>](#glossary) (it does the same thing than method 2 of [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to "[\<path-to-game\>](#glossary)\Resources".
 4. Run the game.
 5. Select your desired resolution from the options.
 
@@ -583,6 +583,12 @@ Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps
 ## Requested display mode is unsupported
 
 When running the game in resolutions other than the default ones, a warning message will be displayed every time you start/load a game from the main menu.
+
+Method 1 (recommended):
+
+See method 1 of [Use unsupported resolutions](#use-unsupported-resolutions).
+
+Method 2:
 
 Open "[\<path-to-game\>](#glossary)\system_detail.gas" and everywhere you see `1024x768`, add a duplicate of that line but change it with your resolution, like in the example below:
 

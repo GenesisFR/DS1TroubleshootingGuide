@@ -833,7 +833,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to move the `Return to Arhok` and `Yesterhaven` campaigns. To do so, move the following files out of your Resources folder:
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
 - "[\<path-to-game\>](#glossary)\Resources\XPRes.dsres"
 - "[\<path-to-game\>](#glossary)\Resources\Yesterhaven.dsres"

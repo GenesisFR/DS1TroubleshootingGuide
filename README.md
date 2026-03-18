@@ -15,7 +15,7 @@
    * [2.9 Import a character](#import-a-character)
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
    * [2.11 Increase UI size](#increase-ui-size)
-   * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-steam-version)
+   * [2.12 Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the GOG/Steam version](#install-mageworld-the-lands-of-hyperborea-and-the-ultima-56-remakes-on-the-gogsteam-version)
    * [2.13 Play in borderless fullscreen](#play-in-borderless-fullscreen)
    * [2.14 Play in other languages](#play-in-other-languages)
    * [2.15 Play MP](#play-mp)
@@ -68,9 +68,9 @@
 * [5.0 Modding](#modding)
    * [5.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
    * [5.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [5.3 Make DSMod work on the Steam version](#make-dsmod-work-on-the-steam-version)
-   * [5.4 Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)
-   * [5.5 Make Siege Editor work on the Steam version](#make-siege-editor-work-on-the-steam-version)
+   * [5.3 Make DSMod work on the GOG/Steam version](#make-dsmod-work-on-the-gogsteam-version)
+   * [5.4 Make DSLOAMod work on the GOG/Steam version](#make-dsloamod-work-on-the-gogsteam-version)
+   * [5.5 Make Siege Editor work on the GOG/Steam version](#make-siege-editor-work-on-the-gogsteam-version)
    * [5.6 Remove a tank's protection](#remove-a-tanks-protection)
    * [5.7 Siege Editor doesn't work](#siege-editor-doesnt-work)
    * [5.8 Tank Creator doesn't work](#tank-creator-doesnt-work)
@@ -235,14 +235,14 @@ Method 2:
 
 Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=3474753395).
 
-## Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the Steam version
+## Install Mageworld, The Lands of Hyperborea and the Ultima 5/6 remakes on the GOG/Steam version
 
-Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version:
+Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version (they also work on the GOG version):
 
 - https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/RegPatches))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
-I made some drag-and-drop archives if you want to skip the installation guide above:
+I made some drag-and-drop archives (which may be slightly outdated) if you want to skip the installation guide above:
 
 - https://www.mediafire.com/file/ik093jdkkvle066/Ultima_V_-_Warriors_of_Destiny.zip
 - https://www.mediafire.com/file/4xvcewat7ctpjvd/Ultima_VI_-_The_False_Prophet.zip
@@ -257,7 +257,7 @@ Please follow these steps for each mod to make sure everything is working proper
 1. Extract the archive to your DS folder.
 2. Edit the provided BAT file with your desired resolution.
 3. Copy the content of [\<path-to-docs\>](#glossary) to the "[\<path-to-game\>](#glossary)\\\<mod-name>\User\Save" subfolder prior to running the mod (if you'd like to keep your key bindings and game preferences).
-4. Run the mod with the BAT file (you can also replicate its arguments in a shortcut or Steam launch options).
+4. Run the mod with the BAT file (you can also replicate its arguments in a shortcut or GOG/Steam launch options).
 5. Saved games will be located under the "[\<path-to-game\>](#glossary)\\\<mod-name>\User\Save" subfolder (to avoid overriding saves from the main game). 
 
 Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
@@ -276,7 +276,7 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 ## Play in other languages
 
-The game on Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game's release.
+The game on GOG/Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game's release.
 
 Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
 
@@ -417,7 +417,7 @@ Method 3:
 You have to import your party from your modded save to another save that doesn't use SeeFar. For your convenience, you can download an unmodded saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
 
 1. Place the unmodded save into [\<path-to-docs-LOA\>](#glossary)\Save.
-2. Run DSLOAMod (see [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version)).
+2. Run DSLOAMod (see [Make DSLOAMod work on the GOG/Steam version](#make-dsloamod-work-on-the-gogsteam-version)).
 3. Ignore all the errors it may throw.
 4. Load the `endgame_save` saved game.
 5. Open the console with ~ (or the key above TAB).
@@ -428,7 +428,7 @@ You have to import your party from your modded save to another save that doesn't
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the Steam version. Use [Killah's fix](#enable-loa--extras).
+The multiplayer and anything related to it was disabled in the GOG/Steam version. Use [Killah's fix](#enable-loa--extras).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
@@ -450,10 +450,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
-- Run the game from the executable instead of Steam.
+- Run the game from the executable instead of GOG/Steam.
 - Run the game on your other GPU (if you have one).
 - If you're using a resolution higher than 1080p, see [Run the game above 1080p](#run-the-game-above-1080p).
-- Disable overlays (Steam, GOG, Discord, etc).
+- Disable overlays (Discord, GOG, Steam, etc).
 - Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
 - One of your saved games is corrupted, remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
@@ -510,14 +510,14 @@ When playing MP, it's important that everyone uses EXACTLY the same files.
 
 The game performs a CRC check on all files. If files between clients don't match, the game won't let you join someone else's game. It's often caused by different executables, resources, languages (when mixing different writing systems like Latin and Cyrillic for instance) and DSDLLs. Even an additional resource (typically a mod), as insignificant as it may be, can cause a mismatch.
 
-Here are the files that differ between the Steam and retail versions:
+Here are the files that differ between the GOG/Steam and retail versions:
 
 - Resources\DevLogic.dsres
 - Resources\Logic.dsres
 - Resources\Objects.dsres
 - DungeonSiege.exe
 
-You can get the Steam version of these files [here](https://www.mediafire.com/file/hxvnxxqlmmiheeh/Dungeon_Siege_Steam_resources.zip).
+You can get the GOG/Steam version of these files [here](https://www.mediafire.com/file/hxvnxxqlmmiheeh/Dungeon_Siege_Steam_resources.zip).
 
 Here are the files that differ between languages:
 
@@ -776,7 +776,7 @@ You can get GMAX from [here](https://archive.org/details/gmax-1.2-with-registrat
 
 If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
 
-## Make DSMod work on the Steam version
+## Make DSMod work on the GOG/Steam version
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
@@ -786,11 +786,11 @@ After doing that, you will run into two scenarios depending on which reg patch y
 
 Scenario 1:
 
-If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the Steam version](#make-dsloamod-work-on-the-steam-version).
+If you were using the new version of the reg patch (a batch script), DSMod will ask for disc 1 of LOA. Download and mount the mini image from [Make DSLOAMod work on the GOG/Steam version](#make-dsloamod-work-on-the-gogsteam-version).
 
 Scenario 2:
 
-If you were using an old version of the reg patch (an executable), the `DSMod.exe` QA version (02.12.1603) won't match Steam's `DungeonSiege.exe` QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
+If you were using an old version of the reg patch (an executable), the `DSMod.exe` QA version (02.12.1603) won't match GOG/Steam's `DungeonSiege.exe` QA version (03.07.0202), so you'll need to use a tool like [Resource Hacker](https://portableapps.com/apps/utilities/resource-hacker-portable) to make them identical:
 
 1. Make a backup of `DSMod.exe` (just in case).
 2. Run two instances of Resource Hacker as administrator.
@@ -803,7 +803,7 @@ If you were using an old version of the reg patch (an executable), the `DSMod.ex
 
 Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
-## Make DSLOAMod work on the Steam version
+## Make DSLOAMod work on the GOG/Steam version
 
 Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) to make DSLOAMod find your game.
 
@@ -821,7 +821,7 @@ Also, if you're running DSLOAMod from a shortcut, you may have to run it without
 
 Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
-## Make Siege Editor work on the Steam version
+## Make Siege Editor work on the GOG/Steam version
 
 Download and run the [reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) to make the editor find your game.
 

@@ -66,8 +66,8 @@
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
 * [5.0 Modding](#modding)
-   * [5.1 Cannot download GMAX when installing the toolkit](#cannot-download-gmax-when-installing-the-toolkit)
-   * [5.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)
    * [5.3 Make DSMod work on the GOG/Steam version](#make-dsmod-work-on-the-gogsteam-version)
    * [5.4 Make DSLOAMod work on the GOG/Steam version](#make-dsloamod-work-on-the-gogsteam-version)
    * [5.5 Make Siege Editor work on the GOG/Steam version](#make-siege-editor-work-on-the-gogsteam-version)
@@ -181,13 +181,13 @@ If Windows doesn't detect that the game needs DirectPlay (when clicking on Multi
 
 Method 1 (Windows 10 or later):
 
-Type this command in an [admin command-line](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10):
+Type this command in an [admin command-line prompt](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10):
 
 `fondue /Enable-feature:DirectPlay`
 
 Method 2 (Windows 7 or later):
 
-Type this command in an [admin PowerShell](https://www.howtogeek.com/742916/how-to-open-windows-powershell-as-an-admin-in-windows-10), it'll automatically enable any other component required for Directplay to work:
+Type this command in an [admin PowerShell prompt](https://www.howtogeek.com/742916/how-to-open-windows-powershell-as-an-admin-in-windows-10), it'll automatically enable any other component required for Directplay to work:
 
 `Enable-WindowsOptionalFeature –FeatureName "DirectPlay" -All -Online`
 
@@ -195,7 +195,9 @@ Method 3 (Windows Vista or later):
 
 Go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
 
-Note: this only applies to Windows Vista or later.
+Method 4 (Windows XP):
+
+Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Components`. From there, check the box for `DirectPlay` under the `Games` section and click OK.
 
 ## Enable EAX
 
@@ -790,13 +792,21 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 
 # Modding
 
-## Cannot download GMAX when installing the toolkit
-
-You can get GMAX from [here](https://archive.org/details/gmax-1.2-with-registration-key).
-
 ## DS2TankViewer doesn't work
 
 If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
+
+## Installing Gmax & SiegeMax for Siege Editor
+
+1. Uninstall Siege Editor if it was already installed. This is necessary as the toolkit installer checks if Gmax is installed before installing SiegeMax (see step 4).
+2. Download [Gmax](https://www.neverwintervault.org/project/nwn1/other/tool/gmax-12-registration-workaround) and install it.
+3. When booting Gmax, you'll be asked for a registration key, use the registry files from the `registration_workaround.zip` you downloaded in step 2.
+4. Ensure that Gmax is able to boot properly before installing Siege Editor. It may give you errors about bad paths. Go to the Gmax Folder, open `gmax.ini` as well as `plugin.ini` and check the keys in there for the folder paths. Change them to point to where you installed Gmax.
+5. Install Siege Editor. If you have installed Gmax correctly, the installer should be able to locate it. It will then install the relevant SiegeMax files allowing you to edit DS mesh files.
+6. Run SiegeMax from the shortcut that should be placed on your desktop when installing Siege Editor. Do not run the regular Gmax exe, that isn't needed anymore.
+7. If SiegeMax complains about file paths, see step 3, but this time you need to go into the `Gamepacks` folder in the Gmax installation folder. If the folder `gamepacks\SiegeMax\scripts\startup` is missing, create it.
+
+Note: if you didn't install Gmax through the official installer like the one in step 2, you can make Siege Editor find Gmax by adding its installation path to environment variables. Go to `My Computer -> Properties -> Advanced system settings -> Advanced tab -> Environment Variables -> User variables -> New`. For variable name, put `GMAXLOC` and for variable value, put your Gmax installation path.
 
 ## Make DSMod work on the GOG/Steam version
 
@@ -974,7 +984,7 @@ This document wouldn't have been possible without the following people:
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
 - Novy Disk - Russian translation for LOA
 - Richard M. - French translation for LOA
-- sadowson (Discord) - lots of fixes
+- sadowson (Discord) - lots of fixes and Gmax installation guide
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
 - [soyuka](https://github.com/soyuka) - Linux installation guide

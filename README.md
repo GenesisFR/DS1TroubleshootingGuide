@@ -8,9 +8,9 @@
    * [2.2 Capture the game with OBS](#capture-the-game-with-obs)
    * [2.3 Change the FOV](#change-the-fov)
    * [2.4 Convert DS saves to LOA](#convert-ds-saves-to-loa)
-   * [2.5 Enable EAX](#enable-eax)
-   * [2.6 Enable LOA + Extras](#enable-loa--extras)
-   * [2.7 Enable MP](#enable-mp)
+   * [2.5 Enable Directplay](#enable-directplay)
+   * [2.6 Enable EAX](#enable-eax)
+   * [2.7 Enable LOA](#enable-loa)
    * [2.8 HD textures](#hd-textures)
    * [2.9 Import a character](#import-a-character)
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
@@ -97,7 +97,7 @@ SP = Singleplayer
 \<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
 \<path-to-game\> = your installation directory (ex: `%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
-Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa--extras)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
 # Guides
 
@@ -175,21 +175,21 @@ If you prefer a visual guide, see [this](https://steamcommunity.com/sharedfiles/
 
 Source: https://discordapp.com/channels/373223103985090581/400744824593973248/587998587112259584
 
+## Enable DirectPlay
+
+If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
+
+Note: this only applies to Windows 7 or later.
+
 ## Enable EAX
 
 1. Download [dsoal](https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2).
 2. Extract `dsound.dll` and `dsoal-aldrv.dll` to [\<path-to-game\>](#glossary).
 3. Run the game and enable EAX in the options.
 
-## Enable LOA + Extras
+## Enable LOA
 
 Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213).
-
-## Enable MP
-
-If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
-
-Note: this only applies to Windows 7 or later.
 
 ## HD textures
 
@@ -288,7 +288,7 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa--extras)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa)).
 
 ## Play MP map in SP
 
@@ -428,13 +428,13 @@ You have to import your party from your modded save to another save that doesn't
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the GOG/Steam version. Use [Killah's fix](#enable-loa--extras).
+The multiplayer and anything related to it was disabled in the GOG/Steam version. Use [Killah's fix](#enable-loa).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
 ## Booted back to the MP menu when trying to host a game
 
-- Enable DirectPlay (see [Enable MP](#enable-mp)).
+- [Enable directplay](#enable-directplay).
 - Add `dpnsvr = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 ## Cannot find world:global:vosounds in gas tree
@@ -844,7 +844,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
 - "[\<path-to-game\>](#glossary)\Resources\XPRes.dsres"
 - "[\<path-to-game\>](#glossary)\Resources\Yesterhaven.dsres"

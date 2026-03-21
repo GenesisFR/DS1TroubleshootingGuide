@@ -290,6 +290,12 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa)).
 
+Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://www.nexusmods.com/dungeonsiege1/mods/264). Keep in mind it's still in beta, may not work for you and has its own issues that won't be covered in this guide for the time being. For assistance, you can post on Discord or Nexus.
+
+When using Internet or ZoneMatch, you'll have to do some [port-forwarding](https://portforward.com/dungeon-siege) when hosting games.
+
+Note: see [Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game), [Enable Directplay](#enable-directplay) and [Lag in MP](#lag-in-mp) for eventual issues.
+
 ## Play MP map in SP
 
 Install one of these mods:
@@ -434,7 +440,7 @@ Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
 ## Booted back to the MP menu when trying to host a game
 
-- [Enable directplay](#enable-directplay).
+- [Enable Directplay](#enable-directplay).
 - Add `dpnsvr = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
 ## Cannot find world:global:vosounds in gas tree

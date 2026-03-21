@@ -177,9 +177,25 @@ Source: https://discordapp.com/channels/373223103985090581/400744824593973248/58
 
 ## Enable DirectPlay
 
-If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
+If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), you have to enable it manually.
 
-Note: this only applies to Windows 7 or later.
+Method 1 (Windows 10 or later):
+
+Type this command in an [admin command-line](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10):
+
+`fondue /Enable-feature:DirectPlay`
+
+Method 2 (Windows 7 or later):
+
+Type this command in an [admin PowerShell](https://www.howtogeek.com/742916/how-to-open-windows-powershell-as-an-admin-in-windows-10), it'll automatically enable any other component required for Directplay to work:
+
+`Enable-WindowsOptionalFeature –FeatureName "DirectPlay" -All -Online`
+
+Method 3 (Windows Vista or later):
+
+Go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
+
+Note: this only applies to Windows Vista or later.
 
 ## Enable EAX
 
@@ -294,7 +310,7 @@ Since ZoneMatch went down in 2006, you can use an open source reimplementation c
 
 When using Internet or ZoneMatch, you'll have to do some [port-forwarding](https://portforward.com/dungeon-siege) when hosting games.
 
-Note: see [Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game), [Enable Directplay](#enable-directplay) and [Lag in MP](#lag-in-mp) for eventual issues.
+Note: see [Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game) and [Lag in MP](#lag-in-mp) for eventual issues.
 
 ## Play MP map in SP
 

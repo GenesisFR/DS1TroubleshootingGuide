@@ -716,7 +716,10 @@ If you're experiencing missing animations or freezes in the character creator, t
 
 ## Unable to enumerate any DirectDraw devices installed on this system
 
-[Enable DirectDraw acceleration](https://superuser.com/a/504510).
+1. Download [Microsoft DirectX Control Panel 9.0c](https://www.majorgeeks.com/mg/getmirror/microsoft_directx_control_panel,1.html).
+2. Extract and run `directx.cpl` as administrator.
+3. Go to the `Direct3D` tab and make sure `Allow Hardware Acceleration` is checked.
+4. Go to the `DirectDraw` tab and make sure `Use Hardware Acceleration` is checked.
 
 ## Virtual alloc failed with error
 

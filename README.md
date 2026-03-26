@@ -274,9 +274,9 @@ Please follow these steps for each mod to make sure everything is working proper
 
 1. Extract the archive to your DS folder.
 2. Edit the provided BAT file with your desired resolution.
-3. Copy the content of [\<path-to-docs\>](#glossary) to the [\<path-to-game\>](#glossary)`<mod-name>\User\Save` subfolder prior to running the mod (if you'd like to keep your key bindings and game preferences).
+3. Copy the content of [\<path-to-docs\>](#glossary) to the [\<path-to-game\>](#glossary)`\`[\<mod-name\>](#glossary)`\User\Save` subfolder prior to running the mod (if you'd like to keep your key bindings and game preferences).
 4. Run the mod with the BAT file (you can also replicate its arguments in a shortcut or GOG/Steam launch options).
-5. Saved games will be located under the [\<path-to-game\>](#glossary)`<mod-name>\User\Save` subfolder (to avoid overriding saves from the main game). 
+5. Saved games will be located under the [\<path-to-game\>](#glossary)`\`[\<mod-name\>](#glossary)`\User\Save` subfolder (to avoid overriding saves from the main game). 
 
 Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
 
@@ -860,7 +860,7 @@ Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading]
 
 Download and run the [reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) to make the editor find your game.
 
-To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in [\<path-to-game\>](#glossary)\system_detail.gas`. The device name and both IDs are shown in the error message and must be prefixed with `0x`.
+To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in [\<path-to-game\>](#glossary)`\system_detail.gas`. The device name and both IDs are shown in the error message and must be prefixed with `0x`.
 
 Where you add it is important, otherwise it may disable some effects (like complex shadows). Look up the section corresponding to the vendor of your graphics card (nVidia, ATI or Intel). In my case, I added this entry to the beginning of the `nVidia` vendor section (before the other `[device*]` entries):
 

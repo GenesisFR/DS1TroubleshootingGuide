@@ -330,7 +330,7 @@ Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps 
 
 ## Play Yesterhaven map in SP
 
-Method 1 (recommended)
+Method 1 (recommended):
 
 Use Firstie's [Yesterhaven revisited](https://www.nexusmods.com/dungeonsiege1/mods/217).
 
@@ -801,15 +801,16 @@ If the official DS2TankViewer doesn't start, you can try the [unofficial TankVie
 
 ## Installing Gmax & SiegeMax for Siege Editor
 
-1. Uninstall Siege Editor if it was already installed. This is necessary as the toolkit installer checks if Gmax is installed before installing SiegeMax (see step 4).
+1. Uninstall Siege Editor if it was already installed. This is necessary as the toolkit installer checks if Gmax is installed in order to install SiegeMax (see step 5).
 2. Download [Gmax](https://www.neverwintervault.org/project/nwn1/other/tool/gmax-12-registration-workaround) and install it.
 3. When booting Gmax, you'll be asked for a registration key, use the registry files from the `registration_workaround.zip` you downloaded in step 2.
-4. Ensure that Gmax is able to boot properly before installing Siege Editor. It may give you errors about bad paths. Go to the Gmax Folder, open `gmax.ini` as well as `plugin.ini` and check the keys in there for the folder paths. Change them to point to where you installed Gmax.
-5. Install Siege Editor. If you have installed Gmax correctly, the installer should be able to locate it. It will then install the relevant SiegeMax files allowing you to edit DS mesh files.
-6. Run SiegeMax from the shortcut that should be placed on your desktop when installing Siege Editor. Do not run the regular Gmax exe, that isn't needed anymore.
-7. If SiegeMax complains about file paths, see step 3, but this time you need to go into the `Gamepacks` folder in the Gmax installation folder. If the folder `gamepacks\SiegeMax\scripts\startup` is missing, create it.
+4. Ensure that Gmax is able to boot properly before installing Siege Editor. It may give you errors about bad paths. Go to the `Gmax` folder, open `gmax.ini` as well as `plugin.ini` and check the keys in there for the folder paths. Change them to point to where you installed Gmax.
+5. If you have installed Gmax through the official installer (like the one in step 2), the toolkit installer should be able to locate it. Otherwise, go to `My Computer -> Properties -> Advanced system settings -> Advanced tab -> Environment Variables -> User variables -> New`. For variable name, put `GMAXLOC` and for variable value, put your Gmax installation path.
+6. Install Siege Editor. It will install the relevant SiegeMax files allowing you to edit DS mesh files.
+7. Run SiegeMax from the shortcut that should be placed on your desktop when installing Siege Editor. Do not run the regular Gmax exe, that isn't needed anymore.
+8. If SiegeMax complains about file paths, see step 3, but this time you need to go into the `Gamepacks` folder in the Gmax installation folder. If the folder `gamepacks\SiegeMax\scripts\startup` is missing, create it.
 
-Note: if you didn't install Gmax through the official installer like the one in step 2, you can make Siege Editor find Gmax by adding its installation path to environment variables. Go to `My Computer -> Properties -> Advanced system settings -> Advanced tab -> Environment Variables -> User variables -> New`. For variable name, put `GMAXLOC` and for variable value, put your Gmax installation path.
+Note: Eksevis made an improved [dark theme](https://archive.org/details/gmax-1.2-custom-dark-ui) for SiegeMax.
 
 ## Make DSMod work on the GOG/Steam version
 

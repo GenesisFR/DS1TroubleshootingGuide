@@ -147,7 +147,9 @@ Note: if you're not playing at your native resolution, just make sure you don't 
 
 ## Change the FOV
 
-Hex-edit the game's [executable](http://www.wsgf.org/dr/dungeon-siege).
+[Hex-edit](https://hexed.it) the game's [executable](http://www.wsgf.org/dr/dungeon-siege).
+
+Note: doing this will result in a different CRC check (see [Incompatible version](#incompatible-version)).
 
 ## Convert DS saves to LOA
 
@@ -400,7 +402,7 @@ Method 2:
 
 Add the `width=xxxx` and `height=xxxx` launch parameters (where `xxxx` is your desired resolution, for instance `width=1920 height=1080`). See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
-When setting the resolution through this method, it will prevent the game from changing it while navigating the options menu.
+When setting the resolution through this method, it won't make the game update it in the config file while navigating the options menu (unless you manually change it from there).
 
 Method 3:
 

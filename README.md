@@ -470,6 +470,8 @@ Your game files are corrupted. Reinstall the game.
 
 This issue seems to happen only on Linux. Try using a different version of Proton (like 5.13-6 or 7.0-6).
 
+Source: https://steamcommunity.com/app/39190/discussions/0/803469175294030644
+
 ## Crash/exception
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
@@ -945,7 +947,7 @@ Utraean Peninsula:
 - [Chicken George's Mods](https://sites.google.com/view/chickengeorgemods/modding) (modding tools)
 - [DS cheat codes](https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468)
 - [DS Heaven](http://ds.heavengames.com) (unofficial community)
-- [DS launch parameters](https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468/#c2275953283817676368)
+- [DS launch parameters](https://www.pcgamingwiki.com/wiki/Dungeon_Siege#Command_line_arguments)
 - [DS wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege)
 - [DS LOA wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
 - [Game Front DS](https://www.gamefront.com/games/dungeon-siege) (DS mods)
@@ -986,6 +988,7 @@ This document wouldn't have been possible without the following people:
 - Father Bronze - SP version of Yesterhaven
 - [Firstie](https://www.nexusmods.com/profile/foerstj) - new SeeFar build and revisited maps
 - [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
+- [Game](https://steamcommunity.com/profiles/76561198079347952) - Characters not holding equipped gear fix
 - Guilherme Tutilo - Brazilian Portuguese translation for LOA
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - LOA guide and DS community

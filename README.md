@@ -106,7 +106,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 Method 1:
 
-1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 4).
+1. Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 7).
 2. In `GameRanger`, hit `Edit -> Options -> Games -> Dungeon Siege -> Browse` then select `DungeonSiege.exe` (the executable must be named `DSLOA.exe` for LOA) from `Program Files`:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
@@ -260,7 +260,7 @@ Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=34
 
 Normally, the Ultima remakes are meant for the retail version, but some people made guides to make them work on the Steam version (they also work on the GOG version):
 
-- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or use the [reg patch](https://github.com/GenesisFR/RegPatches))
+- https://dor-lomin.com/2016/04/30/running-the-ultima-6-project-on-a-steam-edition-of-dungeon-siege (or download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1))
 - https://www.projectbritannia.com/forum/index.php?topic=2446.msg16746#msg16746
 
 I made some drag-and-drop archives (which may be slightly outdated) if you want to skip the installation guide above:
@@ -825,7 +825,7 @@ Note: Eksevis made an improved [dark theme](https://archive.org/details/gmax-1.2
 
 TLDR (both scenarios): https://www.mediafire.com/file/852l283dl7p580j/DSMod_Steam_version.zip
 
-Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) to make DSMod find your game.
+Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1) to make DSMod find your game.
 
 After doing that, you will run into two scenarios depending on which reg patch you were using prior to installing the toolkit.
 
@@ -850,7 +850,7 @@ Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading]
 
 ## Make DSLOAMod work on the GOG/Steam version
 
-Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) to make DSLOAMod find your game.
+Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1) to make DSLOAMod find your game.
 
 DSLOAMod won't get installed unless LOA is installed. On top of that, it uses SmarteSecure DRM disc check so you'll need to have disc 1 of LOA in your disc drive or it'll refuse to run.
 
@@ -868,7 +868,7 @@ Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading]
 
 ## Make Siege Editor work on the GOG/Steam version
 
-Download and run the [reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) to make the editor find your game.
+Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1) to make Siege Editor find your game.
 
 To fix the "Unable to find video card entry for your hardware" warning in Siege Editor, you need to add an entry corresponding to your GPU in [\<path-to-game\>](#glossary)`\system_detail.gas`. The device name and both IDs are shown in the error message and must be prefixed with `0x`.
 

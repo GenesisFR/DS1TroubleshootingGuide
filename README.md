@@ -29,44 +29,44 @@
    * [3.1 Black screen at Gom](#black-screen-at-gom)
    * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
    * [3.3 Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game)
-   * [3.4 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
-   * [3.5 Characters not holding equipped gear](#characters-not-holding-equipped-gear)
-   * [3.6 Crash/exception](#crashexception)
-   * [3.7 D3D Initialization Failure](#d3d-initialization-failure)
-   * [3.8 Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode)
-   * [3.9 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
-   * [3.10 Game freezes during cutscenes](#game-freezes-during-cutscenes)
-   * [3.11 Game screen is offset](#game-screen-is-offset)
-   * [3.12 Incompatible version](#incompatible-version)
-   * [3.13 Lag in MP](#lag-in-mp)
-   * [3.14 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.15 Mouse cursor is stuck](#mouse-cursor-is-stuck)
-   * [3.16 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.17 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
-   * [3.18 Poor performance](#poor-performance)
-   * [3.19 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.20 Save failed](#save-failed)
-   * [3.21 Shadows are missing](#shadows-are-missing)
-   * [3.22 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
-   * [3.23 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.24 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.25 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.26 Text has artefacts](#text-has-artefacts)
-   * [3.27 Textures not loading](#textures-not-loading)
-   * [3.28 Translations partially working](#translations-partially-working)
-   * [3.29 UI/cursor flickering](#uicursor-flickering)
-   * [3.30 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
-   * [3.31 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.32 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.33 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.34 White textures](#white-textures)
-   * [3.35 Window is offscreen](#window-is-offscreen)
-   * [3.36 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.37 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.38 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.4 Can't zoom out anymore](#cant-zoom-out-anymore)
+   * [3.5 Cannot find world:global:vosounds in gas tree](#cannot-find-worldglobalvosounds-in-gas-tree)
+   * [3.6 Characters not holding equipped gear](#characters-not-holding-equipped-gear)
+   * [3.7 Crash/exception](#crashexception)
+   * [3.8 D3D Initialization Failure](#d3d-initialization-failure)
+   * [3.9 Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode)
+   * [3.10 Fuel failed to write file prefs.gas](#fuel-failed-to-write-file-prefsgas)
+   * [3.11 Game freezes during cutscenes](#game-freezes-during-cutscenes)
+   * [3.12 Game screen is offset](#game-screen-is-offset)
+   * [3.13 Incompatible version](#incompatible-version)
+   * [3.14 Lag in MP](#lag-in-mp)
+   * [3.15 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.16 Mouse cursor is stuck](#mouse-cursor-is-stuck)
+   * [3.17 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.18 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.19 Poor performance](#poor-performance)
+   * [3.20 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.21 Save failed](#save-failed)
+   * [3.22 Shadows are missing](#shadows-are-missing)
+   * [3.23 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.24 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.25 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.26 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.27 Text has artefacts](#text-has-artefacts)
+   * [3.28 Textures not loading](#textures-not-loading)
+   * [3.29 Translations partially working](#translations-partially-working)
+   * [3.30 UI/cursor flickering](#uicursor-flickering)
+   * [3.31 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.32 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.33 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.34 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.35 White textures](#white-textures)
+   * [3.36 Window is offscreen](#window-is-offscreen)
+   * [3.37 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.38 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.39 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
-   * [4.2 Can't zoom out anymore](#cant-zoom-out-anymore)
 * [5.0 Modding](#modding)
    * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)
@@ -469,6 +469,19 @@ Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 - [Enable Directplay](#enable-directplay).
 - Add `dpnsvr = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
+## Can't zoom out anymore
+
+This issue only happens when using SeeFar with `Minimum Camera Distance` set to `0` and zooming all the way in.
+
+To fix the problem, go through the following steps:
+
+1. Go to `Options -> Game -> More`.
+2. Set `Minimum Camera Distance` to `1` or higher.
+3. Hit OK.
+4. Save the game.
+
+To prevent it from happening, do not set `Minimum Camera Distance` to `0` again. You'll also have to repeat the steps above when starting a new game.
+
 ## Cannot find world:global:vosounds in gas tree
 
 Your game files are corrupted. Reinstall the game.
@@ -810,18 +823,6 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 1. Set your resolution to `1024x768` or lower from the main menu.
 2. Start a new game or load your saved game.
 3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix, see method 1 of [Use unsupported resolutions](#use-unsupported-resolutions)).
-
-## Can't zoom out anymore
-
-This issue only happens when using SeeFar with `Minimum Camera Distance` set to `0` and zooming all the way in. If you already saved your game after this happened, there's no way that I know of to fix it as it's baked into the save in binary format.
-
-To prevent it from happening in a saved game, you can go through the following steps:
-
-1. Load your saved game.
-2. Go to `Options -> Game -> More`.
-3. Set `Minimum Camera Distance` to `1` or higher.
-4. Hit OK.
-5. Save the game.
 
 # Modding
 

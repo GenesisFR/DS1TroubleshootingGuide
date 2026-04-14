@@ -1,7 +1,7 @@
 # Dungeon Siege 1 Troubleshooting Guide
 
 ## Table of Contents
-   
+
 * [1.0 Glossary](#glossary)
 * [2.0 Guides](#guides)
    * [2.1 Add the game on GameRanger](#add-the-game-on-gameranger)
@@ -96,7 +96,7 @@ SP = Singleplayer
 \<mod-name\> = folder name of your mod (ex: `u6p`)  
 \<path-to-docs\> = `%USERPROFILE%\Documents\Dungeon Siege`  
 \<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
-\<path-to-game\> = your installation directory (ex: `%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 1`)  
+\<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
 Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
@@ -309,9 +309,13 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu (not necessary if you're using the retail version or [Killah's fix](#enable-loa)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or [Killah's fix](#enable-loa)).
 
-Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://www.nexusmods.com/dungeonsiege1/mods/264). Keep in mind it's still in beta, may not work for you and has its own issues that won't be covered in this guide for the time being. For assistance, you can post on Discord or Nexus.
+Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://www.nexusmods.com/dungeonsiege1/mods/264). 
+
+You can either install it manually or download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 6).
+
+Keep in mind it's still in beta, may not work for you and has its own issues that won't be covered in this guide for the time being. For assistance, you can post on Discord or Nexus.
 
 When using Internet or ZoneMatch, you'll have to do some [port-forwarding](https://portforward.com/dungeon-siege) when hosting games.
 
@@ -707,9 +711,13 @@ If there still seems to be missing translations, it's because anything that alre
 
 ## Unable to access or create a critical path that is required to operate
 
-This is caused by `Controlled Folder Access` on Windows 10/11 preventing the game from accessing [\<path-to-docs\>](#glossary) (or [\<path-to-docs-LOA\>](#glossary) for LOA).
+This is caused by `Controlled Folder Access` on Windows 10/11 preventing the game from accessing `%USERPROFILE%\Documents`. You have to add the game to the allowed apps list:
 
-Add the game to the allowed apps list:
+Method 1 (recommended):
+
+Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 8).
+
+Method 2:
 
 1. Open `Windows Security`.
 2. Navigate to `Virus & Threat Protection`.

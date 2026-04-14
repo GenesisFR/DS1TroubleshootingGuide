@@ -66,7 +66,7 @@
    * [3.38 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
-   * [4.2 Can't zoom out anymore](#can-t-zoom-out-anymore)
+   * [4.2 Can't zoom out anymore](#cant-zoom-out-anymore)
 * [5.0 Modding](#modding)
    * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)

@@ -66,6 +66,7 @@
    * [3.38 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
+   * [4.2 Can't zoom out anymore](#can-t-zoom-out-anymore)
 * [5.0 Modding](#modding)
    * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)
@@ -206,7 +207,7 @@ Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Compone
 
 1. Download [dsoal](https://pcgamingwiki.com/wiki/Glossary:Sound_card#Universal_2).
 2. Extract `dsound.dll` and `dsoal-aldrv.dll` to [\<path-to-game\>](#glossary).
-3. Run the game and enable EAX in the options.
+3. Run the game and enable EAX (`Options -> Audio -> EAX -> On`).
 
 ## Enable LOA
 
@@ -809,6 +810,18 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 1. Set your resolution to `1024x768` or lower from the main menu.
 2. Start a new game or load your saved game.
 3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix, see method 1 of [Use unsupported resolutions](#use-unsupported-resolutions)).
+
+## Can't zoom out anymore
+
+This issue only happens when using SeeFar with `Minimum Camera Distance` set to `0` and zooming all the way in. If you already saved your game after this happened, there's no way that I know of to fix it as it's baked into the save in binary format.
+
+To prevent it from happening in a saved game, you can go through the following steps:
+
+1. Load your saved game.
+2. Go to `Options -> Game -> More`.
+3. Set `Minimum Camera Distance` to `1` or higher.
+4. Hit OK.
+5. Save the game.
 
 # Modding
 

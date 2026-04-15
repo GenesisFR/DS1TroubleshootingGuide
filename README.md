@@ -546,6 +546,7 @@ If your game looks zoomed in, it's likely caused by your screen scaling settings
 2. Go to `Compatibility -> Change high DPI settings`.
 3. Tick `Override high DPI scaling behaviour`.
 4. Select `Application` in the drop-down menu.
+5. Hit `OK`.
 
 Alternatively, you can set the Windows display scaling setting back to 100%:
 

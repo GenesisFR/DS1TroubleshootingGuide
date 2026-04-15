@@ -171,7 +171,7 @@ Recompile the save:
 2. Click on `Source` and select the folder where you decompiled the files earlier.
 3. Click on `Output`, select [\<path-to-docs-LOA\>](#glossary)`\Save` and make sure the file has a `DSSAVE` extension.
 4. Select `DS & LOA` under `Format`.
-5. Click on Create (if nothing happens, see [Tank Creator doesn't work](#tank-creator-doesnt-work)).
+5. Click on `Create` (if nothing happens, see [Tank Creator doesn't work](#tank-creator-doesnt-work)).
 
 You should now be able to load your save in LOA. The inventory of your mules may become glitched though (see [Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)).
 
@@ -181,7 +181,7 @@ Source: https://discordapp.com/channels/373223103985090581/400744824593973248/58
 
 ## Enable DirectPlay
 
-If Windows doesn't detect that the game needs DirectPlay (when clicking on Multiplayer), you have to enable it manually.
+If Windows doesn't detect that the game needs DirectPlay (when clicking on `Multiplayer`), you have to enable it manually.
 
 Method 1 (Windows 10 or later):
 
@@ -201,7 +201,7 @@ Go to `Control Panel -> Programs and Features -> Turn Windows features on or off
 
 Method 4 (Windows XP):
 
-Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Components`. From there, check the box for `DirectPlay` under the `Games` section and click OK.
+Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Components`. From there, tick the box for `DirectPlay` under the `Games` section and click OK.
 
 ## Enable EAX
 
@@ -477,7 +477,7 @@ To fix the problem, go through the following steps:
 
 1. Go to `Options -> Game -> More`.
 2. Set `Minimum Camera Distance` to `1` or higher.
-3. Hit OK.
+3. Hit `OK`.
 4. Save the game.
 
 To prevent it from happening, do not set `Minimum Camera Distance` to `0` again. You'll also have to repeat the steps above when starting a new game.
@@ -544,7 +544,8 @@ If your game looks zoomed in, it's likely caused by your screen scaling settings
 
 1. Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties`.
 2. Go to `Compatibility -> Change high DPI settings`.
-3. Check `Override high DPI scaling behaviour` and make sure `Application` is selected in the drop-down menu.
+3. Tick `Override high DPI scaling behaviour`.
+4. Select `Application` in the drop-down menu.
 
 Alternatively, you can set the Windows display scaling setting back to 100%:
 
@@ -749,8 +750,9 @@ If you're experiencing missing animations or freezes in the character creator, t
 
 1. Download [Microsoft DirectX Control Panel 9.0c](https://www.majorgeeks.com/mg/getmirror/microsoft_directx_control_panel,1.html).
 2. Extract and run `directx.cpl` as administrator.
-3. Go to the `Direct3D` tab and make sure `Allow Hardware Acceleration` is checked.
-4. Go to the `DirectDraw` tab and make sure `Use Hardware Acceleration` is checked.
+3. Go to the `Direct3D` tab and tick `Allow Hardware Acceleration`.
+4. Go to the `DirectDraw` tab and tick `Use Hardware Acceleration`.
+5. Hit `Apply`.
 
 ## Virtual alloc failed with error
 
@@ -763,8 +765,10 @@ Make the game's executable large-address aware using the [LAA enabler](https://w
 This usually happens when using dgVoodoo2.
 
 1. Run `dgVoodooCpl.exe`, go to the `General` tab and select one of the Direct3D 12 entries from the `Output API` drop-down list.
-2. Go to the `DirectX` tab, tick `Fast memory access` and hit OK.
-3. Decrease [shadow resolution](#increase-shadow-resolution) to `512` or lower.
+2. Go to the `DirectX` tab.
+3. Tick `Fast memory access`.
+4. Hit `OK`.
+5. Decrease [shadow resolution](#increase-shadow-resolution) to `512` or lower.
 
 Note: if you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
 
@@ -865,8 +869,8 @@ If you were using an old version of the reg patch (an executable), the `DSMod.ex
 4. In the second instance, hit `File -> Open -> DungeonSiege.exe`.
 5. In both instances, hit `Version Info -> 1 : 1033`.
 6. Locate the line `MSQAVersion` and replace its value in `DSMod.exe` by the value from `DungeonSiege.exe`.
-7. Click on the green arrow (or F5) to compile the script.
-8. Click on the green floppy disk (or Ctrl + S) to save the file.
+7. Click on the green arrow (or `F5`) to compile the script.
+8. Click on the green floppy disk (or `Ctrl + S`) to save the file.
 
 Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
@@ -942,9 +946,9 @@ If nothing happens when clicking on the `Create` button in Tank Creator, make su
 1. Open `Siege Editor`.
 2. Hit `Siege Editor -> File -> Convert .dsmap to Files...`.
 3. Select your DSRES/DSMAP from the `Source File` button.
-4. Uncheck `Use default destination folder` and select the folder where you want to extract it (if it's checked, the default destination folder is [\<path-to-docs\>](#glossary)`\Bits`).
-5. Uncheck `Extract .lqd files` if you just want to view the extracted files.
-6. Click OK.
+4. Untick `Use default destination folder` and select the folder where you want to extract it (if it's ticked, the default destination folder is [\<path-to-docs\>](#glossary)`\Bits`).
+5. Untick `Extract .lqd files` if you just want to view the extracted files.
+6. Hit `OK`.
 
 # Walkthroughs
 

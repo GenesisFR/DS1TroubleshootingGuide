@@ -99,7 +99,7 @@ SP = Singleplayer
 \<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
 \<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
-Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-loa)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with the [LOA fix](#enable-loa)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
 # Guides
 
@@ -211,7 +211,7 @@ Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Compone
 
 ## Enable LOA
 
-Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213).
+Follow the instructions from the [LOA fix guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213).
 
 ## HD textures
 
@@ -300,7 +300,7 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 The game on GOG/Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game's release.
 
-Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under `Language Packs`.
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on the [LOA fix rentry](https://rentry.co/dungeonsiegefixes) under `Language Packs`.
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
@@ -310,7 +310,7 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or [Killah's fix](#enable-loa)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#enable-loa)).
 
 Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://www.nexusmods.com/dungeonsiege1/mods/264). 
 
@@ -460,7 +460,7 @@ You have to import your party from your modded save to another save that doesn't
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the GOG/Steam version. Use [Killah's fix](#enable-loa).
+The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#enable-loa).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
@@ -916,7 +916,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed [Killah's fix](#enable-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#enable-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
 - [\<path-to-game\>](#glossary)`\Resources\XPRes.dsres`
 - [\<path-to-game\>](#glossary)`\Resources\Yesterhaven.dsres`
@@ -1020,7 +1020,7 @@ This document wouldn't have been possible without the following people:
 - [Game](https://steamcommunity.com/profiles/76561198079347952) - Characters not holding equipped gear fix
 - Guilherme Tutilo - Brazilian Portuguese translation for LOA
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
-- Killah - LOA guide and DS community
+- Killah - DS guides and community
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
 - Novy Disk - Russian translation for LOA

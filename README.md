@@ -300,7 +300,7 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 The game on GOG/Steam is available in various languages, however these do not localize cutscenes, voices or LOA. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game's release.
 
-Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on the [LOA fix rentry](https://rentry.co/dungeonsiegefixes) under `Language Packs`.
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them [here](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153), under `Language Packs`.
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 

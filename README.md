@@ -953,36 +953,32 @@ If nothing happens when clicking on the `Create` button in Tank Creator, make su
 
 # Walkthroughs
 
-All-in-One:
-
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1264921426
-
 DS:
 
-- http://ds.gemsite.org/web/index.php/kingdom-of-ehb
-- https://www.walkthroughking.com/text/dungeonsiege.aspx
+- [Gemsite](http://ds.gemsite.org/web/index.php/kingdom-of-ehb)
+- [The Walkthrough King](https://www.walkthroughking.com/text/dungeonsiege.aspx)
 
 LOA:
 
-- http://ds.gemsite.org/web/index.php/legends-of-aranna
-- https://www.walkthroughking.com/text/dungeonsiegearanna.aspx
+- [Gemsite](http://ds.gemsite.org/web/index.php/legends-of-aranna)
+- [The Walkthrough King](https://www.walkthroughking.com/text/dungeonsiegearanna.aspx)
 
 Utraean Peninsula:
 
-- http://ds.gemsite.org/web/index.php/utraen-peninsula
+- [Gemsite](http://ds.gemsite.org/web/index.php/utraen-peninsula)
 
 # Links
 
+- [Cheat codes](https://dungeonsiege.fandom.com/wiki/Cheats_(Dungeon_Siege))
 - [Chicken George's Mods](https://sites.google.com/view/chickengeorgemods/modding) (modding tools)
-- [DS cheat codes](https://steamcommunity.com/groups/TheKingdomOfEhb/discussions/0/1457328819911889468)
-- [DS Heaven](http://ds.heavengames.com) (unofficial community)
-- [DS launch parameters](https://www.pcgamingwiki.com/wiki/Dungeon_Siege#Command_line_arguments)
+- [DS Heaven](https://ds.heavengames.com) (unofficial community)
 - [DS wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege)
 - [DS LOA wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
 - [Game Front DS](https://www.gamefront.com/games/dungeon-siege) (DS mods)
 - [Game Front LOA](https://www.gamefront.com/games/dungeon-siege-legend-of-aranna) (LOA mods)
 - [Gemsite](http://ds.gemsite.org/web/index.php/main) (unofficial community)
 - [KillerGremal's system_detail.gas configurator](http://ds2.bplaced.net/sysdat/ds1)
+- [Launch parameters](https://dungeonsiege.fandom.com/wiki/Cheats_(Dungeon_Siege)#Dungeon_Siege/Legends_Of_Aranna:_Command_Line_Arguments)
 - [Mod DB DS](https://www.moddb.com/games/dungeon-siege) (DS mods)
 - [Mod DB LOA](https://www.moddb.com/games/dungeon-siege-legend-of-aranna) (LOA mods)
 - [Nexus Mods](https://www.nexusmods.com/dungeonsiege1) (DS1/LOA mods)
@@ -1002,51 +998,54 @@ This document wouldn't have been possible without the following people:
 - [0xff](https://www.twitch.tv/0xff2)
 - [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
 - [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
-- ALI123 - Chinese translation for DS
 - [Antrad2020](https://antonior-software.blogspot.com)
 - Azlaroc - 100$ donation
 - bawnerbaw (Discord) - save conversion guide
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
-- [cagatay](https://steamcommunity.com/id/CagatayBaysal) - Turkish translation for LOA
 - [Casual Sun](https://steamcommunity.com/profiles/76561198102676021) - Lossless Scaling guide
 - coop13 (Discord) - white texture fix
-- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for LOA
-- [duyc37](https://archive.org/details/@duyc37) - Korean translation for DS
 - eksevis (Discord)
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven
 - [Firstie](https://www.nexusmods.com/profile/foerstj) - new SeeFar build and revisited maps
-- [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
-- [Game](https://steamcommunity.com/profiles/76561198079347952) - Characters not holding equipped gear fix
-- Guilherme Tutilo - Brazilian Portuguese translation for LOA
+- [Game](https://steamcommunity.com/profiles/76561198079347952) - characters not holding equipped gear fix
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - DS guides and community
+- sadowson (Discord) - lots of fixes and Gmax installation guide
+- [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
+- [soyuka](https://github.com/soyuka) - Linux installation guide
+- starfalll (Discord) - lots of fixes
+- [The Walkthrough King](https://www.walkthroughking.com)
+- [Thrillvilled](https://github.com/RLR64) - online hex editor
+- [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
+- tristanzz (Discord) - import character guide
+- [Tyler799](https://github.com/Tyler799) - format used for this guide
+
+And the following resources:
+
+- [GOG forum](https://www.gog.com/forum/dungeon_siege_series)
+- [PCGamingWiki DS](https://pcgamingwiki.com/wiki/Dungeon_Siege)
+- [PCGamingWiki LOA](https://pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
+- [Steam Community forums](https://steamcommunity.com/app/39190/discussions)
+- [Steam Community guides](https://steamcommunity.com/app/39190/guides)
+- [WSGF](http://www.wsgf.org/dr/dungeon-siege)
+
+The language packs were made possible thanks to:
+
+- ALI123 - Chinese translation for DS
+- [cagatay](https://steamcommunity.com/id/CagatayBaysal) - Turkish translation for LOA
+- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for LOA
+- [duyc37](https://archive.org/details/@duyc37) - Korean translation for DS
+- [gaetanolettieri4](https://steamcommunity.com/profiles/76561198288816679) - Italian translation for LOA
+- Guilherme Tutilo - Brazilian Portuguese translation for LOA
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for LOA
 - [nightson](https://archive.org/details/@nightson) - Japanese translation for DS
 - Novy Disk - Russian translation for LOA
 - Richard M. - French translation for LOA
-- sadowson (Discord) - lots of fixes and Gmax installation guide
 - [Shikafax](https://steamcommunity.com/profiles/76561198023974564) - Italian translation for DS
-- [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
-- [soyuka](https://github.com/soyuka) - Linux installation guide
-- starfalll (Discord) - lots of fixes
-- The Walkthrough King
-- [Thrillvilled](https://github.com/RLR64) - online hex editor
-- [Tiberius](https://steamcommunity.com/profiles/76561197978671411)
 - [TraductionJeux](https://traductionjeux.com) - French translation for DS
-- tristanzz (Discord) - import character guide
-- [Tyler799](https://github.com/Tyler799) - format used for this guide
 - [WolfBelmi88](https://steamcommunity.com/sharedfiles/filedetails/?id=2053509500) - Spanish translation for LOA
-- [youare29](https://steamcommunity.com/id/youare29) - launch parameters
 - Youxia/Bahamut localization teams - Chinese translation for LOA
-
-And the following resources:
-
-- [PCGamingWiki DS](https://pcgamingwiki.com/wiki/Dungeon_Siege)
-- [PCGamingWiki LOA](https://pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
-- [WSGF](http://www.wsgf.org/dr/dungeon-siege)
-- GOG forums
-- Steam Community forums/guides
 
 Thanks a lot for your help!
 
@@ -1054,4 +1053,4 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to the [Steam thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).
+You're not allowed to put this document in raw form anywhere, out of respect (I've been working on it since 2019). Just share the GitHub link or redirect users to the [Steam thread](https://steamcommunity.com/app/39190/discussions/0/1813170373233918779).

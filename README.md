@@ -217,11 +217,11 @@ Follow the instructions from the [LOA fix guide](https://steamcommunity.com/shar
 
 There are currently two HD textures packs available.
 
-The first one (recommended) is a set of [upscaled textures](https://www.nexusmods.com/dungeonsiege1/mods/44) (based on the original) using ESRGAN by Antrad2020.
+The first one (recommended) is a set of [upscaled textures](https://www.moddb.com/games/dungeon-siege/addons/dungeon-siege-high-resolution-textures) (based on the original) using ESRGAN by Antrad2020.
 
 The second one is a set of [textures](https://www.mediafire.com/file/7awhevfmqochnpo/Dungeon_Siege+-+Legendary+textures.zip) from the Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine) ripped by Eksevis.
 
-Note: it seems to work fine on all custom campaigns and doesn't bloat saves (only tested in The Lands of Hyperborea and the Ultima remakes).
+Note: it seems to work fine on all custom campaigns and doesn't bloat saves.
 
 ## Import a character
 
@@ -312,9 +312,9 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#enable-loa)).
 
-Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://www.nexusmods.com/dungeonsiege1/mods/264). 
+Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://github.com/algr000/open-zone).
 
-You can either install it manually or download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 6).
+You can download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 6) in order to make the game point to the OpenZone master server.
 
 Keep in mind it's still in beta, may not work for you and has its own issues that won't be covered in this guide for the time being. For assistance, you can post on Discord or Nexus.
 
@@ -397,7 +397,7 @@ You have 4 ways to make the game run at custom resolutions.
 
 Method 1 (recommended):
 
-1. Download [SeeFar 2020](https://www.nexusmods.com/dungeonsiege1/mods/45).
+1. Download [SeeFar 2020](https://www.moddb.com/downloads/seefar2020-increased-draw-distance-and-minor-improvements).
 2. Open the downloaded archive and navigate to the `ResolutionFix` subfolder.
 3. Extract `system_detail.gas` to [\<path-to-game\>](#glossary) (it does the same thing than method 2 of [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to [\<path-to-game\>](#glossary)`\Resources`.
 4. Run the game.

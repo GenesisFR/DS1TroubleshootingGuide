@@ -10,7 +10,7 @@
    * [2.4 Convert DS saves to LOA](#convert-ds-saves-to-loa)
    * [2.5 Enable Directplay](#enable-directplay)
    * [2.6 Enable EAX](#enable-eax)
-   * [2.7 Enable LOA](#enable-loa)
+   * [2.7 Enable LOA + Extras](#enable-loa--extras)
    * [2.8 HD textures](#hd-textures)
    * [2.9 Import a character](#import-a-character)
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
@@ -99,7 +99,7 @@ SP = Singleplayer
 \<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
 \<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
-Please note that while this document is based on the Steam version (combined with the [LOA fix](#enable-loa)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with the [LOA fix](#enable-loa--extras)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
 
 # Guides
 
@@ -209,9 +209,9 @@ Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Compone
 2. Extract `dsound.dll` and `dsoal-aldrv.dll` to [\<path-to-game\>](#glossary).
 3. Run the game and enable EAX (`Options -> Audio -> EAX -> On`).
 
-## Enable LOA
+## Enable LOA + Extras
 
-Follow the instructions from the [LOA fix guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1148174213).
+Follow the instructions from the [LOA fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
 
 ## HD textures
 
@@ -279,7 +279,7 @@ Please follow these steps for each mod to make sure everything is working proper
 1. Extract the archive to your DS folder.
 2. Edit the provided BAT file with your desired resolution.
 3. Copy the content of [\<path-to-docs\>](#glossary) to the [\<path-to-game\>](#glossary)`\`[\<mod-name\>](#glossary)`\User\Save` subfolder prior to running the mod (if you'd like to keep your key bindings and game preferences).
-4. Run the mod with the BAT file (you can also replicate its arguments in a shortcut or GOG/Steam launch options).
+4. Run the mod with the BAT file (or you can also replicate its arguments in a [shortcut](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0) launch parameters).
 5. Saved games will be located under the [\<path-to-game\>](#glossary)`\`[\<mod-name\>](#glossary)`\User\Save` subfolder (to avoid overriding saves from the main game). 
 
 Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
@@ -302,7 +302,7 @@ The game on GOG/Steam is available in various languages, however these do not lo
 
 Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them [here](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153), under `Language Packs`.
 
-Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
+Installing them is as simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
 Please note that the DS1 packs do not cover LOA so if you're playing LOA, pick the corresponding LOA pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
 
@@ -310,7 +310,7 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#enable-loa)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#enable-loa--extras)).
 
 Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://github.com/algr000/open-zone).
 
@@ -460,7 +460,7 @@ You have to import your party from your modded save to another save that doesn't
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#enable-loa).
+The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#enable-loa--extras).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
@@ -916,7 +916,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#enable-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
 - [\<path-to-game\>](#glossary)`\Resources\XPRes.dsres`
 - [\<path-to-game\>](#glossary)`\Resources\Yesterhaven.dsres`

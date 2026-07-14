@@ -865,7 +865,7 @@ Use right-click instead of left-click to equip items.
 
 Source: https://steamcommunity.com/app/39190/discussions/0/568164715699672520
 
-##Terrain is missing](https://dungeonsiege.fandom.com/wiki/Bugs_(Dungeon_Siege)#Terrain_Missing_Bug)
+## [Terrain is missing](https://dungeonsiege.fandom.com/wiki/Bugs_(Dungeon_Siege)#Terrain_Missing_Bug)
 
 # Modding
 

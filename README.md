@@ -40,22 +40,22 @@
    * [3.12 Game screen is offset](#game-screen-is-offset)
    * [3.13 Incompatible version](#incompatible-version)
    * [3.14 Lag in MP](#lag-in-mp)
-   * [3.15 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.16 Mouse cursor is stuck](#mouse-cursor-is-stuck)
-   * [3.17 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
-   * [3.18 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
-   * [3.19 Poor performance](#poor-performance)
-   * [3.20 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.21 Save failed](#save-failed)
-   * [3.22 Shadows are missing](#shadows-are-missing)
-   * [3.23 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
-   * [3.24 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.25 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.26 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.27 Text has artefacts](#text-has-artefacts)
-   * [3.28 Textures not loading](#textures-not-loading)
-   * [3.29 Translations partially working](#translations-partially-working)
-   * [3.30 UI/cursor flickering](#uicursor-flickering)
+   * [3.15 Mouse cursor is flickering](#mouse-cursor-is-flickering)
+   * [3.16 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.17 Mouse cursor is stuck](#mouse-cursor-is-stuck)
+   * [3.18 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
+   * [3.19 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
+   * [3.20 Poor performance](#poor-performance)
+   * [3.21 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.22 Save failed](#save-failed)
+   * [3.23 Shadows are missing](#shadows-are-missing)
+   * [3.24 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.25 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.26 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.27 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.28 Text has artefacts](#text-has-artefacts)
+   * [3.29 Textures not loading](#textures-not-loading)
+   * [3.30 Translations partially working](#translations-partially-working)
    * [3.31 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
    * [3.32 Unable to create a new character](#unable-to-create-a-new-character)
    * [3.33 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
@@ -636,7 +636,7 @@ Add `bltonly = true` to the top of [\<config-file\>](#glossary) (or [\<config-fi
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
-Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [UI/cursor flickering](#uicursor-flickering) may help.
+Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [Mouse cursor is flickering](#mouse-cursor-is-flickering) may help.
 
 ## Requested display mode is unsupported
 
@@ -940,7 +940,7 @@ If you get "D3D Initialization Failure" when running Siege Editor, it's probably
 
 ## Tank Creator doesn't work
 
-If nothing happens when clicking on the `Create` button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your `TEMP` directory to the exclusion list as that's where `RPC` (the underlying program to Tank Creator) is executed from.
+If nothing happens when clicking on the `Create` button in Tank Creator, make sure it's added to the exclusion list of your antivirus. If that still doesn't work, add your `TEMP` directory to the exclusion list as that's where Rapid Tank Creator (the underlying program to Tank Creator) is executed from.
 
 ## View a protected tank
 

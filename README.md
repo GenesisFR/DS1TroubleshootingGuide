@@ -4,13 +4,13 @@
 
 * [1.0 Glossary](#glossary)
 * [2.0 Guides](#guides)
-   * [2.1 Add the game on GameRanger](#add-the-game-on-gameranger)
-   * [2.2 Capture the game with OBS](#capture-the-game-with-obs)
-   * [2.3 Change the FOV](#change-the-fov)
-   * [2.4 Convert DS saves to LOA](#convert-ds-saves-to-loa)
-   * [2.5 Enable Directplay](#enable-directplay)
-   * [2.6 Enable EAX](#enable-eax)
-   * [2.7 Enable LOA + Extras](#enable-loa--extras)
+   * [2.1 Add LOA](#add-loa)
+   * [2.2 Add the game on GameRanger](#add-the-game-on-gameranger)
+   * [2.3 Capture the game with OBS](#capture-the-game-with-obs)
+   * [2.4 Change the FOV](#change-the-fov)
+   * [2.5 Convert DS saves to LOA](#convert-ds-saves-to-loa)
+   * [2.6 Enable Directplay](#enable-directplay)
+   * [2.7 Enable EAX](#enable-eax)
    * [2.8 HD textures](#hd-textures)
    * [2.9 Import a character](#import-a-character)
    * [2.10 Increase shadow resolution](#increase-shadow-resolution)
@@ -99,9 +99,13 @@ SP = Singleplayer
 \<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
 \<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
-Please note that while this document is based on the Steam version (combined with the [LOA fix](#enable-loa--extras)), I did my best to accommodate retail users and those not using LOA. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with the [LOA fix](#add-loa)), I did my best to accommodate GOG/retail users and those not using LOA. Some steps/issues may be different on non-Steam versions.
 
 # Guides
+
+## Add LOA
+
+Follow the instructions from the [LOA fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
 
 ## Add the game on GameRanger
 
@@ -209,10 +213,6 @@ Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Compone
 2. Extract `dsound.dll` and `dsoal-aldrv.dll` to [\<path-to-game\>](#glossary).
 3. Run the game and enable EAX (`Options -> Audio -> EAX -> On`).
 
-## Enable LOA + Extras
-
-Follow the instructions from the [LOA fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
-
 ## HD textures
 
 There are currently two HD textures packs available.
@@ -310,7 +310,7 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#enable-loa--extras)).
+Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#add-loa)).
 
 Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://github.com/algr000/open-zone).
 
@@ -460,7 +460,7 @@ You have to import your party from your modded save to another save that doesn't
 
 ## Booted back to the main menu after beating Gom
 
-The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#enable-loa--extras).
+The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#add-loa).
 
 Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
@@ -916,7 +916,7 @@ Where you add it is important, otherwise it may disable some effects (like compl
 
 As a bonus, setting `shadow_render_target` to true may increase the framerate while using complex shadows. It can be used when not modding too!
 
-You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#enable-loa--extras)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
+You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#add-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
 - [\<path-to-game\>](#glossary)`\Resources\XPRes.dsres`
 - [\<path-to-game\>](#glossary)`\Resources\Yesterhaven.dsres`

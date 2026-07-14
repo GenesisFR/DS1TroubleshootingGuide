@@ -111,14 +111,14 @@ Follow the instructions from the [LOA fix guide](https://gist.github.com/Genesis
 
 ## Add the game on GameRanger
 
-Method 1:
+**Method 1:**
 
 1. Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 7).
 2. In `GameRanger`, hit `Edit -> Options -> Games -> Dungeon Siege -> Browse` then select `DungeonSiege.exe` (the executable must be named `DSLOA.exe` for LOA) from `Program Files`:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
-Method 2:
+**Method 2:**
 
 1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on `Download Standalone Executable`). It's a front-end for the `mklink` command.
 2. In `Symlinker`, make a directory junction to your game directory in `Program Files`:
@@ -136,7 +136,7 @@ To change the game resolution, see method 1 or 3 of [Use unsupported resolutions
 
 By default, the game can't be captured using game capture in OBS, there are 2 ways to work around it:
 
-Method 1:
+**Method 1:**
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 2. Add a game capture in OBS and leave it on `Capture any fullscreen application`.
@@ -145,7 +145,7 @@ Method 1:
 > [!NOTE]
 The game will crash when loading games and going back to the main menu if it's still being captured (you can set a hotkey in OBS to toggle the visibility of the game capture so it stops capturing the game).
 
-Method 2:
+**Method 2:**
 
 1. Run the game [windowed](#play-windowed).
 2. Add a window capture in OBS and select DS (stretch it to fullscreen if you want).
@@ -193,23 +193,23 @@ Source: https://discordapp.com/channels/373223103985090581/400744824593973248/58
 
 If Windows doesn't detect that the game needs DirectPlay (when clicking on `Multiplayer`), you have to enable it manually.
 
-Method 1 (Windows 10 or later):
+**Method 1 (Windows 10 or later):**
 
 Type this command in an [admin command-line prompt](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-10):
 
 `fondue /Enable-feature:DirectPlay`
 
-Method 2 (Windows 7 or later):
+**Method 2 (Windows 7 or later):**
 
 Type this command in an [admin PowerShell prompt](https://www.howtogeek.com/742916/how-to-open-windows-powershell-as-an-admin-in-windows-10), it'll automatically enable any other component required for Directplay to work:
 
 `Enable-WindowsOptionalFeature –FeatureName "DirectPlay" -All -Online`
 
-Method 3 (Windows Vista or later):
+**Method 3 (Windows Vista or later):**
 
 Go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay`.
 
-Method 4 (Windows XP):
+**Method 4 (Windows XP):**
 
 Go to the `Control Panel -> Add or Remove Programs -> Add/Remove Windows Components`. From there, tick the box for `DirectPlay` under the `Games` section and click OK.
 
@@ -253,7 +253,7 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 
 There are 2 methods to make it scale. The first one involves rendering the game at your native resolution and the UI at a lower resolution (effectively making it bigger) while the second one involves using a (cheap) commercial software.
 
-Method 1:
+**Method 1:**
 
 1. Install [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 2. Run `dgVoodooCpl.exe`, go to the `DirectX` tab, select your native resolution from the `Resolution` drop-down list and hit OK.
@@ -262,7 +262,7 @@ Method 1:
 > [!NOTE]
 It won't work while in windowed mode.
 
-Method 2:
+**Method 2:**
 
 Use [Lossless Scaling](https://steamcommunity.com/sharedfiles/filedetails/?id=3474753395).
 
@@ -351,11 +351,11 @@ The frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in win
 
 ## Play Yesterhaven map in SP
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 Use Firstie's [Yesterhaven revisited](https://www.nexusmods.com/dungeonsiege1/mods/217).
 
-Method 2:
+**Method 2:**
 
 I made a drag-and-drop [archive](https://www.mediafire.com/file/tk4qfvq2gqb217r/Dungeon_Siege_-_YesterhavenSP.zip) from [Father Bronze's Yesterhaven Single-Player Edition](http://ds.gemsite.org/web/index.php/maps/map-addons/GET/detail-61) so you won't have to worry about resources conflicting with each other.
 
@@ -409,7 +409,7 @@ However, with some tweaking, you can play it at any resolution. There are a few 
 
 You have 4 ways to make the game run at custom resolutions.
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 1. Download [SeeFar 2020](https://www.moddb.com/downloads/seefar2020-increased-draw-distance-and-minor-improvements).
 2. Open the downloaded archive and navigate to the `ResolutionFix` subfolder.
@@ -417,19 +417,19 @@ Method 1 (recommended):
 4. Run the game.
 5. Select your desired resolution from the options.
 
-Method 2:
+**Method 2:**
 
 Add the `width=xxxx` and `height=xxxx` launch parameters (where `xxxx` is your desired resolution, for instance `width=1920 height=1080`). See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 When setting the resolution through this method, it won't make the game update it in the config file while navigating the options menu (unless you manually change it from there).
 
-Method 3:
+**Method 3:**
 
 1. Open [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) with a text editor.
 2. Change the `width = xxxx` and `height = xxxx` to your desired resolution (where `xxxx` is your desired resolution).
 3. Save the file.
 
-Method 4:
+**Method 4:**
 
 1. Follow the steps described in [Requested display mode is unsupported](#requested-display-mode-is-unsupported).
 2. Run [`<path-to-game>\DSVideoConfig.exe`](#glossary) and select your custom resolution.
@@ -446,11 +446,11 @@ When going down the elevator before fighting Gom, the cutscene may break and pre
 
 There are 3 ways to circumvent it.
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 Use [Firstie's SeeFar](https://www.nexusmods.com/dungeonsiege1/mods/249).
 
-Method 2:
+**Method 2:**
 
 1. Download this [hotfix](https://www.mediafire.com/file/auqjxy62co40tjh/koe_camera_hotfix.dsres).
 2. Place it in [`<path-to-game>\Resources`](#glossary).
@@ -459,7 +459,7 @@ Method 2:
 5. Proceed to beat Gom.
 6. Remove the hotfix (otherwise the initial cutscene of the LOA campaign will break).
 
-Method 3:
+**Method 3:**
 
 You have to import your party from your modded save to another save that doesn't use SeeFar. For your convenience, you can download an unmodded saved game right before Gom [here](https://www.mediafire.com/file/3djao9ez7nkpv3m/endgame_save.dssave).
 
@@ -678,11 +678,11 @@ It seems to happen on the GOG version during the Shadowjumper cutscenes in LOA a
 
 When running the game in resolutions other than the default ones, a warning message will be displayed every time you start/load a game from the main menu.
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 See method 1 of [Use unsupported resolutions](#use-unsupported-resolutions).
 
-Method 2:
+**Method 2:**
 
 Open [`<path-to-game>\system_detail.gas`](#glossary) and everywhere you see `1024x768`, add a duplicate of that line but change it with your resolution, like in the example below:
 
@@ -757,11 +757,11 @@ If there still seems to be missing translations, it's because anything that alre
 
 This is caused by `Controlled Folder Access` on Windows 10/11 preventing the game from accessing `%USERPROFILE%\Documents`. You have to add the game to the allowed apps list:
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 8).
 
-Method 2:
+**Method 2:**
 
 1. Open `Windows Security`.
 2. Navigate to `Virus & Threat Protection`.

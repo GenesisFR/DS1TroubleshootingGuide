@@ -961,6 +961,10 @@ If nothing happens when clicking on the `Create` button in Tank Creator, make su
 
 # Walkthroughs
 
+All-in-one:
+
+- [Dungeon Siege: Sybex Official Strategies & Secrets](https://archive.org/details/sybex-dungeon-siege-strategies-and-secrets)
+
 DS:
 
 - [Gemsite](http://ds.gemsite.org/web/index.php/kingdom-of-ehb)

@@ -67,6 +67,7 @@
    * [3.39 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
+   * [4.2 Game freezes when equipping items](#game-freezes-when-equipping-items)
 * [5.0 Modding](#modding)
    * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)
@@ -587,6 +588,16 @@ This can be caused by dgVoodoo2. Potential fixes include:
 - Running the game on LAN.
 - Running the game on LAN through a VPN-like software (ex: Hamachi, ZeroTier).
 
+## Mouse cursor is flickering
+
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
+- Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
+- Make sure it says `bpp = 32` in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+- Disable any kind of antialiasing in your GPU driver settings.
+- Press the `Windows` key to minimize the game then maximize it.
+- Run the game on your other GPU (if you have one).
+- Run the game in fullscreen or [windowed](#play-windowed) mode.
+
 ## Mouse cursor is missing
 
 Turn off supersampling in your GPU control panel.
@@ -715,16 +726,6 @@ If, after adding a language pack, you notice that some things are translated but
 
 If there still seems to be missing translations, it's because anything that already exists in-game (ex: actor names, item names and descriptions) will have its data loaded from the save file, not the resource file. Anything newly loaded (ex: new item drops) should load data from the resource file.
 
-## UI/cursor flickering
-
-- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
-- Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
-- Make sure it says `bpp = 32` in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
-- Disable any kind of antialiasing in your GPU driver settings.
-- Press the `Windows` key to minimize the game then maximize it.
-- Run the game on your other GPU (if you have one).
-- Run the game in fullscreen or [windowed](#play-windowed) mode.
-
 ## Unable to access or create a critical path that is required to operate
 
 This is caused by `Controlled Folder Access` on Windows 10/11 preventing the game from accessing `%USERPROFILE%\Documents`. You have to add the game to the allowed apps list:
@@ -828,6 +829,12 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 1. Set your resolution to `1024x768` or lower from the main menu.
 2. Start a new game or load your saved game.
 3. Set your desired resolution from the Options menu once you're in-game (you'll need the resolution fix, see method 1 of [Use unsupported resolutions](#use-unsupported-resolutions)).
+
+## Game freezes when equipping items
+
+Use right-click instead of left-click to equip items.
+
+Source: https://steamcommunity.com/app/39190/discussions/0/568164715699672520
 
 # Modding
 
@@ -1004,6 +1011,7 @@ This document wouldn't have been possible without the following people:
 - [Beatlebattle](https://steamcommunity.com/id/beatlebattle)
 - [Casual Sun](https://steamcommunity.com/profiles/76561198102676021) - Lossless Scaling guide
 - coop13 (Discord) - white texture fix
+- [EasyC](https://steamcommunity.com/id/tbeasyc) (item equip workaround)
 - eksevis (Discord)
 - Ettanin (Discord) - CRC check information
 - Father Bronze - SP version of Yesterhaven

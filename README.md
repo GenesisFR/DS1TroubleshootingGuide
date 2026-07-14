@@ -676,6 +676,7 @@ Open [\<path-to-game\>](#glossary)`\system_detail.gas` and everywhere you see `1
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under [\<path-to-docs\>](#glossary).
 
+- Whitelist the game in Controlled Folder Access (see [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)).
 - Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
 - Run the game as admin.

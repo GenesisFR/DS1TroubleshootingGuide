@@ -69,6 +69,7 @@
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
    * [4.2 Game freezes when equipping items](#game-freezes-when-equipping-items)
+   * [4.3 Terrain is missing](#terrain-is-missing)
 * [5.0 Modding](#modding)
    * [5.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [5.2 Installing Gmax & SiegeMax for Siege Editor](#installing-gmax--siegemax-for-siege-editor)
@@ -863,6 +864,8 @@ I found a workaround that avoids the problem, but you'll have to do it every tim
 Use right-click instead of left-click to equip items.
 
 Source: https://steamcommunity.com/app/39190/discussions/0/568164715699672520
+
+##Terrain is missing](https://dungeonsiege.fandom.com/wiki/Bugs_(Dungeon_Siege)#Terrain_Missing_Bug)
 
 # Modding
 

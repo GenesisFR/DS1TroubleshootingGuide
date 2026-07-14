@@ -414,7 +414,7 @@ You have 4 ways to make the game run at custom resolutions.
 
 1. Download [SeeFar 2020](https://www.moddb.com/downloads/seefar2020-increased-draw-distance-and-minor-improvements).
 2. Open the downloaded archive and navigate to the `ResolutionFix` subfolder.
-3. Extract `system_detail.gas` to [`<path-to-game>`](#glossary) (it does the same thing than method 2 of [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to [`<path-to-game>`](#glossary)`\Resources`.
+3. Extract `system_detail.gas` to [`<path-to-game>`](#glossary) (it does the same thing than method 2 of [Requested display mode is unsupported](#requested-display-mode-is-unsupported)) and `sf_ResolutionFix.dsres` to [`<path-to-game>\Resources`](#glossary).
 4. Run the game.
 5. Select your desired resolution from the options.
 
@@ -959,8 +959,8 @@ As a bonus, setting `shadow_render_target` to true may increase the framerate wh
 
 You can ignore most of the warnings when starting the editor (they'll pop up if you installed the [LOA fix](#add-loa)). If you wish to get rid of them, you'll have to disable the `Return to Arhok` and `Yesterhaven` campaigns. To do so, rename the extension of the following files to something like `dsres.off` (or move them somewhere else if you have file extensions hidden):
 
-- [`<path-to-game>`](#glossary)`\Resources\XPRes.dsres`
-- [`<path-to-game>`](#glossary)`\Resources\Yesterhaven.dsres`
+- [`<path-to-game>\Resources\XPRes.dsres`](#glossary)
+- [`<path-to-game>\Resources\Yesterhaven.dsres`](#glossary)
 
 > [!NOTE]
 Setting `shadow_tex_size` higher than `256` will yield another warning that can safely be ignored and using the HD textures mod will make them white.

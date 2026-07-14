@@ -46,25 +46,26 @@
    * [3.18 No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)
    * [3.19 Packmule inventory is inaccessible](#packmule-inventory-is-inaccessible)
    * [3.20 Poor performance](#poor-performance)
-   * [3.21 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
-   * [3.22 Save failed](#save-failed)
-   * [3.23 Shadows are missing](#shadows-are-missing)
-   * [3.24 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
-   * [3.25 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
-   * [3.26 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
-   * [3.27 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.28 Text has artefacts](#text-has-artefacts)
-   * [3.29 Textures not loading](#textures-not-loading)
-   * [3.30 Translations partially working](#translations-partially-working)
-   * [3.31 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
-   * [3.32 Unable to create a new character](#unable-to-create-a-new-character)
-   * [3.33 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
-   * [3.34 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.35 White textures](#white-textures)
-   * [3.36 Window is offscreen](#window-is-offscreen)
-   * [3.37 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
-   * [3.38 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
-   * [3.39 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.21 Red textures](#red-textures)
+   * [3.22 Requested display mode is unsupported](#requested-display-mode-is-unsupported)
+   * [3.23 Save failed](#save-failed)
+   * [3.24 Shadows are missing](#shadows-are-missing)
+   * [3.25 Some resources haven't been copied to the hard disk](#some-resources-havent-been-copied-to-the-hard-disk)
+   * [3.26 Sorry, this save game was not created by Legends of Aranna and cannot be loaded](#sorry-this-save-game-was-not-created-by-legends-of-aranna-and-cannot-be-loaded)
+   * [3.27 Steam detects the game as running after closing it](#steam-detects-the-game-as-running-after-closing-it)
+   * [3.28 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.29 Text has artefacts](#text-has-artefacts)
+   * [3.30 Textures not loading](#textures-not-loading)
+   * [3.31 Translations partially working](#translations-partially-working)
+   * [3.32 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.33 Unable to create a new character](#unable-to-create-a-new-character)
+   * [3.34 Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)
+   * [3.35 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.36 White textures](#white-textures)
+   * [3.37 Window is offscreen](#window-is-offscreen)
+   * [3.38 Windows cursor flickers at the center of the screen](#windows-cursor-flickers-at-the-center-of-the-screen)
+   * [3.39 You cannot run Dungeon Siege in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-in-a-resolution-higher-than-your-desktop)
+   * [3.40 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
    * [4.2 Game freezes when equipping items](#game-freezes-when-equipping-items)
@@ -648,6 +649,14 @@ Add `bltonly = true` to the top of [\<config-file\>](#glossary) (or [\<config-fi
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
 Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [Mouse cursor is flickering](#mouse-cursor-is-flickering) may help.
+
+## Red textures
+
+It seems to happen on the GOG version during the Shadowjumper cutscenes in LOA as well as in the Return to Arhok campaign.
+
+- Lower object detail below 50%.
+- Remove the GOG wrapper (`ddraw.dll`).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 
 ## Requested display mode is unsupported
 

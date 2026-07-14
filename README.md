@@ -97,9 +97,9 @@ SP = Singleplayer
 \<config-file-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA\DungeonSiege.ini`  
 \<gpu-model\> = actual name of your GPU (ex: `NVIDIA GeForce GTX 1070`)  
 \<mod-name\> = folder name of your mod (ex: `u6p`)  
-`<path-to-docs>` = `%USERPROFILE%\Documents\Dungeon Siege`  
-`<path-to-docs-LOA>` = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
-`<path-to-game>` = your [installation directory](https://www.pcgamingwiki.com/wiki/Glossary:Game_data#Windows) (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
+\<path-to-docs\> = `%USERPROFILE%\Documents\Dungeon Siege`  
+\<path-to-docs-LOA\> = `%USERPROFILE%\Documents\Dungeon Siege LOA`  
+\<path-to-game\> = your [installation directory](https://www.pcgamingwiki.com/wiki/Glossary:Game_data#Windows) (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 1`)  
 
 Please note that while this document is based on the Steam version (combined with the [LOA fix](#add-loa)), I did my best to accommodate GOG/retail users and those not using LOA. Some steps/issues may be different on non-Steam versions.
 
@@ -129,7 +129,8 @@ Method 2:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
-Note: to change the game resolution, see method 1 or 3 of [Use unsupported resolutions](#use-unsupported-resolutions).
+> [!NOTE]
+To change the game resolution, see method 1 or 3 of [Use unsupported resolutions](#use-unsupported-resolutions).
 
 ## Capture the game with OBS
 
@@ -141,7 +142,8 @@ Method 1:
 2. Add a game capture in OBS and leave it on `Capture any fullscreen application`.
 3. Run the game and OBS will capture it if dgVoodoo was set up correctly.
 
-Note: the game will crash when loading games and going back to the main menu if it's still being captured (you can set a hotkey in OBS to toggle the visibility of the game capture so it stops capturing the game).
+> [!NOTE]
+The game will crash when loading games and going back to the main menu if it's still being captured (you can set a hotkey in OBS to toggle the visibility of the game capture so it stops capturing the game).
 
 Method 2:
 
@@ -150,13 +152,15 @@ Method 2:
 3. Close DS and undo what you did in step 1 so it runs fullscreen.
 4. Run the game again, OBS will still capture it.
 
-Note: if you're not playing at your native resolution, just make sure you don't alt-tab otherwise it'll fit only part of the screen! If you have to alt-tab, you can either go back to the main menu and load your saved game, or add a Crop/Pad filter (relative) on your window capture to remove the black borders. If the game is not captured or listed in the drop-down menu at all, then you're either running the game in compatibility mode or as admin (OBS can't see processes with compatibility modes and won't list admin processes unless it's also run as admin). If it's not the case, then you're on a system with an integrated GPU and a dedicated GPU (like a laptop) and you may have to run the game on the same GPU that OBS is using. This method also works with other games, as long as they're using DX9 (or older) or OpenGL.
+> [!NOTE]
+If you're not playing at your native resolution, just make sure you don't alt-tab otherwise it'll fit only part of the screen! If you have to alt-tab, you can either go back to the main menu and load your saved game, or add a Crop/Pad filter (relative) on your window capture to remove the black borders. If the game is not captured or listed in the drop-down menu at all, then you're either running the game in compatibility mode or as admin (OBS can't see processes with compatibility modes and won't list admin processes unless it's also run as admin). If it's not the case, then you're on a system with an integrated GPU and a dedicated GPU (like a laptop) and you may have to run the game on the same GPU that OBS is using. This method also works with other games, as long as they're using DX9 (or older) or OpenGL.
 
 ## Change the FOV
 
 [Hex-edit](https://hexed.it) the game's [executable](http://www.wsgf.org/dr/dungeon-siege).
 
-Note: doing this will result in a different CRC check (see [Incompatible version](#incompatible-version)).
+> [!NOTE]
+Doing this will result in a different CRC check (see [Incompatible version](#incompatible-version)).
 
 ## Convert DS saves to LOA
 
@@ -223,7 +227,8 @@ The first one (recommended) is a set of [upscaled textures](https://www.moddb.co
 
 The second one is a set of [textures](https://www.mediafire.com/file/7awhevfmqochnpo/Dungeon_Siege+-+Legendary+textures.zip) from the Legendary Mod (a DS2 mod that ports DS1 content over the DS2 engine) ripped by Eksevis.
 
-Note: it seems to work fine on all custom campaigns and doesn't bloat saves.
+> [!NOTE]
+It seems to work fine on all custom campaigns and doesn't bloat saves.
 
 ## Import a character
 
@@ -239,7 +244,8 @@ If you want to import an existing character into a single player game, do the fo
 
 Open [`<path-to-game>\system_detail.gas`](#glossary) and change the 10 occurrences of `shadow_tex_size	= 64` to `128`, `256`, `512` or `1024`. You can do a search and replace on `= 64`.
 
-Note: `512` and above can be VERY taxing when using the `All complex` setting, especially in forests (in that case, switch to `Party complex`). Values higher than `1024` (or `256` for DSLOAMod) may prevent the game from loading.
+> [!NOTE]
+`512` and above can be VERY taxing when using the `All complex` setting, especially in forests (in that case, switch to `Party complex`). Values higher than `1024` (or `256` for DSLOAMod) may prevent the game from loading.
 
 ## Increase UI size
 
@@ -253,7 +259,8 @@ Method 1:
 2. Run `dgVoodooCpl.exe`, go to the `DirectX` tab, select your native resolution from the `Resolution` drop-down list and hit OK.
 3. Set the game at the resolution you want the UI to be scaled to, typically 720p or lower (see [Use unsupported resolutions](#use-unsupported-resolutions)).
 
-Note: it won't work while in windowed mode.
+> [!NOTE]
+It won't work while in windowed mode.
 
 Method 2:
 
@@ -284,7 +291,8 @@ Please follow these steps for each mod to make sure everything is working proper
 4. Run the mod with the BAT file (or you can also replicate its arguments in a [shortcut](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0) launch parameters).
 5. Saved games will be located under the [`<path-to-game>\<mod-name>\User\Save`](#glossary) subfolder (to avoid overriding saves from the main game). 
 
-Note: all of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
+> [!NOTE]
+All of these mods are NOT compatible with LOA. Please refer to their respective readme files for further issues.
 
 ## Play in borderless fullscreen
 
@@ -296,7 +304,8 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 4. If the game doesn't appear in the list, click on `Show All` select `Dungeon Siege` and click on `Add`.
 5. Select the game in the list and press the `Fullscreenize` button (or use your hotkey combination), preferably after loading a game (see note below).
 
-Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid doing it.
+> [!NOTE]
+The main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again. The game may randomly freeze when switching windowed modes so try to avoid doing it.
 
 ## Play in other languages
 
@@ -322,7 +331,8 @@ Keep in mind it's still in beta, may not work for you and has its own issues tha
 
 When using Internet or ZoneMatch, you'll have to do some [port-forwarding](https://portforward.com/dungeon-siege) when hosting games.
 
-Note: see [Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game) and [Lag in MP](#lag-in-mp) for eventual issues.
+> [!NOTE]
+See [Booted back to the MP menu when trying to host a game](#booted-back-to-the-MP-menu-when-trying-to-host-a-game) and [Lag in MP](#lag-in-mp) for eventual issues.
 
 ## Play MP map in SP
 
@@ -336,7 +346,8 @@ Install one of these mods:
 
 Add `fullscreen = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
 
-Note: the frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
+> [!NOTE]
+The frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
 
 ## Play Yesterhaven map in SP
 
@@ -383,7 +394,8 @@ You can now install the game. For the old CD version, just mount CD1 and run `Se
 
 To fix the main menu resolution issues, you need to configure Wine (use the PlayOnLinux button or run `WINEPREFIX=~/.PlayOnLinux/wineprefix/ds winecfg`). Under the `Graphics` tab, enable `Emulate a virtual desktop`.
 
-Note: if you have weird glitches, switch to desktop and back to the game, they should disappear.
+> [!NOTE]
+If you have weird glitches, switch to desktop and back to the game, they should disappear.
 
 ## Use unsupported resolutions
 
@@ -423,7 +435,8 @@ Method 4:
 2. Run [`<path-to-game>\DSVideoConfig.exe`](#glossary) and select your custom resolution.
 3. Copy [`<path-to-game>\DungeonSiege.ini`](#glossary) to [`<path-to-docs>`](#glossary) (or [`<path-to-docs-LOA>`](#glossary) for LOA).
 
-Note: for resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
+> [!NOTE]
+For resolutions higher than 1080p, check [Run the game above 1080p](#run-the-game-above-1080p).
 
 # Issues fixed
 
@@ -464,7 +477,8 @@ You have to import your party from your modded save to another save that doesn't
 
 The multiplayer and anything related to it was disabled in the GOG/Steam version. Use the [LOA fix](#add-loa).
 
-Note: you'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
+> [!NOTE]
+You'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 
 ## Booted back to the MP menu when trying to host a game
 
@@ -517,7 +531,8 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Lower your shadow resolution to `256`, see [Increase shadow resolution](#increase-shadow-resolution).
 - Install [DirectX 9.0c](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
 
-Note: DSVideoConfig only edits [`<path-to-game>\DungeonSiege.ini`](#glossary) (it's intended to be run before playing the game the first time) so make sure to copy it to [`<path-to-docs>`](#glossary) (or [`<path-to-docs-LOA>`](#glossary) if you're using LOA).
+> [!NOTE]
+DSVideoConfig only edits [`<path-to-game>\DungeonSiege.ini`](#glossary) (it's intended to be run before playing the game the first time) so make sure to copy it to [`<path-to-docs>`](#glossary) (or [`<path-to-docs-LOA>`](#glossary) if you're using LOA).
 
 ## D3D Initialization Failure
 
@@ -648,7 +663,8 @@ Add `bltonly = true` to the top of [\<config-file\>](#glossary) (or [\<config-fi
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
-Note: if the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [Mouse cursor is flickering](#mouse-cursor-is-flickering) may help.
+> [!NOTE]
+If the framerate is bad in windowed mode, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode), otherwise applying the fixes from [Mouse cursor is flickering](#mouse-cursor-is-flickering) may help.
 
 ## Red textures
 
@@ -690,7 +706,8 @@ When trying to save the game, you may get a message saying "Save failed" and no 
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
 - Run the game as admin.
 
-Note: it happens in a few other games too.
+> [!NOTE]
+It happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
@@ -782,7 +799,8 @@ This usually happens when using dgVoodoo2.
 4. Hit `OK`.
 5. Decrease [shadow resolution](#increase-shadow-resolution) to `512` or lower.
 
-Note: if you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
+> [!NOTE]
+If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/support/kb/faq/dh-033#faq-Configuring-Radeon-Anti-Lag).
 
 ## Window is offscreen
 
@@ -863,7 +881,8 @@ If the official DS2TankViewer doesn't start, you can try the [unofficial TankVie
 7. Run SiegeMax from the shortcut that should be placed on your desktop when installing Siege Editor. Do not run the regular Gmax exe, that isn't needed anymore.
 8. If SiegeMax complains about file paths, see step 3, but this time you need to go into the `Gamepacks` folder in the Gmax installation folder. If the folder `gamepacks\SiegeMax\scripts\startup` is missing, create it.
 
-Note: Eksevis made an improved [dark theme](https://archive.org/details/gmax-1.2-custom-dark-ui) for SiegeMax.
+> [!NOTE]
+Eksevis made an improved [dark theme](https://archive.org/details/gmax-1.2-custom-dark-ui) for SiegeMax.
 
 ## Make DSMod work on the GOG/Steam version
 
@@ -890,7 +909,8 @@ If you were using an old version of the reg patch (an executable), the `DSMod.ex
 7. Click on the green arrow (or `F5`) to compile the script.
 8. Click on the green floppy disk (or `Ctrl + S`) to save the file.
 
-Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
+> [!NOTE]
+See [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
 ## Make DSLOAMod work on the GOG/Steam version
 
@@ -908,7 +928,8 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Also, if you're running DSLOAMod from a shortcut, you may have to run it without admin privileges.
 
-Note: see [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
+> [!NOTE]
+See [Shadows are missing](#shadows-are-missing) and [Textures not loading](#textures-not-loading) for potential issues.
 
 ## Make Siege Editor work on the GOG/Steam version
 
@@ -938,7 +959,8 @@ You can ignore most of the warnings when starting the editor (they'll pop up if 
 - [`<path-to-game>`](#glossary)`\Resources\XPRes.dsres`
 - [`<path-to-game>`](#glossary)`\Resources\Yesterhaven.dsres`
 
-Note: setting `shadow_tex_size` higher than `256` will yield another warning that can safely be ignored and using the HD textures mod will make them white.
+> [!NOTE]
+Setting `shadow_tex_size` higher than `256` will yield another warning that can safely be ignored and using the HD textures mod will make them white.
 
 ## Remove a tank's protection
 

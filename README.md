@@ -239,11 +239,15 @@ It seems to work fine on all custom campaigns and doesn't bloat saves.
 
 If you want to import an existing character into a single player game, do the following.
 
-1. Download Siege Editor and install it.
-2. Load your latest save and save it again with a simple name (ex: `X`).
+1. Download Siege Editor and install it (it includes DSMod and DSLOAMod).
+2. Run `DungeonSiege.exe`, load your saved game and save it again with a simple name (ex: `X`).
 3. Run the game again through DSMod or DSLOAMod (they enable the in-game console).
-4. Start a brand-new single player game.
-5. Bring down the console (~), point the cursor at a wide-open patch of ground, and run this command: `party load X.dssave`
+4. Start a new single player game or load an existing saved game.
+5. Bring down the console `~`, point the cursor at a wide-open patch of ground, type `party load X.dssave`, press `Enter` then save the game.
+7. Close the game then load your new saved game from `DungeonSiege.exe`.
+
+> [!NOTE]
+If your game crashes when loading your new saved game from `DungeonSiege.exe`, repeat all the steps while using this [DSLOAModSave](https://www.nexusmods.com/dungeonsiege1/mods/156) (check the instructions).
 
 ## Increase shadow resolution
 
@@ -1057,6 +1061,7 @@ This document wouldn't have been possible without the following people:
 - .orix (Discord) - lots of fixes
 - [0xff](https://www.twitch.tv/0xff2)
 - [Ahrimotto](https://www.reddit.com/user/Ahrimotto)
+- [Alcardian](https://www.nexusmods.com/profile/Alcardian) - DSLOAModSave
 - [AlceX](https://steamcommunity.com/id/alcex) - freezing cutscene fix
 - [Antrad2020](https://antonior-software.blogspot.com)
 - Azlaroc - 100$ donation

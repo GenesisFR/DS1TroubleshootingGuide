@@ -325,7 +325,7 @@ For `Return to Arhok` and `Yesterhaven`, Firstie's revisited versions have been 
 
 ## Play MP
 
-Add `zonematch = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#add-loa)).
+Add `zonematch = true` to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA) to directly boot into the MP menu if your `Multiplayer` button is grayed out (not necessary if you're using the retail version or the [LOA fix](#add-loa)).
 
 Since ZoneMatch went down in 2006, you can use an open source reimplementation called [OpenZone](https://github.com/algr000/open-zone).
 
@@ -348,7 +348,7 @@ Install one of these mods:
 
 ## Play windowed
 
-Add `fullscreen = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `fullscreen = false` to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 
 > [!NOTE]
 The frame rate will be locked to 75 fps, see [Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode) to fix it.
@@ -429,7 +429,7 @@ When setting the resolution through this method, it won't make the game update i
 
 **Method 3:**
 
-1. Open [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA) with a text editor.
+1. Open [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA) with a text editor.
 2. Change the `width = xxxx` and `height = xxxx` to your desired resolution (where `xxxx` is your desired resolution).
 3. Save the file.
 
@@ -487,7 +487,7 @@ You'll need to [convert your save to LOA](#convert-ds-saves-to-loa).
 ## Booted back to the MP menu when trying to host a game
 
 - [Enable Directplay](#enable-directplay).
-- Add `dpnsvr = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+- Add `dpnsvr = false` to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 
 ## Can't zoom out anymore
 
@@ -544,7 +544,7 @@ You're running the game in a resolution not supported by your graphics card or a
 
 ## Frame rate locked to 75 fps in windowed mode
 
-Add `maxfps = 0` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `maxfps = 0` to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 
 ## Fuel failed to write file prefs.gas
 
@@ -612,7 +612,7 @@ This can be caused by dgVoodoo2. Potential fixes include:
 
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7).
 - Right-click `DungeonSiege.exe` (or `DSLOA.exe` for LOA) then hit `Properties -> Compatibility -> Reduced color mode -> 16-bit (65536) color`.
-- Make sure it says `bpp = 32` in [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+- Make sure it says `bpp = 32` in [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 - Disable any kind of antialiasing in your GPU driver settings.
 - Press the `Windows` key to minimize the game then maximize it.
 - Run the game on your other GPU (if you have one).
@@ -663,7 +663,7 @@ You have to remove items from your mule's inventory and hit the `Auto-arrange in
 
 ## Poor performance
 
-Add `bltonly = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `bltonly = true` to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 
 If the game still doesn't run well, you may want to run it on your other GPU (if you have one) or add your GPU to the list so the game recognizes it (see [No GPU listed in DSVideoConfig](#no-gpu-listed-in-dsvideoconfig)).
 
@@ -808,7 +808,7 @@ If you're using an AMD GPU, turn off [Radeon Anti-Lag](https://www.amd.com/en/su
 
 ## Window is offscreen
 
-Add `x=0` and `y=0` (each on a separate line) to the top of [\<config-file\>](#glossary) (or [\<config-file-LOA\>](#glossary) for LOA).
+Add `x=0` and `y=0` (each on a separate line) to the top of [`<config-file>`](#glossary) (or [`<config-file-LOA>`](#glossary) for LOA).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
 

@@ -24,7 +24,8 @@
    * [2.18 Play Yesterhaven map in SP](#play-yesterhaven-map-in-sp)
    * [2.19 Run the game above 1080p](#run-the-game-above-1080p)
    * [2.20 Run the game on Linux](#run-the-game-on-linux)
-   * [2.21 Use unsupported resolutions](#use-unsupported-resolutions)
+   * [2.21 Use dgVoodoo2 on Linux](#use-dgVoodoo2-on-Linux)
+   * [2.22 Use unsupported resolutions](#use-unsupported-resolutions)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 Black screen at Gom](#black-screen-at-gom)
    * [3.2 Booted back to the main menu after beating Gom](#booted-back-to-the-main-menu-after-beating-gom)
@@ -400,6 +401,16 @@ To fix the main menu resolution issues, you need to configure Wine (use the Play
 
 > [!NOTE]
 If you have weird glitches, switch to desktop and back to the game, they should disappear.
+
+## Use dgVoodoo2 on Linux
+
+Make sure you're using [dgVoodoo2 2.79.3](https://github.com/legluondunet/mlls-tools/raw/master/dgVoodoo2/dgVoodoo2_79_3.zip) (later versions don't work) and that it's installed [properly](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_1-7), then follow one of the guides below:
+
+- MegaMiku's [guide](https://community.simtropolis.com/forums/topic/764265-how-to-get-dgvoodoo-2-working-on-linux).  
+- Silent's [guide](https://silentsblog.com/setup-instructions/#proton-wine).
+
+> [!NOTE]
+The game's ID is `39190` and the DLLs to override are `D3D8.dll, D3DImm.dll, DDraw.dll`.
 
 ## Use unsupported resolutions
 
@@ -1061,7 +1072,9 @@ This document wouldn't have been possible without the following people:
 - [Game](https://steamcommunity.com/profiles/76561198079347952) - characters not holding equipped gear fix
 - [lgrzinc](https://steamcommunity.com/profiles/76561198097266688) - character creator fix
 - Killah - DS guides and community
+- [MegaMiku](https://community.simtropolis.com/profile/838126-megamiku) - dgVoodoo2 Linux guide
 - sadowson (Discord) - lots of fixes and Gmax installation guide
+- [Silent](https://silentsblog.com/about) - Wine DLL override guide
 - [Soban](https://steamcommunity.com/id/S0BAN) - save conversion guide
 - [soyuka](https://github.com/soyuka) - Linux installation guide
 - starfalll (Discord) - lots of fixes

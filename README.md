@@ -112,16 +112,19 @@ Follow the instructions from the [LOA fix guide](https://gist.github.com/Genesis
 
 ## Add the game on GameRanger
 
-**Method 1:**
+**Method 1 (Windows 2000 or later):**
 
 1. Download and run the [DS1 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 7).
 2. In `GameRanger`, hit `Edit -> Options -> Games -> Dungeon Siege -> Browse` then select `DungeonSiege.exe` (the executable must be named `DSLOA.exe` for LOA) from `Program Files`:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590524-eb99aa00-bda2-11eb-82ef-e7ab78bdcf35.png)
 
-**Method 2:**
+> [!NOTE]
+You'll need additional programs on Windows 2000/XP/Server 2003.
 
-1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on `Download Standalone Executable`). It's a front-end for the `mklink` command.
+**Method 2 (Windows Vista or later):**
+
+1. Download and run [Symlinker](https://github.com/amd989/Symlinker/releases/tag/v1.1.2.15) (click on `Symlink.Creator.zip`). It's a front-end for the `mklink` command.
 2. In `Symlinker`, make a directory junction to your game directory in `Program Files`:
 
    ![Symlinker](https://user-images.githubusercontent.com/3614449/119590493-dae93400-bda2-11eb-80a0-2d268d178814.png)

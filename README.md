@@ -661,7 +661,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 
 ## No GPU listed in DSVideoConfig
 
-- [Enable DirectDraw acceleration](https://superuser.com/a/504510).
+- Enable DirectDraw acceleration (see [Unable to enumerate any DirectDraw devices installed on this system](https://github.com/GenesisFR/DS1TroubleshootingGuide#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)).
 - Follow [doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - If it still doesn't show up, follow these steps:
 

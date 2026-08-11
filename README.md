@@ -661,7 +661,7 @@ Source: https://steamcommunity.com/app/39190/discussions/0/3192485835693148901
 
 ## No GPU listed in DSVideoConfig
 
-- Enable DirectDraw acceleration (see [Unable to enumerate any DirectDraw devices installed on this system](https://github.com/GenesisFR/DS1TroubleshootingGuide#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)).
+- Enable DirectDraw acceleration (see [Unable to enumerate any DirectDraw devices installed on this system](#unable-to-enumerate-any-directdraw-devices-installed-on-this-system)).
 - Follow [doa_92's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780048558).
 - If it still doesn't show up, follow these steps:
 
@@ -720,7 +720,7 @@ Open [`<path-to-game>\system_detail.gas`](#glossary) and everywhere you see `102
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under [`<path-to-docs>`](#glossary).
 
-- Whitelist the game in Controlled Folder Access (see [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)).
+- Whitelist the game in Controlled Folder Access (see [Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)).
 - Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
 - Run the game as admin.
